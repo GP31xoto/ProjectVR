@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 36
+  controlID: 135
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 677
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 37
+  controlID: 111
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 38
+  controlID: 112
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/BrokenVector/LowPolyRockPack/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/BrokenVector/LowPolyRockPack/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\david\Documents\GitHub\ProjectVR\TestProject1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 54310000
-    m_LastClickedID: 12628
-    m_ExpandedIDs: 0000000054310000a0370000e237000086380000703f000000ca9a3b
+    scrollPos: {x: 0, y: 44}
+    m_SelectedIDs: 783a0000
+    m_LastClickedID: 14968
+    m_ExpandedIDs: 0000000054310000a037000086380000703f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,21 +500,21 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 280}
-      m_SelectedIDs: 5c310000
-      m_LastClickedID: 0
-      m_ExpandedIDs: e453ffff2c73ffff2479ffff1c7effffc284ffff2e9cffffe2f9ffff72fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a04a0000
+      m_LastClickedID: 19104
+      m_ExpandedIDs: 4cf0feff802effffa0a5ffffb2c7ffff72fbffffe443000098490000304a0000ea4e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Enviorment (2)
-        m_OriginalName: Enviorment (2)
+        m_Name: Clifftile Connector 2 (2)
+        m_OriginalName: Clifftile Connector 2 (2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -32766
+        m_UserData: -60680
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -563,9 +563,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 278.73636, y: 20.989712, z: 109.66989}
+    m_Target: {x: 191.5, y: 20.697113, z: -459.76053}
     speed: 2
-    m_Value: {x: 278.73636, y: 20.989712, z: 109.66989}
+    m_Value: {x: 191.5, y: 20.697113, z: -459.76053}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,13 +594,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0087476885, y: 0.9808661, z: -0.18914863, w: -0.045351233}
+    m_Target: {x: 0.31190756, y: -0.29001114, z: 0.10060328, w: 0.89916575}
     speed: 2
-    m_Value: {x: -0.008243771, y: 0.9807086, z: -0.19064449, w: -0.042395934}
+    m_Value: {x: 0.31175432, y: -0.2913577, z: 0.10107038, w: 0.89872396}
   m_Size:
-    m_Target: 449.54874
+    m_Target: 920.07367
     speed: 2
-    m_Value: 470.73166
+    m_Value: 880.45325
   m_Ortho:
     m_Target: 1
     speed: 2
