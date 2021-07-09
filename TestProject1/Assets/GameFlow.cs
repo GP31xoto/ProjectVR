@@ -91,6 +91,7 @@ public class GameFlow : MonoBehaviour
     {
         for(int i = 0; i<numberOfDolls;i++)
         {
+            dollsSpawned++;
             Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
         }
     }
