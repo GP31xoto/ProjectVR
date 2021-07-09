@@ -10,15 +10,24 @@ public class GameFlow : MonoBehaviour
     public float iron;
     public int population;
     private int numDolls;
+    private int waterCounter;
+    private int foodCounter;
     private float rateOfGrowth;
-
+    private bool foodDeath;
+    private bool waterDeath;
+    public GameObject dollPrefab;
+    public GameObject spawnPoint;
+    private int dollsSpawned;
     private int turn;//have to check how much time each turn is
     void Start()
     {
+        foodDeath = false;
+        waterDeath = false;
         population = 100;
         numDolls = 0;
         turn = 0;
         rateOfGrowth = 1.05f;
+        dollsSpawned = 0;
         int dollNumber = population / 25;
         spawnDoll(dollNumber);
     }
@@ -26,19 +35,50 @@ public class GameFlow : MonoBehaviour
     void nextTurn()
     {
         turn++;
+        if(waterDeath == true)//make function
+        {
+            if(waterCounter == 1){endGame();}
+            waterCounter++;          
+        }
+        else{waterDeath = false; waterCounter=0;}//make function
+        if(foodDeath == true)
+        {
+            if(foodCounter == 3){endGame();}
+            foodCounter++;          
+        }
+        else{foodDeath = false; foodCounter=0;}//make function
         if(population < 50)
         {
             endGame();
         }
         int dollNumber = population / 25;
         spawnDoll(dollNumber);
-        //do calculations for food,wood,water,and iron
-        //if all good just increase pop
-        //if water and/or food are not good, kill pop
-        //if iron and/or wood are not good , chance for war (which also kills pop)
+        if((food - population) < 0)//make function
+        {
+            int deathPops = Random.Range(20,120);
+            population = population - deathPops;
+            foodDeath = true;
+        }
+        if((water - population) < 0)//make function
+        {
+            int deathPops = Random.Range(40,140);
+            population = population - deathPops;
+            waterDeath = true;
+        }
+        if((wood - population) < 0 && (iron - population) < 0)//make function
+        {
+            int warChance = Random.Range(0,100);
+            if(warChance >= 60)
+            {
+                int deathPops = Random.Range(100,200);
+                population = population - deathPops;
+            }
+        }
 
         float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
         population = (int) newPop;
+        dollNumber = population / 25;
+        spawnDoll((dollsSpawned - dollNumber));
 
     }
 
@@ -49,6 +89,9 @@ public class GameFlow : MonoBehaviour
 
     void spawnDoll(int numberOfDolls)
     {
-        //use this to spawn the dolls
+        for(int i = 0; i<numberOfDolls;i++)
+        {
+            Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
+        }
     }
 }
