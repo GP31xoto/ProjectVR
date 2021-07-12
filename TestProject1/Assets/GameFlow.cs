@@ -35,37 +35,27 @@ public class GameFlow : MonoBehaviour
     void nextTurn()
     {
         turn++;
-        if(waterDeath == true)//make function
-        {
-            if(waterCounter == 1){endGame();}
-            waterCounter++;          
-        }
-        else{waterDeath = false; waterCounter=0;}//make function
-        if(foodDeath == true)
-        {
-            if(foodCounter == 3){endGame();}
-            foodCounter++;          
-        }
-        else{foodDeath = false; foodCounter=0;}//make function
+        counter(waterDeath,foodDeath);
         if(population < 50)
         {
             endGame();
         }
         int dollNumber = population / 25;
         spawnDoll(dollNumber);
-        if((food - population) < 0)//make function
-        {
-            int deathPops = Random.Range(20,120);
-            population = population - deathPops;
-            foodDeath = true;
-        }
-        if((water - population) < 0)//make function
-        {
-            int deathPops = Random.Range(40,140);
-            population = population - deathPops;
-            waterDeath = true;
-        }
-        if((wood - population) < 0 && (iron - population) < 0)//make function
+        checkFood(food - population);
+        checkWater(water - population);
+        checkWaI((wood - population),(iron - population));
+
+        float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
+        population = (int) newPop;
+        dollNumber = population / 25;
+        spawnDoll((dollsSpawned - dollNumber));
+
+    }
+
+    void checkWaI(float w, float i)
+    {
+        if(w < 0 && i < 0)
         {
             int warChance = Random.Range(0,100);
             if(warChance >= 60)
@@ -74,12 +64,42 @@ public class GameFlow : MonoBehaviour
                 population = population - deathPops;
             }
         }
+    }
+    void checkFood(float i)
+    {
+        if((i) < 0)
+        {
+            int deathPops = Random.Range(20,120);
+            population = population - deathPops;
+            foodDeath = true;
+        }
+        else{foodDeath = false;}
+    }
 
-        float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
-        population = (int) newPop;
-        dollNumber = population / 25;
-        spawnDoll((dollsSpawned - dollNumber));
-
+    void checkWater(float i)
+    {
+        if((i) < 0)
+        {
+            int deathPops = Random.Range(40,140);
+            population = population - deathPops;
+            waterDeath = true;
+        }
+        else{waterDeath = false;}
+    }
+    void counter(bool water, bool food)
+    {
+        if(water == true)
+        {
+            if(waterCounter == 1){endGame();}
+            waterCounter++;          
+        }
+        else{waterCounter=0;}
+        if(food == true)
+        {
+            if(foodCounter == 3){endGame();}
+            foodCounter++;          
+        }
+        else{foodCounter=0;}
     }
 
     void endGame()
@@ -94,5 +114,13 @@ public class GameFlow : MonoBehaviour
             dollsSpawned++;
             Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
         }
+    }
+
+    public void addResource(string resource, float resourceAdd)
+    {
+        if(resource == "Water"){water += resourceAdd;}
+        else if(resource == "Food"){food += resourceAdd;}
+        else if(resource == "Wood"){wood += resourceAdd;}
+        else if(resource == "Iron"){iron += resourceAdd;}
     }
 }
