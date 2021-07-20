@@ -4,23 +4,21 @@ using UnityEngine;
 
 public class GameFlow : MonoBehaviour
 {
-    public float food;
-    public float water;
-    public float wood;
-    public float iron;
+    public float food, water, wood, iron;
+    public int numFood,numWater,numWood,numIron = 0;
+    public float defaultResourceNumber;
     public int population;
     private int numDolls;
-    private int waterCounter;
-    private int foodCounter;
+    private int waterCounter,foodCounter;
     private float rateOfGrowth;
-    private bool foodDeath;
-    private bool waterDeath;
+    private bool foodDeath, waterDeath;
     public GameObject dollPrefab;
     public GameObject spawnPoint;
     private int dollsSpawned;
     private int turn;//have to check how much time each turn is
     void Start()
     {
+        defaultResourceNumber = 100;
         foodDeath = false;
         waterDeath = false;
         population = 100;
@@ -35,6 +33,7 @@ public class GameFlow : MonoBehaviour
     void nextTurn()
     {
         turn++;
+        updateResources();
         counter(waterDeath,foodDeath);
         if(population < 50)
         {
@@ -51,6 +50,14 @@ public class GameFlow : MonoBehaviour
         dollNumber = population / 25;
         spawnDoll((dollsSpawned - dollNumber));
 
+    }
+
+    void updateResources()
+    {
+        food = numFood * defaultResourceNumber;
+        water = numWater * defaultResourceNumber;
+        wood = numWood * defaultResourceNumber;
+        iron = numIron * defaultResourceNumber;
     }
 
     void checkWaI(float w, float i)
@@ -116,11 +123,19 @@ public class GameFlow : MonoBehaviour
         }
     }
 
-    public void addResource(string resource, float resourceAdd)
+    public void addResource(string resource)
     {
-        if(resource == "Water"){water += resourceAdd;}
-        else if(resource == "Food"){food += resourceAdd;}
-        else if(resource == "Wood"){wood += resourceAdd;}
-        else if(resource == "Iron"){iron += resourceAdd;}
+        if(resource == "Water"){numWater += 1;}
+        else if(resource == "Food"){numFood += 1;}
+        else if(resource == "Wood"){numWood += 1;}
+        else if(resource == "Iron"){numIron += 1;}
+    }
+
+    public void doubleResource(string resource)
+    {
+        if(resource == "Water"){numWater *= 2;}
+        else if(resource == "Food"){numFood *= 2;}
+        else if(resource == "Wood"){numWood *= 2;}
+        else if(resource == "Iron"){numIron *= 2;}
     }
 }
