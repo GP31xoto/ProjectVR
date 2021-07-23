@@ -10,7 +10,7 @@ public class GameFlow : MonoBehaviour
     public int population;
     private int numDolls;
     private int waterCounter,foodCounter;
-    private float rateOfGrowth;
+    public float rateOfGrowth;
     private bool foodDeath, waterDeath;
     public GameObject dollPrefab;
     public GameObject spawnPoint;
