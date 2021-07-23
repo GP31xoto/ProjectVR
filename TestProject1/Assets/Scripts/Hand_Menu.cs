@@ -53,6 +53,7 @@ public class Hand_Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //ajustar tempo dos TimeCounters à duração de um turno
         MenuOptionsVisibility();
         foodTimeCounter = (int)Time.deltaTime - foodTimeCounterStart;
         if (foodTimeCounter > 1000 && foodConstructAvailable < 5)
@@ -89,6 +90,8 @@ public class Hand_Menu : MonoBehaviour
         {
             foodConstructAvailable--;
             foodTimeCounterStart = (int)Time.deltaTime;
+            Instantiate(resourceSource[0]);
+            //colocar na mão do jogador?
         }
     }
 
@@ -98,6 +101,8 @@ public class Hand_Menu : MonoBehaviour
         {
             woodConstructAvailable--;
             woodTimeCounterStart = (int)Time.deltaTime;
+            Instantiate(resourceSource[1]);
+            //colocar na mão do jogador?
         }
     }
 
@@ -107,25 +112,42 @@ public class Hand_Menu : MonoBehaviour
         {
             ironConstructAvailable--;
             ironTimeCounterStart = (int)Time.deltaTime;
+            Instantiate(resourceSource[2]);
+            //colocar na mão do jogador?
         }
     }
 
     public void SelectHouse()
     {
-        GameFlow.GetComponent<GameFlow>().wood -= 4;
-        GameFlow.GetComponent<GameFlow>().iron -= 3;
+        if (GameFlow.GetComponent<GameFlow>().wood >= 4 && GameFlow.GetComponent<GameFlow>().iron >= 3)
+        {
+            GameFlow.GetComponent<GameFlow>().wood -= 4;
+            GameFlow.GetComponent<GameFlow>().iron -= 3;
+            Instantiate(constructType[0]);
+            //colocar na mão do jogador?
+        }
     }
 
     public void SelectGranary()
     {
-        GameFlow.GetComponent<GameFlow>().wood -= 3;
-        GameFlow.GetComponent<GameFlow>().iron -= 6;
+        if (GameFlow.GetComponent<GameFlow>().wood >= 3 && GameFlow.GetComponent<GameFlow>().iron >= 6)
+        {
+            GameFlow.GetComponent<GameFlow>().wood -= 3;
+            GameFlow.GetComponent<GameFlow>().iron -= 6;
+            Instantiate(constructType[1]);
+            //colocar na mão do jogador?
+        }
     }
 
     public void SelectForge()
     {
-        GameFlow.GetComponent<GameFlow>().wood -= 5;
-        GameFlow.GetComponent<GameFlow>().iron -= 7;
+        if (GameFlow.GetComponent<GameFlow>().wood >= 5 && GameFlow.GetComponent<GameFlow>().iron >= 7)
+        {
+            GameFlow.GetComponent<GameFlow>().wood -= 5;
+            GameFlow.GetComponent<GameFlow>().iron -= 7;
+            Instantiate(constructType[2]);
+            //colocar na mão do jogador?
+        }
     }
 
     public void IncreasePopulationGrowth()
