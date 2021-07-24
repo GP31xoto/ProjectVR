@@ -15,6 +15,8 @@ public class GameFlow : MonoBehaviour
     public GameObject dollPrefab;
     public GameObject spawnPoint;
     private int dollsSpawned;
+    //add new variable called happiness, low happiness causes people to revolt or leave
+    //low happiness causes low growth and high hapiness causes more growth
     private int turn;//have to check how much time each turn is
     void Start()
     {
@@ -22,12 +24,11 @@ public class GameFlow : MonoBehaviour
         foodDeath = false;
         waterDeath = false;
         population = 100;
-        numDolls = 0;
+        numDolls = population / 25;
         turn = 0;
         rateOfGrowth = 1.05f;
         dollsSpawned = 0;
-        int dollNumber = population / 25;
-        spawnDoll(dollNumber);
+        spawnDoll(numDolls);
     }
 
     void nextTurn()
@@ -39,16 +40,17 @@ public class GameFlow : MonoBehaviour
         {
             endGame();
         }
-        int dollNumber = population / 25;
-        spawnDoll(dollNumber);
+        numDolls = population / 25;
+        spawnDoll(numDolls);
         checkFood(food - population);
         checkWater(water - population);
         checkWaI((wood - population),(iron - population));
 
         float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
         population = (int) newPop;
-        dollNumber = population / 25;
-        spawnDoll((dollsSpawned - dollNumber));
+        numDolls = population / 25;
+        int numDollsToSpawn = dollsSpawned - numDolls;
+        spawnDoll((numDollsToSpawn));
 
     }
 
