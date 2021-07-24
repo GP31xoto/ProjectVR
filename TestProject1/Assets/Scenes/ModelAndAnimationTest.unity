@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_model3_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
 --- !u!1 &91004099
@@ -332,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_model2_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a89554dd3c825ea4faaee9c7b234b31b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a89554dd3c825ea4faaee9c7b234b31b, type: 3}
 --- !u!1 &1462423602
@@ -472,6 +480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_model1_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bc983362cbd96b444bd7f6cb16d89992, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc983362cbd96b444bd7f6cb16d89992, type: 3}
 --- !u!1001 &1467767910276693768
@@ -528,6 +540,10 @@ PrefabInstance:
     - target: {fileID: 7436497697569089767, guid: 79511e81ad1a8eb4a9c40417be0de320, type: 3}
       propertyPath: m_Name
       value: GameFlow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436497697569089767, guid: 79511e81ad1a8eb4a9c40417be0de320, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79511e81ad1a8eb4a9c40417be0de320, type: 3}
@@ -725,6 +741,10 @@ PrefabInstance:
     - target: {fileID: 1224119180575434286, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
       propertyPath: m_Name
       value: NPC_Model1_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224119180575434286, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1600338197184176739, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
       propertyPath: m_LocalPosition.x

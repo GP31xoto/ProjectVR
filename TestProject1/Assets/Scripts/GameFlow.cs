@@ -16,8 +16,11 @@ public class GameFlow : MonoBehaviour
     public GameObject spawnPoint;
     private int dollsSpawned;
     private int turn;//have to check how much time each turn is
+    private int turncost;
+    
     void Start()
     {
+        turncost = 5;
         defaultResourceNumber = 100;
         foodDeath = false;
         waterDeath = false;
@@ -139,5 +142,20 @@ public class GameFlow : MonoBehaviour
         else if(resource == "Food"){numFood *= 2;}
         else if(resource == "Wood"){numWood *= 2;}
         else if(resource == "Iron"){numIron *= 2;}
+    }
+
+    public void Update()
+    {
+        /*
+        if()
+        {
+            turncost--;
+            if(turncost <= 0)
+            {
+                nextTurn()
+                turncost = 5;
+            }
+        }
+        */
     }
 }
