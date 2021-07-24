@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoubleResource : MonoBehaviour
 {
-public GameObject GameFlow;
+    private GameObject GameFlow;
     // Start is called before the first frame update
     void Start()
     {

@@ -28,6 +28,8 @@ public class GameFlow : MonoBehaviour
         dollsSpawned = 0;
         int dollNumber = population / 25;
         spawnDoll(dollNumber);
+
+        Debug.Log(numWood);
     }
 
     void nextTurn()

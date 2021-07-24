@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 2075270803}
   m_Layer: 0
   m_Name: ScriptTester
-  m_TagString: Untagged
+  m_TagString: GameFlow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,9 +544,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 2075270802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e8cf7aebe5299f4fb321648e4081c7c, type: 3}
+  m_Script: {fileID: 11500000, guid: cab80456f7d34f442b1ab8e819ab1f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  food: 0
+  water: 0
+  wood: 0
+  iron: 0
+  numFood: 0
+  numWater: 0
+  numWood: 0
+  numIron: 0
+  defaultResourceNumber: 0
+  population: 0
+  rateOfGrowth: 0
+  dollPrefab: {fileID: 1224119180575434286, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
+  spawnPoint: {fileID: 206287887}
 --- !u!4 &2075270804
 Transform:
   m_ObjectHideFlags: 0

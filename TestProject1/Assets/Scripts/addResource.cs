@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class addResource : MonoBehaviour
 {
-    public GameObject GameFlow;
+    private GameObject GameFlow;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");
         GameFlow.GetComponent<GameFlow>().addResource(this.gameObject.tag);
