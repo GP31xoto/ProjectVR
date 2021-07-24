@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-07-22T14:33:23.3028021Z"
+      "LastWriteTime": "2021-07-23T22:15:39.8820812Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -12,22 +12,6 @@
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-05-25T11:05:50Z"
-    },
-    {
-      "FullName": "UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-05-25T11:11:18Z"
-    },
-    {
-      "FullName": "Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-07-22T14:33:23.2946648Z"
-    },
-    {
-      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2021-05-25T11:05:50Z"
-    },
-    {
-      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-05-25T11:11:14Z"
     }
   ],
   "Functions": [
@@ -49,34 +33,6 @@
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
-        1,
-        2
-      ]
-    },
-    {
-      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.TwoBoneIKConstraintJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "a8a1777fa9040aab4f68378ecf7b26ad",
-      "LinkName": "9F5ECC376B551731",
-      "AssemblyDependencyIndices": [
-        3,
-        4,
-        5,
-        6,
-        1,
-        2
-      ]
-    },
-    {
-      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.RigSyncSceneToStreamJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "52864830f58dfec49f606117bcbd08a0",
-      "LinkName": "BC91ACAA17E251EE",
-      "AssemblyDependencyIndices": [
-        3,
-        4,
-        5,
-        6,
         1,
         2
       ]
