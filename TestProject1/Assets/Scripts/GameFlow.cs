@@ -18,8 +18,11 @@ public class GameFlow : MonoBehaviour
     //add new variable called happiness, low happiness causes people to revolt or leave
     //low happiness causes low growth and high hapiness causes more growth
     private int turn;//have to check how much time each turn is
+    private int turncost;
+
     void Start()
     {
+        turncost = 5;
         defaultResourceNumber = 100;
         foodDeath = false;
         waterDeath = false;
@@ -29,6 +32,8 @@ public class GameFlow : MonoBehaviour
         rateOfGrowth = 1.05f;
         dollsSpawned = 0;
         spawnDoll(numDolls);
+
+        Debug.Log(numWood);
     }
 
     void nextTurn()
@@ -139,5 +144,20 @@ public class GameFlow : MonoBehaviour
         else if(resource == "Food"){numFood *= 2;}
         else if(resource == "Wood"){numWood *= 2;}
         else if(resource == "Iron"){numIron *= 2;}
+    }
+
+    public void Update()
+    {
+        /*
+        if()
+        {
+            turncost--;
+            if(turncost <= 0)
+            {
+                nextTurn()
+                turncost = 5;
+            }
+        }
+        */
     }
 }

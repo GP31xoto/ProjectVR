@@ -1561,9 +1561,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3120864975997699400}
+  - component: {fileID: 4187693111911834158}
   m_Layer: 0
   m_Name: Farm_Prefab 2
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1591,6 +1592,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4187693111911834158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120864975997699403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9cf1573959874bb331a5755102d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameFlow: {fileID: 0}
 --- !u!1 &3120864976411677168
 GameObject:
   m_ObjectHideFlags: 0
