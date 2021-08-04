@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using OVRTouchSample;
 
 public class Hand_Menu : MonoBehaviour
 {
@@ -105,8 +107,10 @@ public class Hand_Menu : MonoBehaviour
             foodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
             GameObject foodToPlace = Instantiate(resourceSource[0]);
-            //colocar na mão do jogador?
-            foodToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(foodToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            foodToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
@@ -121,8 +125,10 @@ public class Hand_Menu : MonoBehaviour
             woodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
             GameObject woodToPlace = Instantiate(resourceSource[1]);
-            //colocar na mão do jogador?
-            woodToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(woodToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            woodToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
@@ -137,8 +143,10 @@ public class Hand_Menu : MonoBehaviour
             ironTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
             GameObject ironToPlace = Instantiate(resourceSource[2]);
-            //colocar na mão do jogador?
-            ironToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(ironToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            ironToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
@@ -152,8 +160,10 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= 3;
             //create copy to place in player's hand control
             GameObject houseToPlace = Instantiate(constructType[0]);
-            //colocar na mão do jogador?
-            houseToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(houseToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            houseToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
@@ -167,8 +177,10 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= 6;
             //create copy to place in player's hand control
             GameObject granaryToPlace = Instantiate(constructType[1]);
-            //colocar na mão do jogador?
-            granaryToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(granaryToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            granaryToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
@@ -182,8 +194,10 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= 7;
             //create copy to place in player's hand control
             GameObject forgeToPlace = Instantiate(constructType[2]);
-            //colocar na mão do jogador?
-            forgeToPlace.transform.position = new Vector3(0, 0, 0);
+            //remove eventTrigger from copy
+            Destroy(forgeToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            forgeToPlace.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 
