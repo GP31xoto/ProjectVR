@@ -87,6 +87,7 @@ public class Hand_Menu : MonoBehaviour
 
     private void UpdateText()
     {
+        //update text to count resources available till next round and current growth rate
         foodCounter.text = foodConstructAvailable + "/5";
         woodCounter.text = woodConstructAvailable + "/5";
         ironCounter.text = ironConstructAvailable + "/5";
@@ -95,79 +96,109 @@ public class Hand_Menu : MonoBehaviour
 
     public void SelectFood()
     {
+        //if there are food sources that can be built
         if (foodConstructAvailable > 0)
         {
+            //reduce food sources available
             foodConstructAvailable--;
+            //reset counter (replace once round time is established)
             foodTimeCounterStart = (int)Time.deltaTime;
-            Instantiate(resourceSource[0]);
+            //create copy to place in player's hand control
+            GameObject foodToPlace = Instantiate(resourceSource[0]);
             //colocar na mão do jogador?
+            foodToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void SelectWood()
     {
+        //if there are wood sources that can be built
         if (woodConstructAvailable > 0)
         {
+            //reduce wood sources available
             woodConstructAvailable--;
+            //reset counter (replace once round time is established)
             woodTimeCounterStart = (int)Time.deltaTime;
-            Instantiate(resourceSource[1]);
+            //create copy to place in player's hand control
+            GameObject woodToPlace = Instantiate(resourceSource[1]);
             //colocar na mão do jogador?
+            woodToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void SelectIron()
     {
+        //if there are iron sources that can be built
         if (ironConstructAvailable > 0)
         {
+            //reduce wood sources available
             ironConstructAvailable--;
+            //reset counter (replace once round time is established)
             ironTimeCounterStart = (int)Time.deltaTime;
-            Instantiate(resourceSource[2]);
+            //create copy to place in player's hand control
+            GameObject ironToPlace = Instantiate(resourceSource[2]);
             //colocar na mão do jogador?
+            ironToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void SelectHouse()
     {
+        //if there are enough resources to build a house
         if (GameFlow.GetComponent<GameFlow>().wood >= 4 && GameFlow.GetComponent<GameFlow>().iron >= 3)
         {
+            //consume resources necessary
             GameFlow.GetComponent<GameFlow>().wood -= 4;
             GameFlow.GetComponent<GameFlow>().iron -= 3;
-            Instantiate(constructType[0]);
+            //create copy to place in player's hand control
+            GameObject houseToPlace = Instantiate(constructType[0]);
             //colocar na mão do jogador?
+            houseToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void SelectGranary()
     {
+        //if there are enough resources to build a granary
         if (GameFlow.GetComponent<GameFlow>().wood >= 3 && GameFlow.GetComponent<GameFlow>().iron >= 6)
         {
+            //consume resources necessary
             GameFlow.GetComponent<GameFlow>().wood -= 3;
             GameFlow.GetComponent<GameFlow>().iron -= 6;
-            Instantiate(constructType[1]);
+            //create copy to place in player's hand control
+            GameObject granaryToPlace = Instantiate(constructType[1]);
             //colocar na mão do jogador?
+            granaryToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void SelectForge()
     {
+        //if there are enough resources to build a granary
         if (GameFlow.GetComponent<GameFlow>().wood >= 5 && GameFlow.GetComponent<GameFlow>().iron >= 7)
         {
+            //consume resources necessary
             GameFlow.GetComponent<GameFlow>().wood -= 5;
             GameFlow.GetComponent<GameFlow>().iron -= 7;
-            Instantiate(constructType[2]);
+            //create copy to place in player's hand control
+            GameObject forgeToPlace = Instantiate(constructType[2]);
             //colocar na mão do jogador?
+            forgeToPlace.transform.position = new Vector3(0, 0, 0);
         }
     }
 
     public void IncreasePopulationGrowth()
     {
+        //increase growth rate by 0.05
         GameFlow.GetComponent<GameFlow>().rateOfGrowth += 0.05f;
     }
 
     public void DecreasePopulationGrowth()
     {
+        //if growth rate is greater than 0
         if (GameFlow.GetComponent<GameFlow>().rateOfGrowth > 0)
         {
+            //decrease growth rate by 0.05
             GameFlow.GetComponent<GameFlow>().rateOfGrowth -= 0.05f;
         }
     }
