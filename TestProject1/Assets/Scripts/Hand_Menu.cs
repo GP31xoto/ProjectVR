@@ -23,6 +23,7 @@ public class Hand_Menu : MonoBehaviour
     private GameObject GameFlow;
 
     //ints for running the menu
+    private bool isMenuActive;
     private int foodConstructAvailable;
     private int woodConstructAvailable;
     private int ironConstructAvailable;
@@ -36,6 +37,7 @@ public class Hand_Menu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isMenuActive = false;
         GameFlow = GameObject.FindWithTag("GameFlow");
         //set resource list from options in menu
         resourceSource = new GameObject[resourcesTab.transform.childCount];
@@ -57,6 +59,7 @@ public class Hand_Menu : MonoBehaviour
         foodConstructAvailable = 5;
         woodConstructAvailable = 5;
         ironConstructAvailable = 5;
+        //GameObject.SetActive(isMenuActive);
     }
 
     // Update is called once per frame
@@ -94,6 +97,11 @@ public class Hand_Menu : MonoBehaviour
         woodCounter.text = woodConstructAvailable + "/5";
         ironCounter.text = ironConstructAvailable + "/5";
         populationCounter.text = "X " + GameFlow.GetComponent<GameFlow>().rateOfGrowth;
+    }
+    public void ChangeMenuState()
+    {
+        isMenuActive = !isMenuActive;
+        //GameObject.SetActive(isMenuActive);
     }
 
     public void SelectFood()
