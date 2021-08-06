@@ -37,6 +37,7 @@ public class Hand_Menu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //determine menu as inactive at first
         isMenuActive = false;
         GameFlow = GameObject.FindWithTag("GameFlow");
         //set resource list from options in menu
@@ -59,12 +60,19 @@ public class Hand_Menu : MonoBehaviour
         foodConstructAvailable = 5;
         woodConstructAvailable = 5;
         ironConstructAvailable = 5;
+        //set object visibility to recorded state
         //GameObject.SetActive(isMenuActive);
     }
 
     // Update is called once per frame
     void Update()
     {
+        //if button one (change later) is pressed
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        {
+            //activate change menu function
+            //ChangeMenuState();
+        }
         //adjust menu options visibility
         MenuOptionsVisibility();
         //refill resurces to be built after 1 round (determine round time later)
@@ -100,7 +108,9 @@ public class Hand_Menu : MonoBehaviour
     }
     public void ChangeMenuState()
     {
+        //change the state of the menu (true to false, false to true)
         isMenuActive = !isMenuActive;
+        //set object visibility to recorded state
         //GameObject.SetActive(isMenuActive);
     }
 
