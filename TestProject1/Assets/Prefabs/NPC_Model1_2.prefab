@@ -407,14 +407,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RigLayers:
-  - rig: {fileID: 7195939659854890075}
-    active: 1
-  - rig: {fileID: 7195939660668970210}
-    active: 1
-  - rig: {fileID: 7195939659376236266}
-    active: 1
-  - rig: {fileID: 7195939659139814560}
-    active: 1
+  - m_Rig: {fileID: 7195939659854890075}
+    m_Active: 1
+  - m_Rig: {fileID: 7195939660668970210}
+    m_Active: 1
+  - m_Rig: {fileID: 7195939659376236266}
+    m_Active: 1
+  - m_Rig: {fileID: 7195939659139814560}
+    m_Active: 1
   m_Effectors: []
 --- !u!114 &7195939660462276370
 MonoBehaviour:
@@ -836,10 +836,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: ec7fc1deb89fed5469cee28aafba16bc, type: 3}
+  - {fileID: 2100000, guid: 0be31099ff6aef042ba2f6e864620b26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1329,8 +1331,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5609714173985707450}
-  m_LocalRotation: {x: -0.000002644915, y: -0.000000040247063, z: 0.0000009563691,
-    w: 1}
+  m_LocalRotation: {x: -0.000002644915, y: -0.000000040247063, z: 0.0000009563691, w: 1}
   m_LocalPosition: {x: -0.059612732, y: -0.0000000143010395, z: 0.0000000096605435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
