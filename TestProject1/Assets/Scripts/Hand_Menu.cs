@@ -19,8 +19,9 @@ public class Hand_Menu : MonoBehaviour
 
     //object arrays for resource and construction options and Gameflow object
     private GameObject[] resourceSource;
-    private GameObject[] constructType;
     private GameObject[] houseType;
+    private GameObject[] forgeType;
+    private GameObject[] granaryType;
     private GameObject GameFlow;
 
     //ints for running the menu
@@ -49,21 +50,34 @@ public class Hand_Menu : MonoBehaviour
             resourceSource[i] = child;
             i++;
         }
-        //set construction list from options in menu
-        constructType = new GameObject[constructsTab.transform.childCount];
-        i = 0;
-        foreach (GameObject child in constructsTab.transform)
-        {
-            constructType[i] = child;
-            i++;
-        }
+        //set construction lists from options in menu
         houseType = new GameObject[6];
         i = 0;
         foreach (GameObject child in constructsTab.transform)
         {
             if (child.tag == "House")
             {
-                constructType[i] = child;
+                houseType[i] = child;
+                i++;
+            }
+        }
+        forgeType = new GameObject[6];
+        i = 0;
+        foreach (GameObject child in constructsTab.transform)
+        {
+            if (child.tag == "Forge")
+            {
+                forgeType[i] = child;
+                i++;
+            }
+        }
+        granaryType = new GameObject[6];
+        i = 0;
+        foreach (GameObject child in constructsTab.transform)
+        {
+            if (child.tag == "Granary")
+            {
+                granaryType[i] = child;
                 i++;
             }
         }
@@ -197,16 +211,17 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectGranary()
+    public void SelectGranary(int type)
     {
+        GameObject granarySelected = granaryType[type - 1];
         //if there are enough resources to build a granary
-        if (GameFlow.GetComponent<GameFlow>().wood >= 3 && GameFlow.GetComponent<GameFlow>().iron >= 6)
+        if (GameFlow.GetComponent<GameFlow>().wood >=granarySelected.GetComponent<Granary>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= granarySelected.GetComponent<Granary>().cost.consumeIron())
         {
             //consume resources necessary
-            GameFlow.GetComponent<GameFlow>().wood -= 3;
-            GameFlow.GetComponent<GameFlow>().iron -= 6;
+            GameFlow.GetComponent<GameFlow>().wood -= granarySelected.GetComponent<Granary>().cost.consumeWood();
+            GameFlow.GetComponent<GameFlow>().iron -= granarySelected.GetComponent<Granary>().cost.consumeIron();
             //create copy to place in player's hand control
-            GameObject granaryToPlace = Instantiate(constructType[1]);
+            GameObject granaryToPlace = Instantiate(granarySelected);
             //remove eventTrigger from copy
             Destroy(granaryToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -214,16 +229,17 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectForge()
+    public void SelectForge(int type)
     {
+        GameObject forgeSelected = forgeType[type - 1];
         //if there are enough resources to build a granary
-        if (GameFlow.GetComponent<GameFlow>().wood >= 5 && GameFlow.GetComponent<GameFlow>().iron >= 7)
+        if (GameFlow.GetComponent<GameFlow>().wood >= forgeSelected.GetComponent<Forge>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= forgeSelected.GetComponent<Forge>().cost.consumeIron())
         {
             //consume resources necessary
-            GameFlow.GetComponent<GameFlow>().wood -= 5;
-            GameFlow.GetComponent<GameFlow>().iron -= 7;
+            GameFlow.GetComponent<GameFlow>().wood -= forgeSelected.GetComponent<Forge>().cost.consumeWood();
+            GameFlow.GetComponent<GameFlow>().iron -= forgeSelected.GetComponent<Forge>().cost.consumeIron();
             //create copy to place in player's hand control
-            GameObject forgeToPlace = Instantiate(constructType[2]);
+            GameObject forgeToPlace = Instantiate(forgeSelected);
             //remove eventTrigger from copy
             Destroy(forgeToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -274,29 +290,38 @@ public class Hand_Menu : MonoBehaviour
             populationCounter.enabled = true;
         }
 
-        if (GameFlow.GetComponent<GameFlow>().wood < 4 || GameFlow.GetComponent<GameFlow>().iron < 3)
+        foreach(GameObject housing in houseType)
         {
-            constructType[0].SetActive(false);
+            if (GameFlow.GetComponent<GameFlow>().wood < housing.GetComponent<House>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < housing.GetComponent<House>().cost.consumeIron())
+            {
+                housing.SetActive(false);
+            }
+            else
+            {
+                housing.SetActive(true);
+            }
         }
-        else
+        foreach (GameObject forging in forgeType)
         {
-            constructType[0].SetActive(true);
+            if (GameFlow.GetComponent<GameFlow>().wood < forging.GetComponent<Forge>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < forging.GetComponent<Forge>().cost.consumeIron())
+            {
+                forging.SetActive(false);
+            }
+            else
+            {
+                forging.SetActive(true);
+            }
         }
-        if (GameFlow.GetComponent<GameFlow>().wood < 3 || GameFlow.GetComponent<GameFlow>().iron < 6)
+        foreach (GameObject graining in granaryType)
         {
-            constructType[1].SetActive(false);
-        }
-        else
-        {
-            constructType[1].SetActive(true);
-        }
-        if (GameFlow.GetComponent<GameFlow>().wood < 5 || GameFlow.GetComponent<GameFlow>().iron < 7)
-        {
-            constructType[2].SetActive(false);
-        }
-        else
-        {
-            constructType[2].SetActive(true);
+            if (GameFlow.GetComponent<GameFlow>().wood < graining.GetComponent<Granary>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < graining.GetComponent<Granary>().cost.consumeIron())
+            {
+                graining.SetActive(false);
+            }
+            else
+            {
+                graining.SetActive(true);
+            }
         }
 
         if (foodConstructAvailable <= 0)

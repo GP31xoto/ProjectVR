@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Granary : MonoBehaviour
 {
-    protected ConstructionCost cost;
+    public ConstructionCost cost;
     [SerializeField] private int type;
     private float buffFood;
 
