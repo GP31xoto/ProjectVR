@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3732354098960649075}
   - component: {fileID: 4233324402496634148}
   - component: {fileID: 3291862180247904328}
+  - component: {fileID: 6237150602456035786}
   m_Layer: 0
   m_Name: House_5
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,4 +110,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 5
-  effect: 0
+--- !u!114 &6237150602456035786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2939443418048916134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6293101836963400097, guid: df914f6a099bdde4194751910c2639d9, type: 3}
+          m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
+          m_MethodName: SelectHouse
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

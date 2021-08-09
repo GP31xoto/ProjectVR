@@ -20,6 +20,7 @@ public class Hand_Menu : MonoBehaviour
     //object arrays for resource and construction options and Gameflow object
     private GameObject[] resourceSource;
     private GameObject[] constructType;
+    private GameObject[] houseType;
     private GameObject GameFlow;
 
     //ints for running the menu
@@ -55,6 +56,16 @@ public class Hand_Menu : MonoBehaviour
         {
             constructType[i] = child;
             i++;
+        }
+        houseType = new GameObject[6];
+        i = 0;
+        foreach (GameObject child in constructsTab.transform)
+        {
+            if (child.tag == "House")
+            {
+                constructType[i] = child;
+                i++;
+            }
         }
         //set max resources that can be built
         foodConstructAvailable = 5;
@@ -168,16 +179,17 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectHouse()
+    public void SelectHouse(int type)
     {
+        GameObject houseSelected = houseType[type - 1];
         //if there are enough resources to build a house
-        if (GameFlow.GetComponent<GameFlow>().wood >= 4 && GameFlow.GetComponent<GameFlow>().iron >= 3)
+        if (GameFlow.GetComponent<GameFlow>().wood >= houseSelected.GetComponent<House>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= houseSelected.GetComponent<House>().cost.consumeIron())
         {
             //consume resources necessary
-            GameFlow.GetComponent<GameFlow>().wood -= 4;
-            GameFlow.GetComponent<GameFlow>().iron -= 3;
+            GameFlow.GetComponent<GameFlow>().wood -= houseSelected.GetComponent<House>().cost.consumeWood();
+            GameFlow.GetComponent<GameFlow>().iron -= houseSelected.GetComponent<House>().cost.consumeIron();
             //create copy to place in player's hand control
-            GameObject houseToPlace = Instantiate(constructType[0]);
+            GameObject houseToPlace = Instantiate(houseSelected);
             //remove eventTrigger from copy
             Destroy(houseToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
