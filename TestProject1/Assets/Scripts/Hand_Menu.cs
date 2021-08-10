@@ -204,6 +204,7 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= houseSelected.GetComponent<House>().cost.consumeIron();
             //create copy to place in player's hand control
             GameObject houseToPlace = Instantiate(houseSelected);
+            houseToPlace.transform.localScale = Vector3.one;
             //remove eventTrigger from copy
             Destroy(houseToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -222,6 +223,7 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= granarySelected.GetComponent<Granary>().cost.consumeIron();
             //create copy to place in player's hand control
             GameObject granaryToPlace = Instantiate(granarySelected);
+            granaryToPlace.transform.localScale = Vector3.one;
             //remove eventTrigger from copy
             Destroy(granaryToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -240,6 +242,7 @@ public class Hand_Menu : MonoBehaviour
             GameFlow.GetComponent<GameFlow>().iron -= forgeSelected.GetComponent<Forge>().cost.consumeIron();
             //create copy to place in player's hand control
             GameObject forgeToPlace = Instantiate(forgeSelected);
+            forgeToPlace.transform.localScale = Vector3.one;
             //remove eventTrigger from copy
             Destroy(forgeToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
