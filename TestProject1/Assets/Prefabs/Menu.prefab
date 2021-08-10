@@ -406,11 +406,11 @@ MonoBehaviour:
         - m_Target: {fileID: 6293101836963400097}
           m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
           m_MethodName: SelectFood
-          m_Mode: 1
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -523,11 +523,11 @@ MonoBehaviour:
         - m_Target: {fileID: 6293101836963400097}
           m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
           m_MethodName: SelectIron
-          m_Mode: 1
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -661,11 +661,11 @@ MonoBehaviour:
         - m_Target: {fileID: 6293101836963400097}
           m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
           m_MethodName: SelectWood
-          m_Mode: 1
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -809,6 +809,7 @@ MonoBehaviour:
   foodCounter: {fileID: 4825046344917748927}
   ironCounter: {fileID: 2225349689233583795}
   woodCounter: {fileID: 8514035283335442747}
+  waterCounter: {fileID: 0}
 --- !u!114 &8642982091334159804
 MonoBehaviour:
   m_ObjectHideFlags: 0
