@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5556835015845555056}
   - component: {fileID: 7096864968170833874}
   - component: {fileID: 6143618889213776807}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2268592658125476748}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Entry (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 3624813696238461441}
   - component: {fileID: 1276148237907138343}
   - component: {fileID: 8954304945315640004}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 6786914181237193466}
   - component: {fileID: 1195875601651757138}
   - component: {fileID: 3548819125402889990}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 2541206420452549567}
   - component: {fileID: 4427384058160905868}
   - component: {fileID: 8412820355712846710}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ GameObject:
   - component: {fileID: 6574956368564320576}
   - component: {fileID: 8770677565046271545}
   - component: {fileID: 7818038908187613633}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 8236113564583704022}
   - component: {fileID: 1858335130752628325}
   - component: {fileID: 582153725939567211}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 8192264160134706696}
   - component: {fileID: 1419652498471288726}
   - component: {fileID: 865247752456295361}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 5724878101619646625}
   - component: {fileID: 8361792702061885116}
   - component: {fileID: 3612794239080329589}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 2850183797291318004}
   - component: {fileID: 189780544279321803}
   - component: {fileID: 1103771520128016797}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,7 +915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9140385478792688153}
   - component: {fileID: 5117676068172496452}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mine 1
   m_TagString: Iron
   m_Icon: {fileID: 0}
@@ -950,7 +950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f9cf1573959874bb331a5755102d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameFlow: {fileID: 0}
 --- !u!1 &8779922034304738075
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +962,7 @@ GameObject:
   - component: {fileID: 2827249135598044379}
   - component: {fileID: 8019817453173018660}
   - component: {fileID: 6909638704798485552}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1058,7 @@ GameObject:
   - component: {fileID: 8582039731752713492}
   - component: {fileID: 6899483405224357564}
   - component: {fileID: 2703951991043315643}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 147072, guid: 48333a5aa700be24c963813c82ef05d9, type: 3}
       propertyPath: m_Name
       value: Rock Type6 03
+      objectReference: {fileID: 0}
+    - target: {fileID: 147072, guid: 48333a5aa700be24c963813c82ef05d9, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 409994, guid: 48333a5aa700be24c963813c82ef05d9, type: 3}
       propertyPath: m_RootOrder
