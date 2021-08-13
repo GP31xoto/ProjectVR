@@ -11,10 +11,11 @@ public class GameFlow : MonoBehaviour
     private int numDolls;
     private int waterCounter,foodCounter;
     public float rateOfGrowth;
-    private bool foodDeath, waterDeath;
+    private bool foodDeath, waterDeath, warBool;
     public GameObject dollPrefab;
     public GameObject spawnPoint;
     private int dollsSpawned;
+    private MusicManager musicManager;
     //add new variable called happiness, low happiness causes people to revolt or leave
     //low happiness causes low growth and high hapiness causes more growth
     private int turn;//have to check how much time each turn is
@@ -22,6 +23,7 @@ public class GameFlow : MonoBehaviour
 
     void Start()
     {
+        musicManager = this.GetComponent<MusicManager>();
         turncost = 5;
         defaultResourceNumber = 100;
         foodDeath = false;
@@ -50,6 +52,7 @@ public class GameFlow : MonoBehaviour
         checkFood(food - population);
         checkWater(water - population);
         checkWaI((wood - population),(iron - population));
+        playBackground(warBool,foodDeath,waterDeath);
 
         float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
         population = (int) newPop;
@@ -67,6 +70,15 @@ public class GameFlow : MonoBehaviour
         iron = numIron * defaultResourceNumber;
     }
 
+    void playBackground(bool war, bool food, bool water)
+    {
+        if(war || water || food)
+        {
+            musicManager.PlayStinger();
+        }
+        else{musicManager.PlayBackground();}
+    }
+
     void checkWaI(float w, float i)
     {
         if(w < 0 && i < 0)
@@ -74,9 +86,12 @@ public class GameFlow : MonoBehaviour
             int warChance = Random.Range(0,100);
             if(warChance >= 60)
             {
+                musicManager.PlayStinger();
                 int deathPops = Random.Range(100,200);
                 population = population - deathPops;
+                warBool = true;
             }
+            else{warBool = false;}
         }
     }
     void checkFood(float i)

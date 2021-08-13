@@ -25,7 +25,16 @@ public class EnemyAI : MonoBehaviour {
     public bool ResourceInSightRange, ResourceInCollectRange;
     public bool foundResource;
 
+    //Audio
+    private AudioSource musicSource;//maybe switch this to various musicsources istead of just one (possible upgrade) https://answers.unity.com/questions/175995/can-i-play-multiple-audiosources-from-one-gameobje.html
+    public AudioClip talking, footsteps, kissing;
+    public AudioClip workBuilding,workIron,workFood,workWood;
+    /*Spatial Blend from 2D to 3D.
+    Volume Rolloff from logarithmic to linear.
+    Set Minimum and Maximum distance.*/ //to make it so it only when close
+
     private void Awake() {
+        musicSource = this.GetComponent<AudioSource>();//add a audio source to the doll, its where the sounds will be coming out of
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -40,7 +49,14 @@ public class EnemyAI : MonoBehaviour {
         if (ResourceInSightRange && ResourceInCollectRange) CollectResources();
     }
 
+    void playSoundEffect(AudioClip clip)
+    {
+        musicSource.clip = clip;
+        musicSource.Play();
+    }
+
     private void Walking() {
+        playSoundEffect(footsteps);
 
         if (!walkPointSet) SearchWalkPoint();
 
@@ -81,7 +97,7 @@ public class EnemyAI : MonoBehaviour {
     }
 
     private void CollectResources() {
-        //transform.LookAt(resource);
+        //transform.LookAt(resource); check wht resource and play sound or put sound in the resource itself and send message
         if (!resourceNull) {
             Vector3 distanceToResource = transform.position - player.position;
             print(distanceToResource.magnitude);

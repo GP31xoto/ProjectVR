@@ -43,6 +43,11 @@ public class Hand_Menu : MonoBehaviour
     private int ironTimeCounterStart;
     private int waterTimeCounterStart;
 
+    //Audio
+    private AudioSource musicSource;
+    public AudioClip placing;
+    public AudioClip select;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -130,6 +135,12 @@ public class Hand_Menu : MonoBehaviour
         //GameObject.SetActive(isMenuActive);
     }
 
+    void playSoundEffect(AudioClip clip)
+    {
+        musicSource.clip = clip;
+        musicSource.Play();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -189,6 +200,7 @@ public class Hand_Menu : MonoBehaviour
 
     public void SelectFood(int type)
     {
+        playSoundEffect(select);
         //if there are food sources that can be built
         if (foodConstructAvailable > 0)
         {
@@ -202,11 +214,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(foodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             foodToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectWood(int type)
     {
+        playSoundEffect(select);
         //if there are wood sources that can be built
         if (woodConstructAvailable > 0)
         {
@@ -220,11 +235,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(woodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             woodToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectIron(int type)
     {
+        playSoundEffect(select);
         //if there are iron sources that can be built
         if (ironConstructAvailable > 0)
         {
@@ -238,11 +256,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(ironToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             ironToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectWater(int type)
     {
+        playSoundEffect(select);
         //if there are water sources that can be built
         if (waterConstructAvailable > 0)
         {
@@ -256,11 +277,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(waterToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             waterToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectHouse(int type)
     {
+        playSoundEffect(select);
         GameObject houseSelected = houseType[type - 1];
         //if there are enough resources to build a house
         if (GameFlow.GetComponent<GameFlow>().wood >= houseSelected.GetComponent<House>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= houseSelected.GetComponent<House>().cost.consumeIron())
@@ -275,11 +299,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(houseToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             houseToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectGranary(int type)
     {
+        playSoundEffect(select);
         GameObject granarySelected = granaryType[type - 1];
         //if there are enough resources to build a granary
         if (GameFlow.GetComponent<GameFlow>().wood >=granarySelected.GetComponent<Granary>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= granarySelected.GetComponent<Granary>().cost.consumeIron())
@@ -294,11 +321,14 @@ public class Hand_Menu : MonoBehaviour
             Destroy(granaryToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             granaryToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 
     public void SelectForge(int type)
     {
+        playSoundEffect(select);
         GameObject forgeSelected = forgeType[type - 1];
         //if there are enough resources to build a granary
         if (GameFlow.GetComponent<GameFlow>().wood >= forgeSelected.GetComponent<Forge>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= forgeSelected.GetComponent<Forge>().cost.consumeIron())
@@ -313,6 +343,8 @@ public class Hand_Menu : MonoBehaviour
             Destroy(forgeToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
             forgeToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
         }
     }
 

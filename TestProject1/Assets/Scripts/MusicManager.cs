@@ -51,5 +51,23 @@ public class MusicManager : MonoBehaviour
         m_musicSource.loop = false;
         m_musicSource.Play();
     }
+
+    public void PlayBackground()
+    {
+        m_playingStinger = false;
+
+        m_musicSource.clip = m_backgroundMusic;
+        m_musicSource.Play();
+    }
+
+    public void PauseMusic()
+    {
+        m_musicSource.Pause();
+    }
+
+    public void UnpauseMusic()
+    {
+        m_musicSource.UnPause();
+    }
 }
 
