@@ -953,6 +953,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausemenu: {fileID: 1887772680}
   soundmenu: {fileID: 472585381}
+  mySliderGen: {fileID: 1313414639}
+  mySliderMusic: {fileID: 882460889}
+  mySliderSound: {fileID: 1687987050}
 --- !u!1 &481754111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,7 +1797,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 472585385}
+        m_TargetAssemblyTypeName: Sound_Script, Assembly-CSharp
+        m_MethodName: OnMusicValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &885094488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,7 +2880,31 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 472585385}
+        m_TargetAssemblyTypeName: Sound_Script, Assembly-CSharp
+        m_MethodName: OnGenValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1469722578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,7 +3287,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 472585385}
+        m_TargetAssemblyTypeName: Sound_Script, Assembly-CSharp
+        m_MethodName: OnSoundValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1771405975
 GameObject:
   m_ObjectHideFlags: 0
