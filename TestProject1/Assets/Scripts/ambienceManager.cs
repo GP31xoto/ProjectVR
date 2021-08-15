@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class ambienceManager : MonoBehaviour
 {
-    private AudioSource musicSource;
+    AudioSource windAudio;//based on how they are in the gameobject
+    AudioSource wavesAudio;
+    AudioSource birdsAudio;
 
     public AudioClip wind,waves,chirping;
     // Start is called before the first frame update
     void Start()
     {
-        musicSource = this.GetComponent<AudioSource>();
-      //  musicSource.clip = m_backgroundMusic;
+        AudioSource[] audios = GetComponents<AudioSource>();
+        windAudio = audios[0];
+        wavesAudio = audios[1];
+        birdsAudio = audios[2];
+        windAudio.clip = wind;
+        wavesAudio.clip = waves;
+        birdsAudio.clip = chirping;
 
-      //  musicSource.Play();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //use three audiosources? or have multiple ambience managers
+        windAudio.Play();
+        wavesAudio.Play();
+        birdsAudio.Play();
     }
 }

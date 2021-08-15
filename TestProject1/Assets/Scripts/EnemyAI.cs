@@ -28,7 +28,7 @@ public class EnemyAI : MonoBehaviour {
     //Audio
     private AudioSource musicSource;//maybe switch this to various musicsources istead of just one (possible upgrade) https://answers.unity.com/questions/175995/can-i-play-multiple-audiosources-from-one-gameobje.html
     public AudioClip talking, footsteps, kissing;
-    public AudioClip workBuilding,workIron,workFood,workWood;
+    public AudioClip workBuilding,workIron,workFood,workWood, treeFalling;
     /*Spatial Blend from 2D to 3D.
     Volume Rolloff from logarithmic to linear.
     Set Minimum and Maximum distance.*/ //to make it so it only when close

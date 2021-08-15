@@ -40,6 +40,7 @@ public class GameFlow : MonoBehaviour
 
     void nextTurn()
     {
+        musicManager.StopSFXDisaster();
         turn++;
         updateResources();
         counter(waterDeath,foodDeath);
@@ -74,6 +75,7 @@ public class GameFlow : MonoBehaviour
     {
         if(war || water || food)
         {
+            musicManager.PlaySFXDisaster();
             musicManager.PlayStinger();
         }
         else{musicManager.PlayBackground();}

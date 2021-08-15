@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    private AudioSource m_musicSource;
+    public AudioSource m_musicSource;
+    public AudioSource m_sfxSource;
     private float m_stingerTime;
     private bool m_playingStinger;
     private float m_remaining;
@@ -12,12 +13,14 @@ public class MusicManager : MonoBehaviour
     public AudioClip m_backgroundMusic;
     public AudioClip m_stinger;
     public AudioClip m_tensionMusic;
+    public AudioClip m_disasterSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        m_musicSource = this.GetComponent<AudioSource>();
+        //m_musicSource = this.GetComponent<AudioSource>();
         m_musicSource.clip = m_backgroundMusic;
+        m_sfxSource.clip = m_disasterSound;
         m_stingerTime = m_stinger.length;
 
         m_playingStinger = false;
@@ -42,6 +45,15 @@ public class MusicManager : MonoBehaviour
         }
     }
 
+    public void PlaySFXDisaster()
+    {
+        m_sfxSource.Play();
+    }
+
+    public void StopSFXDisaster()
+    {
+        m_sfxSource.Stop();
+    }
     public void PlayStinger()
     {
         m_playingStinger = true;
