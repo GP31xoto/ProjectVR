@@ -9,6 +9,11 @@ public class DoubleResource : MonoBehaviour
     void Start()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");
-        GameFlow.GetComponent<GameFlow>().doubleResource(this.gameObject.tag);
+        GameFlow.GetComponent<GameFlow>().doubleResource(this.gameObject.tag,false);
+    }
+
+    public void buildingDestroyed()
+    {
+        GameFlow.GetComponent<GameFlow>().doubleResource(this.gameObject.tag,true);
     }
 }

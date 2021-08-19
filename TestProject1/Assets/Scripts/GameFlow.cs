@@ -5,13 +5,15 @@ using UnityEngine;
 public class GameFlow : MonoBehaviour
 {
     public float food, water, wood, iron;
+    private float foodAdd, waterAdd, woodAdd, ironAdd,foodBuff,ironBuff,popBuff = 0;
     public int numFood,numWater,numWood,numIron = 0;
     public float defaultResourceNumber;
     public int population;
     private int numDolls;
     private int waterCounter,foodCounter;
     public float rateOfGrowth;
-    private bool foodDeath, waterDeath, warBool;
+    public float happiness;
+    private bool foodDeath, waterDeath, warBool, unhappyBool;
     public GameObject dollPrefab;
     public GameObject spawnPoint;
     private int dollsSpawned;
@@ -25,9 +27,12 @@ public class GameFlow : MonoBehaviour
     {
         musicManager = this.GetComponent<MusicManager>();
         turncost = 5;
+        happiness = 50;
         defaultResourceNumber = 100;
         foodDeath = false;
         waterDeath = false;
+        unhappyBool = false;
+        warBool =  false;
         population = 100;
         numDolls = population / 25;
         turn = 0;
@@ -53,7 +58,8 @@ public class GameFlow : MonoBehaviour
         checkFood(food - population);
         checkWater(water - population);
         checkWaI((wood - population),(iron - population));
-        playBackground(warBool,foodDeath,waterDeath);
+        checkHappiness(happiness);
+        playBackground(warBool,foodDeath,waterDeath,unhappyBool);
 
         float newPop = population*(Mathf.Exp(rateOfGrowth*turn));
         population = (int) newPop;
@@ -65,20 +71,36 @@ public class GameFlow : MonoBehaviour
 
     void updateResources()
     {
-        food = numFood * defaultResourceNumber;
-        water = numWater * defaultResourceNumber;
-        wood = numWood * defaultResourceNumber;
-        iron = numIron * defaultResourceNumber;
+        food = (numFood + foodBuff) * (defaultResourceNumber + foodAdd);
+        water = numWater *  (defaultResourceNumber + waterAdd);
+        wood = numWood *  (defaultResourceNumber + woodAdd);
+        iron = (numIron + ironBuff) *  (defaultResourceNumber + ironAdd);
     }
 
-    void playBackground(bool war, bool food, bool water)
+    void playBackground(bool war, bool food, bool water, bool unhappy)
     {
-        if(war || water || food)
+        if(war || water || food || unhappy)
         {
             musicManager.PlaySFXDisaster();
             musicManager.PlayStinger();
         }
         else{musicManager.PlayBackground();}
+    }
+
+    void checkHappiness(float h)
+    {
+        if(h < 0)
+        {
+            int rebelChance = Random.Range(0,100);
+            if(rebelChance >= 60)
+            {
+                musicManager.PlayStinger();
+                int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
+                population = population - deathPops;
+                warBool = true;
+            }
+            else{unhappyBool = false;}
+        }
     }
 
     void checkWaI(float w, float i)
@@ -89,7 +111,7 @@ public class GameFlow : MonoBehaviour
             if(warChance >= 60)
             {
                 musicManager.PlayStinger();
-                int deathPops = Random.Range(100,200);
+                int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 warBool = true;
             }
@@ -100,7 +122,7 @@ public class GameFlow : MonoBehaviour
     {
         if((i) < 0)
         {
-            int deathPops = Random.Range(20,120);
+            int deathPops = (int)(Random.Range(50,100)/(1+popBuff));
             population = population - deathPops;
             foodDeath = true;
         }
@@ -111,7 +133,7 @@ public class GameFlow : MonoBehaviour
     {
         if((i) < 0)
         {
-            int deathPops = Random.Range(40,140);
+            int deathPops = (int)(Random.Range(70,170)/(1+popBuff));
             population = population - deathPops;
             waterDeath = true;
         }
@@ -135,6 +157,11 @@ public class GameFlow : MonoBehaviour
 
     void endGame()
     {
+        if(waterCounter == 1||foodCounter == 3)
+        {
+            Debug.Log("Not enough food or water you Lost!");
+            //application quit or just disable the script? or boot back to menu
+        }
         Debug.Log("Not enough POP you lost!");
     }
 
@@ -147,20 +174,87 @@ public class GameFlow : MonoBehaviour
         }
     }
 
-    public void addResource(string resource)
+    public void addResource(string resource,bool reverse)
     {
-        if(resource == "Water"){numWater += 1;}
-        else if(resource == "Food"){numFood += 1;}
-        else if(resource == "Wood"){numWood += 1;}
-        else if(resource == "Iron"){numIron += 1;}
+        if(reverse)
+        {
+            if(resource == "Water"){waterAdd -= 100;}
+            else if(resource == "Food"){foodAdd -= 100;}
+            else if(resource == "Wood"){woodAdd -= 100;}
+            else if(resource == "Iron"){ironAdd -= 100;}
+        }
+        else
+        {
+            if(resource == "Water"){waterAdd += 100;}
+            else if(resource == "Food"){foodAdd += 100;}
+            else if(resource == "Wood"){woodAdd += 100;}
+            else if(resource == "Iron"){ironAdd += 100;}
+        }
     }
 
-    public void doubleResource(string resource)
+    public void addBuff(string resource,bool reverse,float buff)
     {
-        if(resource == "Water"){numWater *= 2;}
-        else if(resource == "Food"){numFood *= 2;}
-        else if(resource == "Wood"){numWood *= 2;}
-        else if(resource == "Iron"){numIron *= 2;}
+        if(reverse)
+        {
+            if(resource == "Pop"){popBuff -= buff;}
+            else if(resource == "Food"){foodBuff -= buff;}
+            else if(resource == "Iron"){ironBuff -= buff;}
+        }
+        else
+        {
+            if(resource == "Pop"){popBuff += buff;}
+            else if(resource == "Food"){foodBuff += buff;}
+            else if(resource == "Iron"){ironBuff += buff;}
+        }
+    }
+
+    public void doubleResource(string resource,bool reverse)
+    {
+        if(reverse)
+        {
+            if(resource == "Water"){numWater /= 2;}//the only time the num changes is here
+            else if(resource == "Food"){numFood /= 2;}
+            else if(resource == "Wood"){numWood /= 2;}
+            else if(resource == "Iron"){numIron /= 2;}
+        }
+        else
+        {
+            if(resource == "Water"){numWater *= 2;}//the only time the num changes is here
+            else if(resource == "Food"){numFood *= 2;}
+            else if(resource == "Wood"){numWood *= 2;}
+            else if(resource == "Iron"){numIron *= 2;}
+        }
+    }
+
+    public void resourceBanks(bool reverse)
+    {
+        if(reverse)
+        {
+            happiness = happiness * 2;
+            defaultResourceNumber /= 2;
+        }
+        else
+        {
+            happiness = happiness / 2;
+            defaultResourceNumber *= 2;
+        }
+    }
+
+    public void workShopBuilt(bool reverse)
+    {
+        if(reverse)
+        {
+            happiness /= 2;
+            woodAdd += 100;
+            ironAdd += 100;
+        }
+        else
+        {
+            happiness *= 2;
+            woodAdd -= 100;
+            ironAdd -= 100;
+        }
+
     }
 
     public void Update()

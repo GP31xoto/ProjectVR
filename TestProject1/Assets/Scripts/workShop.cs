@@ -9,5 +9,11 @@ public class workShop : MonoBehaviour
     void Start()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");//take resources but add happiness
+        GameFlow.GetComponent<GameFlow>().workShopBuilt(false);
+    }
+
+    public void buildingDestroyed()
+    {
+        GameFlow.GetComponent<GameFlow>().workShopBuilt(true);
     }
 }

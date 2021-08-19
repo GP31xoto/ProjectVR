@@ -26,7 +26,8 @@ public class EnemyAI : MonoBehaviour {
     public bool foundResource;
 
     //Audio
-    private AudioSource musicSource;//maybe switch this to various musicsources istead of just one (possible upgrade) https://answers.unity.com/questions/175995/can-i-play-multiple-audiosources-from-one-gameobje.html
+    AudioSource workAudio;//based on how they are in the gameobject
+    AudioSource dollAudio;
     public AudioClip talking, footsteps, kissing;
     public AudioClip workBuilding,workIron,workFood,workWood, treeFalling;
     /*Spatial Blend from 2D to 3D.
@@ -34,7 +35,9 @@ public class EnemyAI : MonoBehaviour {
     Set Minimum and Maximum distance.*/ //to make it so it only when close
 
     private void Awake() {
-        musicSource = this.GetComponent<AudioSource>();//add a audio source to the doll, its where the sounds will be coming out of
+        AudioSource[] audios = GetComponents<AudioSource>();
+        workAudio = audios[0];
+        dollAudio = audios[1];//add a audio source to the doll, its where the sounds will be coming out of
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -49,14 +52,20 @@ public class EnemyAI : MonoBehaviour {
         if (ResourceInSightRange && ResourceInCollectRange) CollectResources();
     }
 
-    void playSoundEffect(AudioClip clip)
+    void playSoundEffectDoll(AudioClip clip)
     {
-        musicSource.clip = clip;
-        musicSource.Play();
+        dollAudio.clip = clip;
+        dollAudio.Play();
+    }
+
+    void playSoundEffectWork(AudioClip clip)
+    {
+        workAudio.clip = clip;
+        workAudio.Play();
     }
 
     private void Walking() {
-        playSoundEffect(footsteps);
+        playSoundEffectDoll(footsteps);
 
         if (!walkPointSet) SearchWalkPoint();
 

@@ -7,10 +7,12 @@ public class House : MonoBehaviour
     public ConstructionCost cost;
     [SerializeField] private int type;
     private float buffPopulation;
+    private GameObject GameFlow;
 
     // Start is called before the first frame update
     void Start()
     {
+        GameFlow = GameObject.FindWithTag("GameFlow");
         switch (type)
         {
             case 1:
@@ -40,8 +42,13 @@ public class House : MonoBehaviour
         }
     }
 
-    public float GiveBuff()
+    public void GiveBuff()
     {
-        return buffPopulation;
+        GameFlow.GetComponent<GameFlow>().addBuff("Pop",false,buffPopulation);
+    }
+
+    public void removeBuff()
+    {
+        GameFlow.GetComponent<GameFlow>().addBuff("Pop",true,buffPopulation);
     }
 }

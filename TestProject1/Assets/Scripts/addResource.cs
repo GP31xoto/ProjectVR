@@ -9,6 +9,11 @@ public class addResource : MonoBehaviour
     void Awake()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");
-        GameFlow.GetComponent<GameFlow>().addResource(this.gameObject.tag);
+        GameFlow.GetComponent<GameFlow>().addResource(this.gameObject.tag,false);
+    }
+
+    public void buildingDestroyed()
+    {
+        GameFlow.GetComponent<GameFlow>().addResource(this.gameObject.tag,true);
     }
 }

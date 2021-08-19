@@ -7,10 +7,12 @@ public class Forge : MonoBehaviour
     public ConstructionCost cost;
     [SerializeField] private int type;
     private float buffIron;
+    private GameObject GameFlow;
 
     // Start is called before the first frame update
     void Start()
     {
+        GameFlow = GameObject.FindWithTag("GameFlow");
         switch (type)
         {
             case 1:
@@ -40,8 +42,13 @@ public class Forge : MonoBehaviour
         }
     }
 
-    public float GiveBuff()
+    public void GiveBuff()
     {
-        return buffIron;
+        GameFlow.GetComponent<GameFlow>().addBuff("Iron",false,buffIron);
+    }
+
+    public void removeBuff()
+    {
+        GameFlow.GetComponent<GameFlow>().addBuff("Iron",true,buffIron);
     }
 }

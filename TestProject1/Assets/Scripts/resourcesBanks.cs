@@ -9,5 +9,12 @@ public class resourcesBanks : MonoBehaviour
     void Start()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");//doubles default resource number but has a downside
+        GameFlow.GetComponent<GameFlow>().resourceBanks(false);
+        
+    }
+
+    public void buildingDestroyed()
+    {
+        GameFlow.GetComponent<GameFlow>().resourceBanks(true);
     }
 }
