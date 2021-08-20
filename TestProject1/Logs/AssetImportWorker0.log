@@ -15,11 +15,11 @@ C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59623
+56247
 Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.27 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 116.04 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,295 +36,183 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003416 seconds.
+Registered in 0.005709 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 98.17 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.053 seconds
+- Completed reload, in  2.443 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014079 seconds.
+Registered in 0.014093 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002DBF76BE040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file data-00000204F5D7AC60 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF722D190 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file data-00000204F5DAE290 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF76BE040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
+Symbol file data-00000204F5D7AC60 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF76E9BE0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000204F364B220 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFAC78010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000204F5D3B630 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6E61A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000204F5D4EC40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF705BEE0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
+Symbol file data-00000204F2C2E040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF75B8270 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000204F5D7AC60 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6E61A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-00000204F5D4EC40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF75F4430 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000204F608D440 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF974C020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000204F6784010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFAC8B620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-00000204F6B29620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6FB8420 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000204F65D5C30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF68736C0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-00000204F2AE7E10 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6E61A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000204F5D4EC40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF97A0020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000204F5E7B010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFA340C40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000204F6B29620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF9914A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000204F5BF6010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF7043310 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-00000204C6D8F820 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF9914A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
+Symbol file data-00000204F5BA2010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF977EE40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-00000204F6044230 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF70F23E0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000204F5C4A010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF75F4430 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-00000204F67B1A20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6CB5420 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-00000204F3800A40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF999B020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
+Symbol file data-00000204F5F23010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF999B020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000204F5F23010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6F09870 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
+Symbol file data-00000204F5D87340 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF722D190 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-00000204F301EF00 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFA095030 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-00000204F3062B10 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF9988040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000204F2FC6010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF977EE40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000204F6044230 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF76E9BE0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+Symbol file data-00000204F2E048B0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6CFC830 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
+Symbol file data-00000204F2DFA3F0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6F64D10 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
+Symbol file data-00000204F2E048B0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFA344E50 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-00000204F65E7840 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6E97460 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-00000204F380E710 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF6B343A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-00000204F5F10A40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBF75F4430 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-00000204F67B7030 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBFAC34020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
+Symbol file data-00000204F6BDE0B0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.301 seconds
+- Completed reload, in  2.594 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 137.8 MB.
 System memory in use after: 137.2 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 3.562600 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.101600 ms MarkObjects: 2.492500 ms  DeleteObjects: 0.677900 ms)
+Total: 4.097700 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.108300 ms MarkObjects: 3.002800 ms  DeleteObjects: 0.703500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models
-  artifactKey: Guid(adfd44bd367220b43b3bef3d1c6ffb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(adfd44bd367220b43b3bef3d1c6ffb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17bba7233dfb141068dc54b91929d98') in 0.007517 seconds
-  Import took 0.012472 seconds .
+  path: Assets/Prefabs/Granary/Granary_4.prefab
+  artifactKey: Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_4.prefab using Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff22995cfaac1b93d7ecc0c4c95ad77') in 0.221931 seconds
+  Import took 0.230961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Models/CustomModels 1/Granary_model3_1_support.fbx
-  artifactKey: Guid(1b8b1ecc212f5ec4c8c897bef5b7084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CustomModels 1/Granary_model3_1_support.fbx using Guid(1b8b1ecc212f5ec4c8c897bef5b7084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657f774292b5a588f02c653e25914d75') in 0.161131 seconds
-  Import took 0.165758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Models/CustomModels 1/Granary_model3_1_hut.fbx
-  artifactKey: Guid(05f22c632558438429259864efb46c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CustomModels 1/Granary_model3_1_hut.fbx using Guid(05f22c632558438429259864efb46c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7089f23b3b6ee6db323664b1c2cf2e9') in 0.016295 seconds
-  Import took 0.020857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.156351 seconds.
-  path: Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx
-  artifactKey: Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx using Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a89a9c28da7fc80e12a9cb5b48f685e') in 0.016929 seconds
-  Import took 0.022931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004142 seconds.
-  path: Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx
-  artifactKey: Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx using Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a89a9c28da7fc80e12a9cb5b48f685e') in 0.014302 seconds
-  Import took 0.020955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005701 seconds.
+  Time since last request: 83.983833 seconds.
   path: Assets/Models/CustomModels 1/Granary_model4_1_hut.fbx
   artifactKey: Guid(d9b87138782ffd644b1ee092c80930fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CustomModels 1/Granary_model4_1_hut.fbx using Guid(d9b87138782ffd644b1ee092c80930fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42927a7080fa06a7c86e2bc764e49f60') in 0.022554 seconds
-  Import took 0.027973 seconds .
+Start importing Assets/Models/CustomModels 1/Granary_model4_1_hut.fbx using Guid(d9b87138782ffd644b1ee092c80930fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ae80bead7bb6f81251835efeb65e21') in 0.182649 seconds
+  Import took 0.193435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 126.088914 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab
-  artifactKey: Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab using Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13df794ae73d5ae1a85c12d9fdd04c4') in 0.024078 seconds
-  Import took 0.030277 seconds .
+  Time since last request: 0.000363 seconds.
+  path: Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx
+  artifactKey: Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Granary_model4_1_ladder.fbx using Guid(be6ad3b744edd794cb5600cdd18eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5ff1abea3e713b5dcf739c81a5997') in 0.016201 seconds
+  Import took 0.021780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 03.prefab
-  artifactKey: Guid(48333a5aa700be24c963813c82ef05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 03.prefab using Guid(48333a5aa700be24c963813c82ef05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e789e16520b3d461be1a7d55320b49b0') in 0.014956 seconds
-  Import took 0.022423 seconds .
+  Time since last request: 29.433445 seconds.
+  path: Assets/Models/CustomModels 1/Forge_model4_1.fbx
+  artifactKey: Guid(5ea41c8dc3c539a49ad926bdc23593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Forge_model4_1.fbx using Guid(5ea41c8dc3c539a49ad926bdc23593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dfd7c534975a44c795703039d0be0c') in 0.019238 seconds
+  Import took 0.024465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 02.prefab
-  artifactKey: Guid(bcd44f8d0f766b340b72d555a8df8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 02.prefab using Guid(bcd44f8d0f766b340b72d555a8df8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb10e645fdd92d633c1811bc3ef957d') in 0.018079 seconds
-  Import took 0.023785 seconds .
+  Time since last request: 0.017209 seconds.
+  path: Assets/Models/CustomModels 1/Forge_model4_1.fbx
+  artifactKey: Guid(5ea41c8dc3c539a49ad926bdc23593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Forge_model4_1.fbx using Guid(5ea41c8dc3c539a49ad926bdc23593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dfd7c534975a44c795703039d0be0c') in 0.015049 seconds
+  Import took 0.021156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type5 04.dae
-  artifactKey: Guid(63d2b0fa33464ad49bcded49a4303d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type5 04.dae using Guid(63d2b0fa33464ad49bcded49a4303d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f91f691eee00c0012d75f5004f25f8') in 0.342071 seconds
-  Import took 0.349565 seconds .
+  Time since last request: 250.904742 seconds.
+  path: Assets/Prefabs/Forge/Forge_4.prefab
+  artifactKey: Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_4.prefab using Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9e2eb09d868b4ccb301a9eadc58b56') in 0.056024 seconds
+  Import took 0.067923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 02.dae
-  artifactKey: Guid(d9a37c1e81c2edd418eab77179043eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 02.dae using Guid(d9a37c1e81c2edd418eab77179043eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ade1007b8563e252b46079341ef816') in 0.024888 seconds
-  Import took 0.032220 seconds .
+  Time since last request: 0.002222 seconds.
+  path: Assets/Prefabs/Forge/Forge_4.prefab
+  artifactKey: Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_4.prefab using Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9e2eb09d868b4ccb301a9eadc58b56') in 0.059812 seconds
+  Import took 0.068518 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab
-  artifactKey: Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab using Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13df794ae73d5ae1a85c12d9fdd04c4') in 0.014823 seconds
-  Import took 0.022455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 04.prefab
-  artifactKey: Guid(329d0b0187f24cd4da9f775d83708bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 04.prefab using Guid(329d0b0187f24cd4da9f775d83708bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd424562a8555e7bdd21ffc54cba7063') in 0.014669 seconds
-  Import took 0.021366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 01.prefab
-  artifactKey: Guid(78a4b58c8edc1884e932497bbb0da899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 01.prefab using Guid(78a4b58c8edc1884e932497bbb0da899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c25f9c1e4d5328af8f9a75cc76dd49') in 0.018104 seconds
-  Import took 0.024900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 01.dae
-  artifactKey: Guid(5f0c6f2eeb60c374aad117bde2bd80a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 01.dae using Guid(5f0c6f2eeb60c374aad117bde2bd80a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d679f1c4e513eed37e72b8cd60fb86') in 0.018990 seconds
-  Import took 0.025028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.200477 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae
-  artifactKey: Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae using Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c205ca6c306b9be55b7d60bcf3a18d9') in 0.045976 seconds
-  Import took 0.056355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 04.prefab
-  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad382a116ccd3b348b1857b79bbdcc') in 0.020307 seconds
-  Import took 0.026237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae
-  artifactKey: Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae using Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c205ca6c306b9be55b7d60bcf3a18d9') in 0.018208 seconds
-  Import took 0.024917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 04.dae
-  artifactKey: Guid(c4534353dff9c6c468c490e0560f8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BrokenVector/LowPolyRockPack/Models/Rock Type6 04.dae using Guid(c4534353dff9c6c468c490e0560f8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d78d7c4d8c925ea68f4bd56b72aa623') in 0.019000 seconds
-  Import took 0.026374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 307.458323 seconds.
+  Time since last request: 60.697116 seconds.
   path: Assets/Prefabs/Menu.prefab
   artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45b034a9fb1f42ed2850699500bc745') in 2.045826 seconds
-  Import took 2.071144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.882253 seconds.
-  path: Assets/Prefabs/Granary/Granary_4.prefab
-  artifactKey: Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Granary/Granary_4.prefab using Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4abf2bfdc06a4966cbf25d25aba8e55') in 0.058049 seconds
-  Import took 0.068582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013976 seconds.
-  path: Assets/Prefabs/Granary/Granary_4.prefab
-  artifactKey: Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Granary/Granary_4.prefab using Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4abf2bfdc06a4966cbf25d25aba8e55') in 0.053780 seconds
-  Import took 0.063470 seconds .
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e246f9b2965d8b6c96a02c2558e38a') in 1.996300 seconds
+  Import took 2.017204 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
