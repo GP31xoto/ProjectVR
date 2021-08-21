@@ -10,13 +10,17 @@ public class PhysicsPointer : MonoBehaviour{
 
     private LineRenderer lineRenderer = null;
 
-    public OVRGrabber DistanceGrabberTest;
+    public OVRGrabber DistanceGrabber;
 
     private GameObject grabbedObject;
 
     private Canvas canvasTest;
 
+    private bool boolLeftHand;
+    private bool boolRightHand;
     private bool booltest;
+
+    private GameObject grabbableGO;
 
     private void Awake(){
         lineRenderer = GetComponent<LineRenderer>();
@@ -28,27 +32,53 @@ public class PhysicsPointer : MonoBehaviour{
     private void Update() {
         UpdateLength();
 
-        if (OVRInput.GetUp(OVRInput.Button.Four)){
-            canvasTest.enabled = !canvasTest.enabled;
-
-        }
+        //if (OVRInput.GetUp(OVRInput.Button.Four)) {
+        //    canvasTest.enabled = !canvasTest.enabled;
+        //}
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger) && booltest) {
-            GameObject grabbableGO = DistanceGrabberTest.grabbedObject.gameObject;
-            Destroy(DistanceGrabberTest.grabbedObject.gameObject);
+            Destroy(grabbableGO);
+            GameObject instance = Instantiate(grabbableGO,CalculateEnd(),Quaternion.identity);
+            instance.GetComponent<OVRGrabbable>().enabled = true;
+        }
+
+        if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger) && booltest) {
+            GameObject grabbableGO = DistanceGrabber.grabbedObject.gameObject;
+            Destroy(DistanceGrabber.grabbedObject.gameObject);
             Debug.Log(grabbableGO);
             GameObject instance = Instantiate(grabbableGO,CalculateEnd(),Quaternion.identity);
             instance.GetComponent<OVRGrabbable>().enabled = true;
         }
 
-        if (DistanceGrabberTest.grabbedObject) {
-            booltest = true;
-            //Debug.Log("True---" + DistanceGrabberTest.grabbedObject);
-        } else {
-            booltest = false;
-            //Debug.Log("False");
-        }
+        //if (DistanceGrabber.name.Contains("Right")) {
+        //    if (DistanceGrabber.grabbedObject) {
+        //        boolRightHand = true;
+        //        //Debug.Log("Right Grab");
+        //    } else {
+        //        boolRightHand = false;
+        //        //Debug.Log("Right Not Grab");
+        //    }
+        //}
 
+        //if (DistanceGrabber.name.Contains("Left")) {
+        //    if (DistanceGrabber.grabbedObject) {
+        //        boolLeftHand = true;
+        //        //Debug.Log("Left Grab");
+        //    } else {
+        //        boolLeftHand = false;
+        //    }
+        //}
+
+        if (DistanceGrabber.grabbedObject) {
+            Debug.Log("true");
+            booltest = true;
+            grabbableGO = DistanceGrabber.grabbedObject.gameObject;
+        } else {
+            Debug.Log("False");
+
+            booltest = false;
+            grabbableGO = null;
+        }
     }
 
     private void UpdateLength() {
