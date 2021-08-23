@@ -117,4 +117,11 @@ public class EnemyAI : MonoBehaviour {
         }
     }
 
+    public void death()
+    {
+        //playanimation and depending on how long it takes change this number
+        int timeForDeathAnim = 5;
+        Destroy(gameObject,timeForDeathAnim);
+    }
+
 }

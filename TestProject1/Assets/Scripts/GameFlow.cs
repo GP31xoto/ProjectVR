@@ -22,6 +22,7 @@ public class GameFlow : MonoBehaviour
     //low happiness causes low growth and high hapiness causes more growth
     private int turn;//have to check how much time each turn is
     private int turncost;
+    public GameObject doll;
 
     void Start()
     {
@@ -53,8 +54,6 @@ public class GameFlow : MonoBehaviour
         {
             endGame();
         }
-        numDolls = population / 25;
-        spawnDoll(numDolls);
         checkFood(food - population);
         checkWater(water - population);
         checkWaI((wood - population),(iron - population));
@@ -96,6 +95,8 @@ public class GameFlow : MonoBehaviour
             {
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
+                int numOfDolls = population / 25;
+                deSpawnDoll(numOfDolls);
                 warBool = true;
             }
             else{unhappyBool = false;}
@@ -111,6 +112,8 @@ public class GameFlow : MonoBehaviour
             {
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
+                int numOfDolls = population / 25;
+                deSpawnDoll(numOfDolls);
                 warBool = true;
             }
             else{warBool = false;}
@@ -122,6 +125,8 @@ public class GameFlow : MonoBehaviour
         {
             int deathPops = (int)(Random.Range(50,100)/(1+popBuff));
             population = population - deathPops;
+            int numOfDolls = population / 25;
+            deSpawnDoll(numOfDolls);
             foodDeath = true;
         }
         else{foodDeath = false;}
@@ -133,6 +138,8 @@ public class GameFlow : MonoBehaviour
         {
             int deathPops = (int)(Random.Range(70,170)/(1+popBuff));
             population = population - deathPops;
+            int numOfDolls = population / 25;
+            deSpawnDoll(numOfDolls);
             waterDeath = true;
         }
         else{waterDeath = false;}
@@ -169,6 +176,17 @@ public class GameFlow : MonoBehaviour
         {
             dollsSpawned++;
             Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
+        }
+    }
+
+    void deSpawnDoll(int numOfDolls)
+    {
+        int numDollsToKill = Mathf.Abs(dollsSpawned - numOfDolls);
+        for(int i = 0; i<numDollsToKill;i++)
+        {
+            dollsSpawned--;
+            doll = GameObject.FindWithTag("Doll");
+            doll.GetComponent<EnemyAI>().death();
         }
     }
 
