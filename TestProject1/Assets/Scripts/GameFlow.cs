@@ -94,7 +94,6 @@ public class GameFlow : MonoBehaviour
             int rebelChance = Random.Range(0,100);
             if(rebelChance >= 60)
             {
-                musicManager.PlayStinger();
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 warBool = true;
@@ -110,7 +109,6 @@ public class GameFlow : MonoBehaviour
             int warChance = Random.Range(0,100);
             if(warChance >= 60)
             {
-                musicManager.PlayStinger();
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 warBool = true;
