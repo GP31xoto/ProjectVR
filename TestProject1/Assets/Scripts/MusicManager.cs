@@ -14,6 +14,7 @@ public class MusicManager : MonoBehaviour
     public AudioClip m_stinger;
     public AudioClip m_tensionMusic;
     public AudioClip m_disasterSound;
+    public AudioClip m_destroyedConstruction;
 
     // Start is called before the first frame update
     void Start()
@@ -47,12 +48,19 @@ public class MusicManager : MonoBehaviour
 
     public void PlaySFXDisaster()
     {
+        m_sfxSource.clip = m_disasterSound;
         m_sfxSource.Play();
     }
 
     public void StopSFXDisaster()
     {
         m_sfxSource.Stop();
+    }
+
+    public void PlayDeconstruction()
+    {
+        m_sfxSource.clip = m_destroyedConstruction;
+        m_sfxSource.Play();
     }
     public void PlayStinger()
     {

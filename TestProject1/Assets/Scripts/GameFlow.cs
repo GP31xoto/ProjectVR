@@ -194,6 +194,7 @@ public class GameFlow : MonoBehaviour
     {
         if(reverse)
         {
+            musicManager.PlayDeconstruction();
             if(resource == "Water"){waterAdd -= 100;}
             else if(resource == "Food"){foodAdd -= 100;}
             else if(resource == "Wood"){woodAdd -= 100;}
@@ -212,6 +213,7 @@ public class GameFlow : MonoBehaviour
     {
         if(reverse)
         {
+            musicManager.PlayDeconstruction();
             if(resource == "Pop"){popBuff -= buff;}
             else if(resource == "Food"){foodBuff -= buff;}
             else if(resource == "Iron"){ironBuff -= buff;}
@@ -228,6 +230,7 @@ public class GameFlow : MonoBehaviour
     {
         if(reverse)
         {
+            musicManager.PlayDeconstruction();
             if(resource == "Water"){numWater /= 2;}//the only time the num changes is here
             else if(resource == "Food"){numFood /= 2;}
             else if(resource == "Wood"){numWood /= 2;}
@@ -246,6 +249,7 @@ public class GameFlow : MonoBehaviour
     {
         if(reverse)
         {
+            musicManager.PlayDeconstruction();
             happiness = happiness * 2;
             defaultResourceNumber /= 2;
         }
@@ -260,6 +264,7 @@ public class GameFlow : MonoBehaviour
     {
         if(reverse)
         {
+            musicManager.PlayDeconstruction();
             happiness /= 2;
             woodAdd += 100;
             ironAdd += 100;
