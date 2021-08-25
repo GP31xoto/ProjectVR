@@ -16,6 +16,16 @@ public class EnemyAI : MonoBehaviour {
     bool walkPointSet;
     public float walkPointRange;
 
+    //Animations (more clips to follow)
+    [SerializeField] private Animator npcAnimator;
+    public float idleTime;
+    public float walkTime;
+    public float buildTime;
+    public float death1Time;
+    public float death2Time;
+    public float death3Time;
+    public float runTime;
+
     //Resource Gathering
     public bool resourceNull;
     bool alreadyCollected;
@@ -40,6 +50,35 @@ public class EnemyAI : MonoBehaviour {
         dollAudio = audios[1];//add a audio source to the doll, its where the sounds will be coming out of
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
+        npcAnimator = GetComponent<Animator>();
+        AnimationClip[] clips = npcAnimator.runtimeAnimatorController.animationClips;
+        foreach (AnimationClip clip in clips)
+        {
+            switch (clip.name)
+            {
+                case "Idle":
+                    idleTime = clip.length;
+                    break;
+                case "Walk":
+                    walkTime = clip.length;
+                    break;
+                case "Build":
+                    buildTime = clip.length;
+                    break;
+                case "Death1":
+                    death1Time = clip.length;
+                    break;
+                case "Death2":
+                    death1Time = clip.length;
+                    break;
+                case "Death3":
+                    death1Time = clip.length;
+                    break;
+                case "Run":
+                    runTime = clip.length;
+                    break;
+            }
+        }
     }
 
     void Update() {
@@ -119,8 +158,29 @@ public class EnemyAI : MonoBehaviour {
 
     public void death()
     {
-        //playanimation and depending on how long it takes change this number
-        int timeForDeathAnim = 5;
+        //set the death type (currently defaults to peaceful; will edit for different death causes)
+        int type = 2;
+        float timeForDeathAnim = Time.deltaTime;
+        switch (type)
+        {
+            case 0:
+                timeForDeathAnim = death1Time;
+                //in case transition below doesn't work, decomment this:
+                //npcAnimator.Play("Base Layer.Death1", 0, 0f);
+                break;
+            case 1:
+                timeForDeathAnim = death2Time;
+                //in case transition below doesn't work, decomment this:
+                //npcAnimator.Play("Base Layer.Death2", 0, 0f);
+                break;
+            case 2:
+                timeForDeathAnim = death3Time;
+                //in case transition below doesn't work, decomment this:
+                //npcAnimator.Play("Base Layer.Death3", 0, 0f);
+                break;
+        }
+        //transits to correct death type
+        npcAnimator.SetInteger("DeathType", type);
         Destroy(gameObject,timeForDeathAnim);
     }
 
