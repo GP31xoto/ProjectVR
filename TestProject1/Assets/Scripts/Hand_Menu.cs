@@ -26,6 +26,7 @@ public class Hand_Menu : MonoBehaviour
     private GameObject[] houseType;
     private GameObject[] forgeType;
     private GameObject[] granaryType;
+    private GameObject[] workshopType;
     private GameObject GameFlow;
 
     //ints for running the menu
@@ -123,6 +124,16 @@ public class Hand_Menu : MonoBehaviour
             if (child.tag == "Granary")
             {
                 granaryType[i] = child;
+                i++;
+            }
+        }
+        workshopType = new GameObject[6];
+        i = 0;
+        foreach (GameObject child in constructsTab.transform)
+        {
+            if (child.tag == "Workshop")
+            {
+                workshopType[i] = child;
                 i++;
             }
         }
@@ -346,6 +357,29 @@ public class Hand_Menu : MonoBehaviour
 
             playSoundEffect(placing);
         }
+    }
+
+    //this one will still need heavy editing
+    public void SelectWorkshop(int type)
+    {
+        playSoundEffect(select);
+        GameObject workshopSelected = workshopType[type - 1];
+        //if there are enough resources to build a workshop (will check on relevant script)
+        //if (GameFlow.GetComponent<GameFlow>().wood >= workshopSelected.GetComponent<Workshop>().cost.consumeWood() && GameFlow.GetComponent<GameFlow>().iron >= workshopSelected.GetComponent<Workshop>().cost.consumeIron())
+        //{
+            //consume resources necessary
+            //GameFlow.GetComponent<GameFlow>().wood -= workshopSelected.GetComponent<Workshop>().cost.consumeWood();
+            //GameFlow.GetComponent<GameFlow>().iron -= workshopSelected.GetComponent<Workshop>().cost.consumeIron();
+            //create copy to place in player's hand control
+            GameObject workshopToPlace = Instantiate(workshopSelected);
+            workshopToPlace.transform.localScale = Vector3.one;
+            //remove eventTrigger from copy
+            Destroy(workshopToPlace.GetComponent<EventTrigger>());
+            //activate copy as grabbable
+            workshopToPlace.GetComponent<OVRGrabbable>().enabled = true;
+
+            playSoundEffect(placing);
+        //}
     }
 
     public void IncreasePopulationGrowth()
