@@ -15,12 +15,12 @@ C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61119
+63143
 Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 153.46 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.65 ms.
+Refreshing native plugins compatible for Editor in 123.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.26 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1/Assets
@@ -36,49 +36,105 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003611 seconds.
+Registered in 0.003582 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.66 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 139.40 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
+- Completed reload, in  2.378 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013705 seconds.
+Registered in 0.015281 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.653 seconds
+- Completed reload, in  2.315 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 137.9 MB.
 System memory in use after: 137.3 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 3.416300 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.385400 ms  DeleteObjects: 0.656400 ms)
+Total: 4.259100 ms (FindLiveObjects: 0.407400 ms CreateObjectMapping: 0.200000 ms MarkObjects: 2.879700 ms  DeleteObjects: 0.770300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Workshop/Workshop_1.prefab
-  artifactKey: Guid(0a6373975a332e24688d16ab45c3078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workshop/Workshop_1.prefab using Guid(0a6373975a332e24688d16ab45c3078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d77b72e712d1b65fc64df71fd4ad203') in 0.191320 seconds
-  Import took 0.199082 seconds .
+  path: Assets/Models/CustomModels 1/Forge_model6_1.fbx
+  artifactKey: Guid(1a28f5e116482a44db7360a14943b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Forge_model6_1.fbx using Guid(1a28f5e116482a44db7360a14943b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8487dda3bbd490858eeba2d77d8f654') in 0.276833 seconds
+  Import took 0.281536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.527903 seconds.
+  path: Assets/Models/CustomModels 1/Granary_model6_1_hut.fbx
+  artifactKey: Guid(5d5f4b0514ebfd84c8400a6d2b4d7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Granary_model6_1_hut.fbx using Guid(5d5f4b0514ebfd84c8400a6d2b4d7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12162e953301429a6a464c45e4ffd0e') in 0.021534 seconds
+  Import took 0.027769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Models/CustomModels 1/Granary_model6_1_support.fbx
+  artifactKey: Guid(61980c2b39b7b09408accbdce16de818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Granary_model6_1_support.fbx using Guid(61980c2b39b7b09408accbdce16de818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e68b07b5c21804d1763984819fbb0d') in 0.022027 seconds
+  Import took 0.030103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003188 seconds.
+  path: Assets/Models/CustomModels 1/Granary_model6_1_support.fbx
+  artifactKey: Guid(61980c2b39b7b09408accbdce16de818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CustomModels 1/Granary_model6_1_support.fbx using Guid(61980c2b39b7b09408accbdce16de818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e68b07b5c21804d1763984819fbb0d') in 0.025646 seconds
+  Import took 0.031270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.598160 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b671ee7033c72736a8aedce46f4ab5cc') in 2.185533 seconds
+  Import took 2.211679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Prefabs/Granary/Granary_5.prefab
+  artifactKey: Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_5.prefab using Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9781ad52e7505760e94e5cadd7ceea33') in 0.084584 seconds
+  Import took 0.096614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Prefabs/Granary/Granary_1.prefab
+  artifactKey: Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_1.prefab using Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af5605e5cc4f1cbc2baff0d648ddeab') in 0.068437 seconds
+  Import took 0.077248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.620753 seconds.
+  path: Assets/Prefabs/Granary/Granary_6.prefab
+  artifactKey: Guid(bc61b8b686e59c442a6961562bea6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_6.prefab using Guid(bc61b8b686e59c442a6961562bea6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de9a9ae8e3540d64c80e8cbaf309f4') in 0.070933 seconds
+  Import took 0.081198 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
