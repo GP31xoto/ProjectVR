@@ -24,6 +24,10 @@ public class EnemyAI : MonoBehaviour {
     public float death1Time;
     public float death2Time;
     public float death3Time;
+    public float death4Time;
+    public float idleWarTime;
+    public float attackTime;
+    public float damageTime;
     public float runTime;
 
     //Resource Gathering
@@ -69,13 +73,25 @@ public class EnemyAI : MonoBehaviour {
                     death1Time = clip.length;
                     break;
                 case "Death2":
-                    death1Time = clip.length;
+                    death2Time = clip.length;
                     break;
                 case "Death3":
-                    death1Time = clip.length;
+                    death3Time = clip.length;
+                    break;
+                case "Death4":
+                    death4Time = clip.length;
+                    break;
+                case "Idle_War":
+                    idleWarTime = clip.length;
                     break;
                 case "Run":
                     runTime = clip.length;
+                    break;
+                case "Attack":
+                    attackTime = clip.length;
+                    break;
+                case "Damage":
+                    damageTime = clip.length;
                     break;
             }
         }
@@ -161,6 +177,21 @@ public class EnemyAI : MonoBehaviour {
         //set the death type (currently defaults to peaceful; will edit for different death causes)
         int type = 2;
         float timeForDeathAnim = Time.deltaTime;
+        //if it's not war death and war layer is active, reset to base; if it is war death and war layer isn't active, activate it
+        if (type < 3)
+        {
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 1)
+            {
+                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
+            }
+        }
+        else
+        {
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0)
+            {
+                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
+            }
+        }
         switch (type)
         {
             case 0:
@@ -177,6 +208,11 @@ public class EnemyAI : MonoBehaviour {
                 timeForDeathAnim = death3Time;
                 //in case transition below doesn't work, decomment this:
                 //npcAnimator.Play("Base Layer.Death3", 0, 0f);
+                break;
+            case 3:
+                timeForDeathAnim = death4Time;
+                //in case transition below doesn't work, decomment this:
+                //npcAnimator.Play("War Layer.Death4", 0, 0f);
                 break;
         }
         //transits to correct death type
