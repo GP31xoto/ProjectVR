@@ -96,7 +96,7 @@ public class GameFlow : MonoBehaviour
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 int numOfDolls = population / 25;
-                deSpawnDoll(numOfDolls);
+                deSpawnDoll(numOfDolls, 2);
                 warBool = true;
             }
             else{unhappyBool = false;}
@@ -113,7 +113,7 @@ public class GameFlow : MonoBehaviour
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 int numOfDolls = population / 25;
-                deSpawnDoll(numOfDolls);
+                deSpawnDoll(numOfDolls, 3);
                 warBool = true;
             }
             else{warBool = false;}
@@ -126,7 +126,7 @@ public class GameFlow : MonoBehaviour
             int deathPops = (int)(Random.Range(50,100)/(1+popBuff));
             population = population - deathPops;
             int numOfDolls = population / 25;
-            deSpawnDoll(numOfDolls);
+            deSpawnDoll(numOfDolls, 1);
             foodDeath = true;
         }
         else{foodDeath = false;}
@@ -139,7 +139,7 @@ public class GameFlow : MonoBehaviour
             int deathPops = (int)(Random.Range(70,170)/(1+popBuff));
             population = population - deathPops;
             int numOfDolls = population / 25;
-            deSpawnDoll(numOfDolls);
+            deSpawnDoll(numOfDolls, 0);
             waterDeath = true;
         }
         else{waterDeath = false;}
@@ -179,14 +179,14 @@ public class GameFlow : MonoBehaviour
         }
     }
 
-    void deSpawnDoll(int numOfDolls)
+    void deSpawnDoll(int numOfDolls, int deathType)
     {
         int numDollsToKill = Mathf.Abs(dollsSpawned - numOfDolls);
         for(int i = 0; i<numDollsToKill;i++)
         {
             dollsSpawned--;
             doll = GameObject.FindWithTag("Doll");
-            doll.GetComponent<EnemyAI>().death();
+            doll.GetComponent<EnemyAI>().death(deathType);
         }
     }
 

@@ -123,6 +123,7 @@ public class EnemyAI : MonoBehaviour {
         playSoundEffectDoll(footsteps);
 
         if (!walkPointSet) SearchWalkPoint();
+        npcAnimator.SetFloat("Speed", 0.5f);
 
         if (foundResource) {
             agent.SetDestination(resourcePos);
@@ -169,13 +170,14 @@ public class EnemyAI : MonoBehaviour {
                 print("Collecting");
             }
             //Stay in place??
+            npcAnimator.SetFloat("Speed", 0f);
+            //when does it stop?
+            npcAnimator.SetBool("CollectResource", true);
         }
     }
 
-    public void death()
+    public void death(int type)
     {
-        //set the death type (currently defaults to peaceful; will edit for different death causes)
-        int type = 2;
         float timeForDeathAnim = Time.deltaTime;
         //if it's not war death and war layer is active, reset to base; if it is war death and war layer isn't active, activate it
         if (type < 3)
