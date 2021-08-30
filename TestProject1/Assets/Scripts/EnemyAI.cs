@@ -175,7 +175,6 @@ public class EnemyAI : MonoBehaviour {
     private void CollectResources() {
         //transform.LookAt(resource); check wht resource and play sound or put sound in the resource itself and send message
         if (!resourceNull) {
-            float timeCollectionStart = Time.deltaTime;
             Vector3 distanceToResource = transform.position - player.position;
             print(distanceToResource.magnitude);
             if (distanceToResource.magnitude < 3f) {
@@ -185,7 +184,7 @@ public class EnemyAI : MonoBehaviour {
             npcAnimator.SetFloat("Speed", 0f);
             //when does it stop?
             npcAnimator.SetBool("CollectResource", true);
-            while(Time.deltaTime - timeCollectionStart < collectTime)
+            while(!resourceNull && distanceToResource.magnitude < 3f)
             {
 
             }

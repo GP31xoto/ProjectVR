@@ -138,9 +138,9 @@ public class Hand_Menu : MonoBehaviour
             }
         }
         //set max resources that can be built
-        foodConstructAvailable = 5;
-        woodConstructAvailable = 5;
-        ironConstructAvailable = 5;
+        foodConstructAvailable = 3;
+        woodConstructAvailable = 3;
+        ironConstructAvailable = 4;
         waterConstructAvailable = 5;
         //set object visibility to recorded state
         //GameObject.SetActive(isMenuActive);
@@ -165,19 +165,19 @@ public class Hand_Menu : MonoBehaviour
         MenuOptionsVisibility();
         //refill resurces to be built after 1 round (determine round time later)
         foodTimeCounter = (int)Time.deltaTime - foodTimeCounterStart;
-        if (foodTimeCounter > 1000 && foodConstructAvailable < 5)
+        if (foodTimeCounter > 1000 && foodConstructAvailable < 3)
         {
             foodConstructAvailable++;
             foodTimeCounterStart = (int)Time.deltaTime;
         }
         woodTimeCounter = (int)Time.deltaTime - woodTimeCounterStart;
-        if (woodTimeCounter > 1000 && woodConstructAvailable < 5)
+        if (woodTimeCounter > 1000 && woodConstructAvailable < 3)
         {
             woodConstructAvailable++;
             woodTimeCounterStart = (int)Time.deltaTime;
         }
         ironTimeCounter = (int)Time.deltaTime - ironTimeCounterStart;
-        if (ironTimeCounter > 1000 && ironConstructAvailable < 5)
+        if (ironTimeCounter > 1000 && ironConstructAvailable < 4)
         {
             ironConstructAvailable++;
             ironTimeCounterStart = (int)Time.deltaTime;
@@ -212,11 +212,11 @@ public class Hand_Menu : MonoBehaviour
     public void SelectFood(int type)
     {
         playSoundEffect(select);
-        //if there are food sources that can be built
-        if (foodConstructAvailable > 0)
+        //if there are food sources that can be built for this type
+        if (foodConstructAvailable >= type)
         {
-            //reduce food sources available
-            foodConstructAvailable--;
+            //reduce food sources available depending on type
+            foodConstructAvailable -= type;
             //reset counter (replace once round time is established)
             foodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
@@ -233,11 +233,11 @@ public class Hand_Menu : MonoBehaviour
     public void SelectWood(int type)
     {
         playSoundEffect(select);
-        //if there are wood sources that can be built
-        if (woodConstructAvailable > 0)
+        //if there are wood sources that can be built for this type
+        if (woodConstructAvailable >= type)
         {
-            //reduce wood sources available
-            woodConstructAvailable--;
+            //reduce wood sources available depending on type
+            woodConstructAvailable -= type;
             //reset counter (replace once round time is established)
             woodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
@@ -254,11 +254,11 @@ public class Hand_Menu : MonoBehaviour
     public void SelectIron(int type)
     {
         playSoundEffect(select);
-        //if there are iron sources that can be built
-        if (ironConstructAvailable > 0)
+        //if there are iron sources that can be built for this type
+        if (ironConstructAvailable >= type)
         {
-            //reduce wood sources available
-            ironConstructAvailable--;
+            //reduce wood sources available depending on type
+            ironConstructAvailable -= type;
             //reset counter (replace once round time is established)
             ironTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
