@@ -490,6 +490,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6415244125915266525}
   - component: {fileID: 8713510376341914202}
+  - component: {fileID: 6710745985299552268}
+  - component: {fileID: 4204814030838600104}
+  - component: {fileID: 4430016942411049911}
   m_Layer: 0
   m_Name: Mine 2
   m_TagString: Iron
@@ -525,6 +528,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f9cf1573959874bb331a5755102d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6710745985299552268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940341662013696154}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+--- !u!114 &4204814030838600104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940341662013696154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6293101836963400097, guid: df914f6a099bdde4194751910c2639d9, type: 3}
+          m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
+          m_MethodName: SelectIron
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!65 &4430016942411049911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940341662013696154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 47.7, y: 40.37, z: 44.45}
+  m_Center: {x: 3.36, y: 16.4, z: -4.4}
 --- !u!1 &4718517560720017110
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5839201276850716508}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 1.8870296, y: -4.7, z: -12.9193535}
+  m_LocalPosition: {x: 1.8870296, y: -1.1999998, z: -12.9193535}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 2987003131504914986}
@@ -1174,7 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405348, guid: 61b490990a08faa419b1bb6a6708ad09, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 405348, guid: 61b490990a08faa419b1bb6a6708ad09, type: 3}
       propertyPath: m_LocalPosition.z

@@ -534,6 +534,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6804670410611055056}
   - component: {fileID: 3693287755812720577}
+  - component: {fileID: 5184726057998623343}
+  - component: {fileID: 6616191287861930666}
+  - component: {fileID: 8534167254180232644}
   m_Layer: 0
   m_Name: Farm_Prefab 3
   m_TagString: Food
@@ -569,7 +572,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f9cf1573959874bb331a5755102d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameFlow: {fileID: 0}
+--- !u!114 &5184726057998623343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804670410611055059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6293101836963400097, guid: df914f6a099bdde4194751910c2639d9, type: 3}
+          m_TargetAssemblyTypeName: Hand_Menu, Assembly-CSharp
+          m_MethodName: SelectFood
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &6616191287861930666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804670410611055059}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+--- !u!65 &8534167254180232644
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804670410611055059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.66, y: 3.41, z: 12.62}
+  m_Center: {x: 1, y: 1.49, z: -3.3}
 --- !u!1 &6804670410667133615
 GameObject:
   m_ObjectHideFlags: 0
