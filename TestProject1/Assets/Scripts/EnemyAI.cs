@@ -21,6 +21,7 @@ public class EnemyAI : MonoBehaviour {
     public float idleTime;
     public float walkTime;
     public float buildTime;
+    public float collectTime;
     public float death1Time;
     public float death2Time;
     public float death3Time;
@@ -68,6 +69,9 @@ public class EnemyAI : MonoBehaviour {
                     break;
                 case "Build":
                     buildTime = clip.length;
+                    break;
+                case "CollectResource":
+                    collectTime = clip.length;
                     break;
                 case "Death1":
                     death1Time = clip.length;
@@ -171,6 +175,7 @@ public class EnemyAI : MonoBehaviour {
     private void CollectResources() {
         //transform.LookAt(resource); check wht resource and play sound or put sound in the resource itself and send message
         if (!resourceNull) {
+            float timeCollectionStart = Time.deltaTime;
             Vector3 distanceToResource = transform.position - player.position;
             print(distanceToResource.magnitude);
             if (distanceToResource.magnitude < 3f) {
@@ -180,6 +185,11 @@ public class EnemyAI : MonoBehaviour {
             npcAnimator.SetFloat("Speed", 0f);
             //when does it stop?
             npcAnimator.SetBool("CollectResource", true);
+            while(Time.deltaTime - timeCollectionStart < collectTime)
+            {
+
+            }
+            npcAnimator.SetBool("CollectResource", false);
         }
     }
 
