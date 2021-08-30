@@ -123,7 +123,14 @@ public class EnemyAI : MonoBehaviour {
         playSoundEffectDoll(footsteps);
 
         if (!walkPointSet) SearchWalkPoint();
-        npcAnimator.SetFloat("Speed", 0.5f);
+        if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0f)
+        {
+            npcAnimator.SetFloat("Speed", 0.5f);
+        }
+        else
+        {
+            npcAnimator.SetFloat("Speed", 1f);
+        }
 
         if (foundResource) {
             agent.SetDestination(resourcePos);
