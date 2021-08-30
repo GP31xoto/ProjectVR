@@ -180,14 +180,14 @@ public class EnemyAI : MonoBehaviour {
         //if it's not war death and war layer is active, reset to base; if it is war death and war layer isn't active, activate it
         if (type < 3)
         {
-            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 1)
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 1f)
             {
                 npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
             }
         }
         else
         {
-            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0)
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0f)
             {
                 npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
             }
