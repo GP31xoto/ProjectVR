@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,13 +21,13 @@ public class GameFlow : MonoBehaviour
     //add new variable called happiness, low happiness causes people to revolt or leave
     //low happiness causes low growth and high hapiness causes more growth
     private int turn;//have to check how much time each turn is
-    private int turncost;
+    public int turncost;
     public GameObject doll;
 
     void Start()
     {
         musicManager = this.GetComponent<MusicManager>();
-        turncost = 5;
+        turncost = 2;
         happiness = 50;
         defaultResourceNumber = 100;
         foodDeath = false;
@@ -48,6 +48,7 @@ public class GameFlow : MonoBehaviour
     {
         musicManager.StopSFXDisaster();
         turn++;
+        turncost = 0;
         updateResources();
         counter(waterDeath,foodDeath);
         if(population < 50)
@@ -206,7 +207,9 @@ public class GameFlow : MonoBehaviour
             else if(resource == "Food"){foodAdd += 100;}
             else if(resource == "Wood"){woodAdd += 100;}
             else if(resource == "Iron"){ironAdd += 100;}
+            turncost++;
         }
+
     }
 
     public void addBuff(string resource,bool reverse,float buff)
@@ -223,6 +226,7 @@ public class GameFlow : MonoBehaviour
             if(resource == "Pop"){popBuff += buff;}
             else if(resource == "Food"){foodBuff += buff;}
             else if(resource == "Iron"){ironBuff += buff;}
+            turncost++;
         }
     }
 
@@ -242,6 +246,7 @@ public class GameFlow : MonoBehaviour
             else if(resource == "Food"){numFood *= 2;}
             else if(resource == "Wood"){numWood *= 2;}
             else if(resource == "Iron"){numIron *= 2;}
+            turncost++;
         }
     }
 
@@ -257,6 +262,7 @@ public class GameFlow : MonoBehaviour
         {
             happiness = happiness / 2;
             defaultResourceNumber *= 2;
+            turncost++;
         }
     }
 
@@ -274,22 +280,19 @@ public class GameFlow : MonoBehaviour
             happiness *= 2;
             woodAdd -= 100;
             ironAdd -= 100;
+            turncost++;
         }
-
     }
 
     public void Update()
     {
-        /*
-        if()
+        if(turncost == 2)
         {
-            turncost--;
-            if(turncost <= 0)
+
+            if (Input.GetKeyDown("space"))
             {
-                nextTurn()
-                turncost = 5;
+                nextTurn();
             }
-        }
-        */
+        }      
     }
 }
