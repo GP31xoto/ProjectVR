@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: efa853bad2a022a4497e8063a1772655, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 584e2a91706f3344aa4d60535b593f6f, type: 2}
     - target: {fileID: 919132149155446097, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_Name
       value: Granary_model5_1_hut
@@ -245,6 +249,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d418afb53af6ee4eac3a4d507e67ca3, type: 2}
     - target: {fileID: 919132149155446097, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
       propertyPath: m_Name
       value: Granary_model5_1_support

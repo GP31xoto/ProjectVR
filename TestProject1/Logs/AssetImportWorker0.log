@@ -15,12 +15,12 @@ C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56842
+56830
 Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 114.47 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.21 ms.
+Refreshing native plugins compatible for Editor in 112.49 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1/Assets
@@ -36,153 +36,945 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004875 seconds.
+Registered in 0.003587 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.71 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 118.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.757 seconds
+- Completed reload, in  2.359 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016188 seconds.
+Registered in 0.014467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.67 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  3.637 seconds
+- Completed reload, in  2.541 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 138.0 MB.
 System memory in use after: 137.4 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 6.723300 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.332000 ms MarkObjects: 4.337400 ms  DeleteObjects: 1.488700 ms)
+Total: 3.989000 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.804600 ms  DeleteObjects: 0.791100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(8f8a3fbb21a86834e89f41959fd9eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8f8a3fbb21a86834e89f41959fd9eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8e61b3b03b374324346a3cd6ddebd0') in 0.009106 seconds
-  Import took 0.018194 seconds .
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(9ed490ab1fd757b46b13c9700e2911e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(9ed490ab1fd757b46b13c9700e2911e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2871495c32e36f26606f81e201019100') in 0.516738 seconds
+  Import took 0.526689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.382603 seconds.
-  path: Assets/Scripts/GameFlow.cs
-  artifactKey: Guid(cab80456f7d34f442b1ab8e819ab1f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameFlow.cs using Guid(cab80456f7d34f442b1ab8e819ab1f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f601ed7c4aeda5085f3318ef1cca5e3') in 0.169342 seconds
-  Import took 0.181082 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016960 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.681 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 2499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.5 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3015.
-Total: 6.574000 ms (FindLiveObjects: 0.955700 ms CreateObjectMapping: 0.308500 ms MarkObjects: 3.768700 ms  DeleteObjects: 1.536700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 340.319968 seconds.
-  path: Assets/Scripts/EnemyAI.cs
-  artifactKey: Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyAI.cs using Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77200ff6a4e4fd4a74331e63f0966950') in 0.009824 seconds
-  Import took 0.017699 seconds .
+  Time since last request: 0.000467 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(2fc2c9b3a516cc9448e6c539a28d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(2fc2c9b3a516cc9448e6c539a28d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae2b2ae41a58423208c38e146b0d56a') in 0.019706 seconds
+  Import took 0.029331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 631.844737 seconds.
-  path: Assets/Scripts/EnemyAI.cs
-  artifactKey: Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyAI.cs using Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e389cf2e3a429104c2b40c8e425d1b50') in 0.009812 seconds
-  Import took 0.018013 seconds .
+  Time since last request: 0.000448 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(c14e3f5b4ea48494a9463532f5b7e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(c14e3f5b4ea48494a9463532f5b7e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e110767fbf9fd2ed15d17d5427dda59f') in 0.013311 seconds
+  Import took 0.019162 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.589 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 2499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.5 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3019.
-Total: 6.478400 ms (FindLiveObjects: 0.732300 ms CreateObjectMapping: 0.243300 ms MarkObjects: 4.337100 ms  DeleteObjects: 1.163200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021562 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.184 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 2499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.5 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3023.
-Total: 4.533800 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.110800 ms MarkObjects: 3.252800 ms  DeleteObjects: 0.737700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 172.753857 seconds.
-  path: Assets/Scripts/EnemyAI.cs
-  artifactKey: Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyAI.cs using Guid(fa3a0f45d1a205c49a1b152cc05f5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5361402a2365887c5c12c2aeefd06a01') in 0.006650 seconds
-  Import took 0.011777 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(17323bb0970dd6d4c8b6024a5df2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(17323bb0970dd6d4c8b6024a5df2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329e74499625b7ae4129b3d624b37732') in 0.014265 seconds
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/Materials/Pink.mat
+  artifactKey: Guid(9fe45f80f2c52e04393753c5be3e934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pink.mat using Guid(9fe45f80f2c52e04393753c5be3e934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7777c3e8785a173fe89c6bef880e7c0') in 0.017302 seconds
+  Import took 0.023964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(a053a3c8a8709e043837b65faa20b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow.mat using Guid(a053a3c8a8709e043837b65faa20b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2d72502e5e824114127168bcb8b34') in 0.016118 seconds
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(16aa78b9483e19346901d4dbb4e98540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(16aa78b9483e19346901d4dbb4e98540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd192ee18a399b193e631ab0ef3b884f1') in 0.014405 seconds
+  Import took 0.022787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/New Material 4.mat
+  artifactKey: Guid(d4ccce405e3eb3e45bae06255894d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 4.mat using Guid(d4ccce405e3eb3e45bae06255894d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338a4ac095721116be849d223d494745') in 0.014821 seconds
+  Import took 0.021526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.269775 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model1_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(eba85297c4e3b5549bd10589635f2b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model1_1_DefaultMaterial_Normal.png using Guid(eba85297c4e3b5549bd10589635f2b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7cf4b92b1538870e9399cc964d1b11') in 0.256210 seconds
+  Import took 0.262000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model5_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(1541a6dbbc156d54b9013d5da5688e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model5_1_DefaultMaterial_Normal.png using Guid(1541a6dbbc156d54b9013d5da5688e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610378c2281fd2c66315d39b8ba11043') in 0.103525 seconds
+  Import took 0.107922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model3_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(f663a2a7fc78e3c4f94c4d82e6e1f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model3_1_DefaultMaterial_Normal.png using Guid(f663a2a7fc78e3c4f94c4d82e6e1f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa7aeb679f3622bd66481ea32a5de7a') in 0.094816 seconds
+  Import took 0.099062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model4_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(cf8dfb7b4f094ae4b963ce5bc85ed4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model4_1_DefaultMaterial_Normal.png using Guid(cf8dfb7b4f094ae4b963ce5bc85ed4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd304810595157602ab08a7f063c8901') in 0.092071 seconds
+  Import took 0.096311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model6_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(63b796ae1294beb49bdc4c2989f6507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model6_1_DefaultMaterial_Normal.png using Guid(63b796ae1294beb49bdc4c2989f6507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152daaf7a0617bf67d5912fbcfe06a09') in 0.099074 seconds
+  Import took 0.105136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model2_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(8f1953d0e747d644096775ec055cdb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Houses/House_model2_1_DefaultMaterial_Normal.png using Guid(8f1953d0e747d644096775ec055cdb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fb2e00055a84b3cc3021835d51af38') in 0.113835 seconds
+  Import took 0.119865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.974825 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries
+  artifactKey: Guid(c41f6a6f9cae01a45891eaf09b2f11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries using Guid(c41f6a6f9cae01a45891eaf09b2f11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966cb306084327ba6e4fba79edab178a') in 0.006623 seconds
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.740297 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(c737a496362f0ff48aa31e2292745057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_BaseMap.png using Guid(c737a496362f0ff48aa31e2292745057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1b5fd6150afeb1deb21f39aced5d99') in 0.090575 seconds
+  Import took 0.098075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(271562756e2e9c74ea28dd71e101a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_Normal.png using Guid(271562756e2e9c74ea28dd71e101a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8010ddf532c0a0678192b596aabd6d') in 0.068262 seconds
+  Import took 0.073124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(cca6a84e7c6648840a9b8d23086ac479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_BaseMap.png using Guid(cca6a84e7c6648840a9b8d23086ac479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab91c1422884d54861b8e660bc960a44') in 0.060412 seconds
+  Import took 0.064913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(32dfa76884cbd004ebcc5f7bbd841f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_MaskMap.png using Guid(32dfa76884cbd004ebcc5f7bbd841f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e3dc2061ad4a602ccf1b3ea4438867') in 0.108145 seconds
+  Import took 0.112673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(aa0ff303920c79d4ab51a4aecfd5e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_BaseMap.png using Guid(aa0ff303920c79d4ab51a4aecfd5e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbee15575a44bac288f51238766f2df') in 0.060146 seconds
+  Import took 0.065633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(d536a16b6cfd8bd4eb09dda087c3d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_MaskMap.png using Guid(d536a16b6cfd8bd4eb09dda087c3d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2af0b434a73ecb6863e55db08027a7') in 0.082234 seconds
+  Import took 0.087717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(9d0faa45819734a4ca0c40ef4718c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_BaseMap.png using Guid(9d0faa45819734a4ca0c40ef4718c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c4b33b7af48da1788f9b0d42a0e0f9') in 0.061383 seconds
+  Import took 0.068419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(462130c36e4fe3c4fbf545f9c21662da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_MaskMap.png using Guid(462130c36e4fe3c4fbf545f9c21662da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597b7eacbdf412a863a26bf0ddda1ba5') in 0.086084 seconds
+  Import took 0.092913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_Normal.png
+  artifactKey: Guid(73f147d06c2632b45ba976872ccf23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_Normal.png using Guid(73f147d06c2632b45ba976872ccf23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c1fb7f1f95fb4922a3128f0bc87c3') in 0.069020 seconds
+  Import took 0.073539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(10e552ab7acd8864498b14a63b2c5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_MaskMap.png using Guid(10e552ab7acd8864498b14a63b2c5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0f5f60b0fd4af343382622a9bb176') in 0.089279 seconds
+  Import took 0.097359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(f8051f6cae1ec2345869ed0e1a6896db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_Normal.png using Guid(f8051f6cae1ec2345869ed0e1a6896db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2bc663c3cb4f9ee9195012889aa83') in 0.069332 seconds
+  Import took 0.074552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(417fbefce1f4b61469f19e6968201ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_MaskMap.png using Guid(417fbefce1f4b61469f19e6968201ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bc95e53fb1756a80dd2489935b1cbf') in 0.080001 seconds
+  Import took 0.085271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(eacee94bbaf5d8d47b30fe1341871b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_BaseMap.png using Guid(eacee94bbaf5d8d47b30fe1341871b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9714664e381664994912a85918eb6a') in 0.067586 seconds
+  Import took 0.071731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(32a19ebdc26638f45821645d0e867ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_MaskMap.png using Guid(32a19ebdc26638f45821645d0e867ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1698307b1547bc5a6392ea1d418c1555') in 0.100032 seconds
+  Import took 0.107083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(802c3180504ee0d449ea60073f6c99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_Normal.png using Guid(802c3180504ee0d449ea60073f6c99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fc4117dfbb55dbbda2747a20e0766') in 0.065437 seconds
+  Import took 0.070067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(b3f0300ac03b730469c369357a5fea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_MaskMap.png using Guid(b3f0300ac03b730469c369357a5fea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379f07ecf20644f2f9dd7d5591d54270') in 0.082404 seconds
+  Import took 0.087126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(5aabda0e3edde284bb7f2371b5859a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_MaskMap.png using Guid(5aabda0e3edde284bb7f2371b5859a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ea2826092903f4c5f078c3d1fb523a') in 0.089556 seconds
+  Import took 0.095025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(17fc0093044936342996a9046cc0e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_MaskMap.png using Guid(17fc0093044936342996a9046cc0e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6242bb35f63448ebfc3ac9a7271a2465') in 0.079007 seconds
+  Import took 0.083595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(ac87c7d3c3fc31940b16fdf974dbadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_Normal.png using Guid(ac87c7d3c3fc31940b16fdf974dbadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65034d690e3eb79cc720784eb161013') in 0.064496 seconds
+  Import took 0.069167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(e27c314b9ecde6042ace55af74b11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_Normal.png using Guid(e27c314b9ecde6042ace55af74b11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8e1c98f20d62b09ee7b90936e9b0af') in 0.062619 seconds
+  Import took 0.066671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(61b9fa244aea5434e9332faae659b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_BaseMap.png using Guid(61b9fa244aea5434e9332faae659b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0f9f585d53c01d03506392a57fb591') in 0.082474 seconds
+  Import took 0.086527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(13c519e598e8d76499afbfbedbd1c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_Normal.png using Guid(13c519e598e8d76499afbfbedbd1c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc09c49590f00c4bcd7ad19bb7da575') in 0.063019 seconds
+  Import took 0.068595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(1799c6cedf289a0498e795be14992dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_BaseMap.png using Guid(1799c6cedf289a0498e795be14992dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0861da756b9215b4ebda549f1e2447') in 0.069568 seconds
+  Import took 0.074012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(b076291197231df45b578abe64ca25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_Normal.png using Guid(b076291197231df45b578abe64ca25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c9d76b7246364b609716090d30dff9') in 0.062093 seconds
+  Import took 0.066304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(b9cb91fde889db34a9b8a42610527d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_Normal.png using Guid(b9cb91fde889db34a9b8a42610527d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eba2b4f5ba14a164f404d395efcf80') in 0.068818 seconds
+  Import took 0.073396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(e13cfbd704ac4804bbfc8c4578b76141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_MaskMap.png using Guid(e13cfbd704ac4804bbfc8c4578b76141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35aa02165e783ab2fe76120f270358b7') in 0.074773 seconds
+  Import took 0.079760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(a4e07fb1a7aaa124b90c83d5de22101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_BaseMap.png using Guid(a4e07fb1a7aaa124b90c83d5de22101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36adb633c216d4a5603d22b7854645d2') in 0.072406 seconds
+  Import took 0.076581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(23dbc1c0324644e42a17164209aa7bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_BaseMap.png using Guid(23dbc1c0324644e42a17164209aa7bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92163730eff2b52d65605b1679fac03f') in 0.062626 seconds
+  Import took 0.066704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(7d4b67b5dcfde2c45a8d139b4306990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_Normal.png using Guid(7d4b67b5dcfde2c45a8d139b4306990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8c81193715450dfb11f072cd18ddee') in 0.073171 seconds
+  Import took 0.078734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(40261c61697f32f4fade5466428a595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_BaseMap.png using Guid(40261c61697f32f4fade5466428a595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5fa5fac48e9a1f6d8aa968bd5061a4') in 0.059956 seconds
+  Import took 0.065324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 474.733227 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries
+  artifactKey: Guid(40c4df456e16ba9479bc7b97e0a3e126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries using Guid(40c4df456e16ba9479bc7b97e0a3e126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd761299d31a3073e9de7ac45570cd3') in 0.004826 seconds
+  Import took 0.012275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.921445 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material.mat
+  artifactKey: Guid(e7ddefbfe1441904d9ac1086c340a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material.mat using Guid(e7ddefbfe1441904d9ac1086c340a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2ad3e65e4b3cda14977e62ab039748') in 0.015889 seconds
+  Import took 0.022123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.658037 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 1.mat
+  artifactKey: Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 1.mat using Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01c031d0dc8bef3575bd73dd9460ed1') in 0.015371 seconds
+  Import took 0.021134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619533 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 2.mat
+  artifactKey: Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 2.mat using Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33796d293794035f7b11c3fb5b445cb7') in 0.026762 seconds
+  Import took 0.101061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554219 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 3.mat
+  artifactKey: Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 3.mat using Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5983b838ab6bab20eefe8f746485a6da') in 0.012996 seconds
+  Import took 0.021134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.566446 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 4.mat
+  artifactKey: Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material 4.mat using Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6630a825879fef83b975d231a1e0927') in 0.013303 seconds
+  Import took 0.018689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.603835 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary2_Material.mat
+  artifactKey: Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary2_Material.mat using Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847717529e4cfa580cffb7699447ccdb') in 0.013985 seconds
+  Import took 0.020625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.271499 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary3_Material.mat
+  artifactKey: Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary3_Material.mat using Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20708f9f51d6ef0eb34208898b02fbd') in 0.016123 seconds
+  Import took 0.022543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.090906 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary4_Material.mat
+  artifactKey: Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary4_Material.mat using Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8743fcd31beb6971e793aee53c5b9c') in 0.013941 seconds
+  Import took 0.020780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.661585 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary5_Material.mat
+  artifactKey: Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary5_Material.mat using Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0e7884076db3f1b2ba367169bee6a1') in 0.015337 seconds
+  Import took 0.021074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.005547 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary6_Material.mat
+  artifactKey: Guid(9dbae98d983efe54fadf5ecf35c7301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary6_Material.mat using Guid(9dbae98d983efe54fadf5ecf35c7301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506d2508155d83ebbbd5c00093baa378') in 0.012566 seconds
+  Import took 0.019388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.666350 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(b9cb91fde889db34a9b8a42610527d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model1_1_DefaultMaterial_Normal.png using Guid(b9cb91fde889db34a9b8a42610527d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c631fe45c5ccf3d9b94fdde1c161d4d') in 0.066184 seconds
+  Import took 0.071345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.709190 seconds.
+  path: Assets/Prefabs/GameFlow.prefab
+  artifactKey: Guid(79511e81ad1a8eb4a9c40417be0de320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameFlow.prefab using Guid(79511e81ad1a8eb4a9c40417be0de320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b2ddb37fdf97d98a6a3f130069f21') in 0.027826 seconds
+  Import took 0.034496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7529ae4d19b4e97c2c6f50037e5359ce') in 2.267702 seconds
+  Import took 2.283726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Prefabs/Granary/Granary_3.prefab
+  artifactKey: Guid(6ba9b919ab6b3fd4cb882f69afda94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_3.prefab using Guid(6ba9b919ab6b3fd4cb882f69afda94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4dd6252a4e4cc6c9485fbdad927cb2') in 0.076246 seconds
+  Import took 0.085736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Prefabs/Granary/Granary_6.prefab
+  artifactKey: Guid(bc61b8b686e59c442a6961562bea6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_6.prefab using Guid(bc61b8b686e59c442a6961562bea6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715d7f1d9f01cd8d4c0778b515270a9') in 0.083882 seconds
+  Import took 0.094686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Prefabs/Granary/Granary_5.prefab
+  artifactKey: Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_5.prefab using Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d57a62e3a9ddfdf283071a07b3f4b') in 0.064498 seconds
+  Import took 0.074334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Prefabs/Granary/Granary_1.prefab
+  artifactKey: Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_1.prefab using Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4aaec1aae152e9284e45339011fa8c') in 0.064733 seconds
+  Import took 0.073862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Prefabs/NPC_Model1_2.prefab
+  artifactKey: Guid(2ae6a26c72e883e499b7b2d7645e26e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPC_Model1_2.prefab using Guid(2ae6a26c72e883e499b7b2d7645e26e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e0a0c557e8ef65cd48eeb2fcde36b') in 0.307692 seconds
+  Import took 0.314698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Prefabs/Granary/Granary_2.prefab
+  artifactKey: Guid(2d96896ba2e202340aded64c5cdd30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_2.prefab using Guid(2d96896ba2e202340aded64c5cdd30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44c8de74d1ae93012a23c6cb3f2122') in 0.075905 seconds
+  Import took 0.086163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Prefabs/Granary/Granary_4.prefab
+  artifactKey: Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_4.prefab using Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cb0871fb428133f1a4c3cf25898e70') in 0.085830 seconds
+  Import took 0.096722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.585901 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(f8051f6cae1ec2345869ed0e1a6896db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model2_1_DefaultMaterial_Normal.png using Guid(f8051f6cae1ec2345869ed0e1a6896db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c051d02116131f1318282dfded9c5b0f') in 0.071122 seconds
+  Import took 0.077056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.546537 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910c5047f6b3ac0acd52b3ec6b7b6bda') in 1.648515 seconds
+  Import took 1.666408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040578 seconds.
+  path: Assets/Prefabs/Granary/Granary_1.prefab
+  artifactKey: Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_1.prefab using Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07b0b740fe1765d06f9cc14d10a3d28') in 0.092319 seconds
+  Import took 0.104598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001980 seconds.
+  path: Assets/Prefabs/Granary/Granary_1.prefab
+  artifactKey: Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_1.prefab using Guid(c333ba98ce093d645820d5dde822fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07b0b740fe1765d06f9cc14d10a3d28') in 0.086147 seconds
+  Import took 0.097002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.428156 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de63c5fea79c7ef9bb2afba723724ba2') in 1.559976 seconds
+  Import took 1.576552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/Granary/Granary_2.prefab
+  artifactKey: Guid(2d96896ba2e202340aded64c5cdd30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_2.prefab using Guid(2d96896ba2e202340aded64c5cdd30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d020e27579c30c251d822edb50ef415') in 0.087944 seconds
+  Import took 0.100056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.927757 seconds.
+  path: Assets/Materials/Particles
+  artifactKey: Guid(7940fe86a5a78014d848be7791057c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particles using Guid(7940fe86a5a78014d848be7791057c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2f81258b3703c7a57ad7bbed09fae4') in 0.005379 seconds
+  Import took 0.010805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.825860 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary3_hut_Material.mat
+  artifactKey: Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary3_hut_Material.mat using Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dfef682ecb596d7553aaa987661f5c') in 0.016888 seconds
+  Import took 0.022229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.461965 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material.mat
+  artifactKey: Guid(e7ddefbfe1441904d9ac1086c340a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary1_Material.mat using Guid(e7ddefbfe1441904d9ac1086c340a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61559ed228e783b6f94b6f2fa12d50') in 0.252914 seconds
+  Import took 0.260843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary2_Material.mat
+  artifactKey: Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary2_Material.mat using Guid(0453c8a40b79f074e8f8764c996fe353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d84082ca9b73daeabbec2acd4c3392') in 0.230146 seconds
+  Import took 0.237012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.109206 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary3_support_Material.mat
+  artifactKey: Guid(69c68d1bd22053b44b9f58bf718ae59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary3_support_Material.mat using Guid(69c68d1bd22053b44b9f58bf718ae59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c646ed8381add2708e0281d6f15062c8') in 0.015337 seconds
+  Import took 0.021321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.544077 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(7d4b67b5dcfde2c45a8d139b4306990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_hut_DefaultMaterial_Normal.png using Guid(7d4b67b5dcfde2c45a8d139b4306990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db1f33aea679693df32b7dbd023b407') in 0.066013 seconds
+  Import took 0.071284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.418851 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(ac87c7d3c3fc31940b16fdf974dbadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model3_1_support_DefaultMaterial_Normal.png using Guid(ac87c7d3c3fc31940b16fdf974dbadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b57802d6bc051af71dfe87291a52cdf') in 0.085985 seconds
+  Import took 0.091170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.349456 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ecf8755a6a5ce3ba81349af0a24ed4') in 2.021485 seconds
+  Import took 2.041787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Prefabs/Granary/Granary_3.prefab
+  artifactKey: Guid(6ba9b919ab6b3fd4cb882f69afda94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_3.prefab using Guid(6ba9b919ab6b3fd4cb882f69afda94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613e5b575d0c426c657f8d916bf20b0b') in 0.090248 seconds
+  Import took 0.104077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.712934 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary4_hut_Material.mat
+  artifactKey: Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary4_hut_Material.mat using Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e957bed0bcb9b820d5b87aa1beed3f0d') in 0.017567 seconds
+  Import took 0.025366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609640 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary3_hut_Material.mat
+  artifactKey: Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary3_hut_Material.mat using Guid(907b9867aee4a4142b9fc2772d74b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d163504b39ccbbe2061c9409fdb5263') in 0.256683 seconds
+  Import took 0.264355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary3_support_Material.mat
+  artifactKey: Guid(69c68d1bd22053b44b9f58bf718ae59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary3_support_Material.mat using Guid(69c68d1bd22053b44b9f58bf718ae59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1ff69dfb4996f2f7b4a0dd895ecc5') in 0.210377 seconds
+  Import took 0.219169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.702039 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary4_ladder_Material.mat
+  artifactKey: Guid(9da2faa32f3a8fa4a839a3ab54515bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary4_ladder_Material.mat using Guid(9da2faa32f3a8fa4a839a3ab54515bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0691530033a6c74e0d6c1c71e626b269') in 0.015040 seconds
+  Import took 0.022090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.820455 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(271562756e2e9c74ea28dd71e101a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_hut_DefaultMaterial_Normal.png using Guid(271562756e2e9c74ea28dd71e101a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e002072fe40bf4eaa6b66496c3394b') in 0.066127 seconds
+  Import took 0.073935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.207924 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_Normal.png
+  artifactKey: Guid(73f147d06c2632b45ba976872ccf23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model4_1_ladder_DefaultMaterial_Normal.png using Guid(73f147d06c2632b45ba976872ccf23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb7fe0af6f33b5ddfa9bb5a698a7574') in 0.064981 seconds
+  Import took 0.072256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.459337 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6620151278bc677f8b8b9b71fa8fcc') in 2.619566 seconds
+  Import took 2.656361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Prefabs/Granary/Granary_4.prefab
+  artifactKey: Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_4.prefab using Guid(1efcd02b3710bc44a8effa8390afe776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727624c2dcaacce96f899a09fb8210fb') in 0.092479 seconds
+  Import took 0.103719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.409145 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary5_hut_Material.mat
+  artifactKey: Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary5_hut_Material.mat using Guid(584e2a91706f3344aa4d60535b593f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30b7bf74aa39e53435e2b37865ea478') in 0.015555 seconds
+  Import took 0.024044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.660973 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary4_hut_Material.mat
+  artifactKey: Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary4_hut_Material.mat using Guid(d049ead93418325479dae9fd2b44866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3811aabbd88f53cb48687f02b866d6b') in 0.264341 seconds
+  Import took 0.272653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary4_ladder_Material.mat
+  artifactKey: Guid(9da2faa32f3a8fa4a839a3ab54515bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary4_ladder_Material.mat using Guid(9da2faa32f3a8fa4a839a3ab54515bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9290596b486df2feed9f6570d4784a') in 0.204072 seconds
+  Import took 0.210009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.537822 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary5_support_Material.mat
+  artifactKey: Guid(3d418afb53af6ee4eac3a4d507e67ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary5_support_Material.mat using Guid(3d418afb53af6ee4eac3a4d507e67ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ebb01bb4fa9d34c75fb9de544a8262') in 0.014081 seconds
+  Import took 0.021329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.630784 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary6_hut_Material.mat
+  artifactKey: Guid(9dbae98d983efe54fadf5ecf35c7301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary6_hut_Material.mat using Guid(9dbae98d983efe54fadf5ecf35c7301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9789425873eeac89251f18fa62d2523') in 0.014537 seconds
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.315077 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Granaries/Granary6_support_Material.mat
+  artifactKey: Guid(c635ce74372efe94999303383efaf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Granaries/Granary6_support_Material.mat using Guid(c635ce74372efe94999303383efaf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae35dcdb04a186936bd842388ab2611') in 0.014758 seconds
+  Import took 0.022263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.523489 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(13c519e598e8d76499afbfbedbd1c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_hut_DefaultMaterial_Normal.png using Guid(13c519e598e8d76499afbfbedbd1c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e486c73fa9c94613c3d1325551717ded') in 0.069902 seconds
+  Import took 0.077309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.787271 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(b076291197231df45b578abe64ca25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model5_1_support_DefaultMaterial_Normal.png using Guid(b076291197231df45b578abe64ca25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e204e7738c0147641923bb27817c74') in 0.069232 seconds
+  Import took 0.075918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.827625 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79745aa227c6d0fa4ccde3599bcfd632') in 2.746856 seconds
+  Import took 2.778818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefabs/Granary/Granary_5.prefab
+  artifactKey: Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Granary/Granary_5.prefab using Guid(914b75c776722a84089a8a81c553f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa09748fea6e9bedce408054f25d56') in 0.099571 seconds
+  Import took 0.114316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.911772 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_Normal.png
+  artifactKey: Guid(802c3180504ee0d449ea60073f6c99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_hut_DefaultMaterial_Normal.png using Guid(802c3180504ee0d449ea60073f6c99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40112594dd3d7626ebff8c25bcd4d21b') in 0.104432 seconds
+  Import took 0.113020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.230609 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_Normal.png
+  artifactKey: Guid(e27c314b9ecde6042ace55af74b11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Granaries/Granary_model6_1_support_DefaultMaterial_Normal.png using Guid(e27c314b9ecde6042ace55af74b11217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b376fc20327720ac4206e262b88bcbe') in 0.069825 seconds
+  Import took 0.075948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.361349 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(1d560556742f43b4298cff91678f83a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_BaseMap.png using Guid(1d560556742f43b4298cff91678f83a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf437fc07972af60befcf9d04e4b0ef5') in 0.067534 seconds
+  Import took 0.076738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(7d256e0b27096b6418f61a83613ba672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_Normal.png using Guid(7d256e0b27096b6418f61a83613ba672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cea261d94d4ec30dbb9e30a879bc53') in 0.067882 seconds
+  Import took 0.073844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(4cb5f0b7d97d92843bb60ed5c42e95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_MaskMap.png using Guid(4cb5f0b7d97d92843bb60ed5c42e95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8a69ba4b542c814fe2296eb86142b7') in 0.075813 seconds
+  Import took 0.080348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.937972 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Forges/Forge1_Material.mat
+  artifactKey: Guid(c211193e578f1764192134866881c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Forges/Forge1_Material.mat using Guid(c211193e578f1764192134866881c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44ce41e52c4ce1b23b313c91498ff6') in 0.014095 seconds
+  Import took 0.022748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.187584 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423746626def99f880013d24a272d9a7') in 3.281742 seconds
+  Import took 3.332837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Prefabs/Forge/Forge_6.prefab
+  artifactKey: Guid(e1ea248e23711dc4b8b851dc590ed7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_6.prefab using Guid(e1ea248e23711dc4b8b851dc590ed7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518d6f8e49ad7b47d4357f9bab584c7') in 0.096604 seconds
+  Import took 0.109368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/Forge/Forge_2.prefab
+  artifactKey: Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_2.prefab using Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee267307ad92e224510410da75de51aa') in 0.100545 seconds
+  Import took 0.110793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/Forge/Forge_4.prefab
+  artifactKey: Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_4.prefab using Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c711ea97ff2e5c11c93e528da1192d0f') in 0.090371 seconds
+  Import took 0.100397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Prefabs/Forge/Forge_3.prefab
+  artifactKey: Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_3.prefab using Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bd522acfc15bdb9f25ba2cf11c52bc') in 0.085025 seconds
+  Import took 0.096539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Prefabs/Forge/Forge_1.prefab
+  artifactKey: Guid(d7a74cbe14de5e14780664bd70073822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_1.prefab using Guid(d7a74cbe14de5e14780664bd70073822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14aa5880f538a9b31d363a95ec6f0f2') in 0.088229 seconds
+  Import took 0.099610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Prefabs/Forge/Forge_5.prefab
+  artifactKey: Guid(e2d8985b77d120744b076c351afa5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_5.prefab using Guid(e2d8985b77d120744b076c351afa5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500be7ea0ca2605a9dd120feef2b2d2b') in 0.087984 seconds
+  Import took 0.098883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.886497 seconds.
+  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_Normal.png
+  artifactKey: Guid(7d256e0b27096b6418f61a83613ba672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model1_1_DefaultMaterial_Normal.png using Guid(7d256e0b27096b6418f61a83613ba672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6769f88fe42fbb30682f853541ab2d9') in 0.084871 seconds
+  Import took 0.090445 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
