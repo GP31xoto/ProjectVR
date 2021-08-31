@@ -117,7 +117,8 @@ public class GameFlow : MonoBehaviour
                 deSpawnDoll(numOfDolls, 3);
                 warBool = true;
             }
-            else{warBool = false;}
+            else{warBool = false; }
+            doll.GetComponent<EnemyAI>().atWar = warBool;
         }
     }
     void checkFood(float i)

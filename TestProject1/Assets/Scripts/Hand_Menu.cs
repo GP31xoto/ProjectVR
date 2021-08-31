@@ -400,7 +400,7 @@ public class Hand_Menu : MonoBehaviour
 
     private void MenuOptionsVisibility()
     {
-        if(GameFlow.GetComponent<GameFlow>().wood <=0 || GameFlow.GetComponent<GameFlow>().iron <= 0)
+        if(GameFlow.GetComponent<GameFlow>().wood <= 0 || GameFlow.GetComponent<GameFlow>().iron <= 0 || GameFlow.GetComponent<GameFlow>().turncost >= 2)
         {
             constructsTab.SetActive(false);
             foodCounter.enabled = false;

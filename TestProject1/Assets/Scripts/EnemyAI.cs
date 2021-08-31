@@ -39,6 +39,7 @@ public class EnemyAI : MonoBehaviour {
     public float collectRange;
     public bool ResourceInSightRange, ResourceInCollectRange;
     public bool foundResource;
+    public bool atWar;
 
     //Audio
     AudioSource workAudio;//based on how they are in the gameobject
@@ -109,6 +110,7 @@ public class EnemyAI : MonoBehaviour {
         if (!ResourceInSightRange && !ResourceInCollectRange) Walking();
         if (ResourceInSightRange && !ResourceInCollectRange) FoundResource();
         if (ResourceInSightRange && ResourceInCollectRange) CollectResources();
+        GoToWar();
     }
 
     void playSoundEffectDoll(AudioClip clip)
@@ -189,6 +191,18 @@ public class EnemyAI : MonoBehaviour {
 
             }
             npcAnimator.SetBool("CollectResource", false);
+        }
+    }
+
+    private void GoToWar()
+    {
+        if (atWar)
+        {
+            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
+        }
+        else
+        {
+            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
         }
     }
 
