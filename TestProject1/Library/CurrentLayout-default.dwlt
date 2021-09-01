@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 145
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -599,22 +599,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Materials/TextureMappedMaterials/Textures/Forges
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Materials/TextureMappedMaterials/Textures/Forges
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 408}
-    m_SelectedIDs: 36910000
-    m_LastClickedID: 37174
-    m_ExpandedIDs: 00000000d4900000d6900000d8900000da900000dc900000de900000e0900000e29000001c9100003691000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 3c930000
+    m_LastClickedID: 37692
+    m_ExpandedIDs: 000000001a9100001c9100001e9100002091000022910000249100002691000028910000629100007c91000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4900000d6900000d8900000da900000dc900000de900000e0900000e2900000
+    m_ExpandedIDs: 000000001a9100001c9100001e9100002091000022910000249100002691000028910000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,7 +723,8 @@ MonoBehaviour:
     width: 372
     height: 710
   m_ViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 2100000, guid: 44c03628f6fb67b41a4812ffde4102c2, type: 2}
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 197
@@ -733,7 +734,7 @@ MonoBehaviour:
   m_LastVerticalScrollValue: 2160
   m_GlobalObjectId: 
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -765,7 +766,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 568cffffd8ecffff
+      m_ExpandedIDs: 96a9ffffc0ecffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -827,7 +828,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.004676529, y: 0.48161563, z: 0.020994335}
     speed: 2
-    m_Value: {x: -41.787033, y: 11.206475, z: -50.54325}
+    m_Value: {x: 0, y: 0.57, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -876,11 +877,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.034460552, y: 0.9457064, z: -0.106843136, w: -0.3050227}
     speed: 2
-    m_Value: {x: 0.055285476, y: -0.9086461, z: 0.12758467, w: 0.39373595}
+    m_Value: {x: -0.011127389, y: 0.9888445, z: -0.10871332, w: -0.10121346}
   m_Size:
     m_Target: 0.9552254
     speed: 2
-    m_Value: 50.642925
+    m_Value: 0.8176949
   m_Ortho:
     m_Target: 0
     speed: 2
