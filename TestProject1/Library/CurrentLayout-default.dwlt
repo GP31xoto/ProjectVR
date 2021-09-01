@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 139
+  controlID: 68
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -599,22 +599,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 50920000
-    m_LastClickedID: 37456
-    m_ExpandedIDs: 0000000050920000529200005492000056920000589200005a9200005c9200005e92000098920000b292000000ca9a3b
+    scrollPos: {x: 0, y: 408}
+    m_SelectedIDs: 36910000
+    m_LastClickedID: 37174
+    m_ExpandedIDs: 00000000d4900000d6900000d8900000da900000dc900000de900000e0900000e29000001c9100003691000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050920000529200005492000056920000589200005a9200005c9200005e920000
+    m_ExpandedIDs: 00000000d4900000d6900000d8900000da900000dc900000de900000e0900000e2900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -765,7 +765,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 80bbffff96ebffff
+      m_ExpandedIDs: 568cffffd8ecffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.004676529, y: 0.48161563, z: 0.020994335}
     speed: 2
-    m_Value: {x: 2.9417558, y: 4.2558746, z: 6.7935877}
+    m_Value: {x: -41.787033, y: 11.206475, z: -50.54325}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -876,11 +876,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.034460552, y: 0.9457064, z: -0.106843136, w: -0.3050227}
     speed: 2
-    m_Value: {x: 0.0097774565, y: -0.9887981, z: 0.075192034, w: 0.12856506}
+    m_Value: {x: 0.055285476, y: -0.9086461, z: 0.12758467, w: 0.39373595}
   m_Size:
     m_Target: 0.9552254
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 50.642925
   m_Ortho:
     m_Target: 0
     speed: 2
