@@ -9778,6 +9778,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d98ff3d19558863419dbdae20b0713ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
       propertyPath: m_Name
       value: Forge_model6_1
