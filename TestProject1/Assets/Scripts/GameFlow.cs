@@ -118,7 +118,11 @@ public class GameFlow : MonoBehaviour
                 warBool = true;
             }
             else{warBool = false; }
-            doll.GetComponent<EnemyAI>().atWar = warBool;
+            GameObject[] dollsAtWar = GameObject.FindGameObjectsWithTag("Doll");
+            foreach (GameObject person in dollsAtWar)
+            {
+                person.GetComponent<EnemyAI>().atWar = warBool;
+            }
         }
     }
     void checkFood(float i)
