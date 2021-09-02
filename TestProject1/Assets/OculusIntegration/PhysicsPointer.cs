@@ -32,21 +32,8 @@ public class PhysicsPointer : MonoBehaviour{
     private void LateUpdate() {
         UpdateLength();
 
-        if (OVRInput.Get(OVRInput.RawButton.A)) {
-            //Debug.Log("Pressed A");
-            player.Translate(Vector3.up/2);
-        } else if (OVRInput.Get(OVRInput.RawButton.B)){
-            //Debug.Log("Pressed B");
-            player.Translate(Vector3.down/2);
-        } else if (OVRInput.GetDown(OVRInput.RawButton.X)) {
-            //Debug.Log("Pressed X");
-            Menu.SetActive(!Menu.activeSelf);
-        } else if (OVRInput.GetDown(OVRInput.RawButton.Y)) {
-            //Debug.Log("Pressed Y");
-        }
-
         //Right Grab
-        if (DistanceGrabber.name.Contains("Right")) { 
+        if (DistanceGrabber.name.Contains("Right")) {
             if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger)) {
                 try { 
                     if (DistanceGrabber.grabbedObject.isGrabbed) { 
@@ -68,6 +55,14 @@ public class PhysicsPointer : MonoBehaviour{
         
         //Left Grab
         if (DistanceGrabber.name.Contains("Left")) {
+
+            if (OVRInput.GetDown(OVRInput.RawButton.X)) {
+                //Debug.Log("Pressed X");
+                Menu.SetActive(!Menu.activeSelf);
+            } else if (OVRInput.GetDown(OVRInput.RawButton.Y)) {
+                //Debug.Log("Pressed Y");
+            }
+
             if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger)) {
                 try {
                     if (DistanceGrabber.grabbedObject.isGrabbed) {

@@ -38,6 +38,15 @@ public class SimpleCapsuleWithStickMovement : MonoBehaviour
         if (HMDRotatesPlayer) RotatePlayerToHMD();
 		if (EnableLinearMovement) StickMovement();
 		if (EnableRotation) SnapTurn();
+
+		if (OVRInput.Get(OVRInput.RawButton.A)) {
+			//Debug.Log("Pressed A");
+			_rigidbody.MovePosition(_rigidbody.position + Vector3.up * Speed * Time.fixedDeltaTime);
+		} else if (OVRInput.Get(OVRInput.RawButton.B)) {
+			//Debug.Log("Pressed B");
+			_rigidbody.MovePosition(_rigidbody.position + Vector3.down * Speed * Time.fixedDeltaTime);
+		}
+
 	}
 
     void RotatePlayerToHMD()
