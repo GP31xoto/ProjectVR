@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7705720623920268012}
   - component: {fileID: 1980504449411484901}
   - component: {fileID: 6636954006194370508}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PhysicsPointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,3 +187,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultLength: 20
+  DistanceGrabber: {fileID: 0}

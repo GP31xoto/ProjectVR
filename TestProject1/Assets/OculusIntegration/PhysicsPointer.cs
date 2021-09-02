@@ -1,12 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PhysicsPointer : MonoBehaviour{
 
-    private LayerMask layerMask; // 2 = ignoreraycast layer
+    public LayerMask layerMask; // 2 = ignoreraycast layer
 
-    public float defaultLength = 3.0f;
+    public float defaultLength = 1000.0f;
 
     private LineRenderer lineRenderer = null;
 
@@ -14,70 +15,76 @@ public class PhysicsPointer : MonoBehaviour{
 
     private GameObject grabbedObject;
 
-    private Canvas canvasTest;
+    private GameObject grabbableGOL;
+    private GameObject grabbableGOR;
 
-    private bool boolLeftHand;
-    private bool boolRightHand;
-    private bool booltest;
+    public GameObject Menu;
 
-    private GameObject grabbableGO;
+    public Transform player;
 
     private void Awake(){
         lineRenderer = GetComponent<LineRenderer>();
-        layerMask = 1 << 2; // 2 = ignoreraycast layer
+        //layerMask = 1 << 2; // 2 = ignoreraycast layer
         layerMask = ~layerMask;
     }
 
     // Update is called once per frame
-    private void Update() {
+    private void LateUpdate() {
         UpdateLength();
 
-        //if (OVRInput.GetUp(OVRInput.Button.Four)) {
-        //    canvasTest.enabled = !canvasTest.enabled;
-        //}
-
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger) && booltest) {
-            Destroy(grabbableGO);
-            GameObject instance = Instantiate(grabbableGO,CalculateEnd(),Quaternion.identity);
-            instance.GetComponent<OVRGrabbable>().enabled = true;
+        if (OVRInput.Get(OVRInput.RawButton.A)) {
+            //Debug.Log("Pressed A");
+            player.Translate(Vector3.up/2);
+        } else if (OVRInput.Get(OVRInput.RawButton.B)){
+            //Debug.Log("Pressed B");
+            player.Translate(Vector3.down/2);
+        } else if (OVRInput.GetDown(OVRInput.RawButton.X)) {
+            //Debug.Log("Pressed X");
+            Menu.SetActive(!Menu.activeSelf);
+        } else if (OVRInput.GetDown(OVRInput.RawButton.Y)) {
+            //Debug.Log("Pressed Y");
         }
 
-        if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger) && booltest) {
-            GameObject grabbableGO = DistanceGrabber.grabbedObject.gameObject;
-            Destroy(DistanceGrabber.grabbedObject.gameObject);
-            Debug.Log(grabbableGO);
-            GameObject instance = Instantiate(grabbableGO,CalculateEnd(),Quaternion.identity);
-            instance.GetComponent<OVRGrabbable>().enabled = true;
+        //Right Grab
+        if (DistanceGrabber.name.Contains("Right")) { 
+            if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger)) {
+                try { 
+                    if (DistanceGrabber.grabbedObject.isGrabbed) { 
+                        Debug.Log(DistanceGrabber.grabbedObject.gameObject);
+                        grabbableGOR = DistanceGrabber.grabbedObject.gameObject;
+                    }
+                } catch(Exception e){
+                    //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbedobject e nulo
+                }
+            }
+
+            if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger)) {
+                Debug.Log(grabbableGOR);
+                Destroy(grabbableGOR);
+                GameObject instance = Instantiate(grabbableGOR,CalculateEnd(),Quaternion.identity);
+                instance.GetComponent<OVRGrabbable>().enabled = true;
+            }
         }
+        
+        //Left Grab
+        if (DistanceGrabber.name.Contains("Left")) {
+            if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger)) {
+                try {
+                    if (DistanceGrabber.grabbedObject.isGrabbed) {
+                        Debug.Log(DistanceGrabber.grabbedObject.gameObject);
+                        grabbableGOL = DistanceGrabber.grabbedObject.gameObject;
+                    }
+                } catch (Exception e) {
+                    //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbed object e nulo
+                }
+            }
 
-        //if (DistanceGrabber.name.Contains("Right")) {
-        //    if (DistanceGrabber.grabbedObject) {
-        //        boolRightHand = true;
-        //        //Debug.Log("Right Grab");
-        //    } else {
-        //        boolRightHand = false;
-        //        //Debug.Log("Right Not Grab");
-        //    }
-        //}
-
-        //if (DistanceGrabber.name.Contains("Left")) {
-        //    if (DistanceGrabber.grabbedObject) {
-        //        boolLeftHand = true;
-        //        //Debug.Log("Left Grab");
-        //    } else {
-        //        boolLeftHand = false;
-        //    }
-        //}
-
-        if (DistanceGrabber.grabbedObject) {
-            Debug.Log("true");
-            booltest = true;
-            grabbableGO = DistanceGrabber.grabbedObject.gameObject;
-        } else {
-            Debug.Log("False");
-
-            booltest = false;
-            grabbableGO = null;
+            if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger)) {
+                Debug.Log(grabbableGOL);
+                Destroy(grabbableGOL);
+                GameObject instance = Instantiate(grabbableGOL,CalculateEnd(),Quaternion.identity);
+                instance.GetComponent<OVRGrabbable>().enabled = true;
+            }
         }
     }
 
@@ -96,16 +103,6 @@ public class PhysicsPointer : MonoBehaviour{
         }
         return endPosition;
     }
-
-    //private RaycastHit CreateForwardRaycast() {
-    //    RaycastHit hit;
-
-    //    Ray ray = new Ray(transform.position,transform.forward);
-
-    //    Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask);
-    //    Debug.DrawRay(transform.position,transform.forward, Color.green, 10f);
-    //    return hit;
-    //}
 
     private Vector3 DefaultEnd(float leng) {
         return transform.position + (transform.forward * leng);
