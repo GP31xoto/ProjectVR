@@ -19,10 +19,10 @@ public class Hand_Menu : MonoBehaviour
     [SerializeField] private Text waterCounter;
 
     //object arrays for resource and construction options and Gameflow object
-    private GameObject[] foodSource;
-    private GameObject[] woodSource;
-    private GameObject[] ironSource;
-    private GameObject[] waterSource;
+    private GameObject foodSource;
+    private GameObject woodSource;
+    private GameObject ironSource;
+    private GameObject waterSource;
     private GameObject[] houseType;
     private GameObject[] forgeType;
     private GameObject[] granaryType;
@@ -30,7 +30,6 @@ public class Hand_Menu : MonoBehaviour
     private GameObject GameFlow;
 
     //ints for running the menu
-    private bool isMenuActive;
     private int foodConstructAvailable;
     private int woodConstructAvailable;
     private int ironConstructAvailable;
@@ -52,53 +51,29 @@ public class Hand_Menu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //determine menu as inactive at first
-        isMenuActive = false;
         GameFlow = GameObject.FindWithTag("GameFlow");
         //set resource lists from options in menu
-        foodSource = new GameObject[3];
-        int i = 0;
         foreach (GameObject child in resourcesTab.transform)
         {
             if (child.tag == "Food")
             {
-                foodSource[i] = child;
-                i++;
+                foodSource = child;
             }
-        }
-        woodSource = new GameObject[3];
-        i = 0;
-        foreach (GameObject child in resourcesTab.transform)
-        {
-            if (child.tag == "Wood")
+            else if (child.tag == "Wood")
             {
-                woodSource[i] = child;
-                i++;
+                woodSource = child;
             }
-        }
-        ironSource = new GameObject[4];
-        i = 0;
-        foreach (GameObject child in resourcesTab.transform)
-        {
-            if (child.tag == "Iron")
+            else if (child.tag == "Iron")
             {
-                ironSource[i] = child;
-                i++;
-            }
-        }
-        waterSource = new GameObject[3];
-        i = 0;
-        foreach (GameObject child in resourcesTab.transform)
-        {
-            if (child.tag == "Water")
+                ironSource = child;
+            }else if (child.tag == "Water")
             {
-                waterSource[i] = child;
-                i++;
+                waterSource = child;
             }
         }
         //set construction lists from options in menu
         houseType = new GameObject[6];
-        i = 0;
+        int i = 0;
         foreach (GameObject child in constructsTab.transform)
         {
             if (child.tag == "House")
@@ -142,8 +117,6 @@ public class Hand_Menu : MonoBehaviour
         woodConstructAvailable = 3;
         ironConstructAvailable = 4;
         waterConstructAvailable = 5;
-        //set object visibility to recorded state
-        //GameObject.SetActive(isMenuActive);
     }
 
     void playSoundEffect(AudioClip clip)
@@ -201,26 +174,19 @@ public class Hand_Menu : MonoBehaviour
         waterCounter.text = waterConstructAvailable + "/5";
         populationCounter.text = "X " + GameFlow.GetComponent<GameFlow>().rateOfGrowth;
     }
-    public void ChangeMenuState()
-    {
-        //change the state of the menu (true to false, false to true)
-        isMenuActive = !isMenuActive;
-        //set object visibility to recorded state
-        //GameObject.SetActive(isMenuActive);
-    }
 
-    public void SelectFood(int type)
+    public void SelectFood()
     {
         playSoundEffect(select);
         //if there are food sources that can be built for this type
-        if (foodConstructAvailable >= type)
+        if (foodConstructAvailable > 0)
         {
             //reduce food sources available depending on type
-            foodConstructAvailable -= type;
+            foodConstructAvailable--;
             //reset counter (replace once round time is established)
             foodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
-            GameObject foodToPlace = Instantiate(foodSource[type - 1]);
+            GameObject foodToPlace = Instantiate(foodSource);
             //remove eventTrigger from copy
             Destroy(foodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -230,18 +196,18 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectWood(int type)
+    public void SelectWood()
     {
         playSoundEffect(select);
         //if there are wood sources that can be built for this type
-        if (woodConstructAvailable >= type)
+        if (woodConstructAvailable > 0)
         {
             //reduce wood sources available depending on type
-            woodConstructAvailable -= type;
+            woodConstructAvailable--;
             //reset counter (replace once round time is established)
             woodTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
-            GameObject woodToPlace = Instantiate(woodSource[type - 1]);
+            GameObject woodToPlace = Instantiate(woodSource);
             //remove eventTrigger from copy
             Destroy(woodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -251,18 +217,18 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectIron(int type)
+    public void SelectIron()
     {
         playSoundEffect(select);
         //if there are iron sources that can be built for this type
-        if (ironConstructAvailable >= type)
+        if (ironConstructAvailable > 0)
         {
             //reduce wood sources available depending on type
-            ironConstructAvailable -= type;
+            ironConstructAvailable--;
             //reset counter (replace once round time is established)
             ironTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
-            GameObject ironToPlace = Instantiate(ironSource[type - 1]);
+            GameObject ironToPlace = Instantiate(ironSource);
             //remove eventTrigger from copy
             Destroy(ironToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -272,7 +238,7 @@ public class Hand_Menu : MonoBehaviour
         }
     }
 
-    public void SelectWater(int type)
+    public void SelectWater()
     {
         playSoundEffect(select);
         //if there are water sources that can be built
@@ -283,7 +249,7 @@ public class Hand_Menu : MonoBehaviour
             //reset counter (replace once round time is established)
             waterTimeCounterStart = (int)Time.deltaTime;
             //create copy to place in player's hand control
-            GameObject waterToPlace = Instantiate(waterSource[type - 1]);
+            GameObject waterToPlace = Instantiate(waterSource);
             //remove eventTrigger from copy
             Destroy(waterToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
@@ -459,57 +425,45 @@ public class Hand_Menu : MonoBehaviour
             }
         }
 
-        foreach(GameObject foodBuild in foodSource)
+        if (foodConstructAvailable <= 0)
         {
-            if (foodConstructAvailable <= 0)
-            {
-                foodBuild.SetActive(false);
-                foodCounter.enabled = false;
-            }
-            else
-            {
-                foodBuild.SetActive(true);
-                foodCounter.enabled = true;
-            }
+            foodSource.SetActive(false);
+            foodCounter.enabled = false;
         }
-        foreach (GameObject woodBuild in woodSource)
+        else
         {
-            if (woodConstructAvailable <= 0)
-            {
-                woodBuild.SetActive(false);
-                woodCounter.enabled = false;
-            }
-            else
-            {
-                woodBuild.SetActive(true);
-                woodCounter.enabled = true;
-            }
+            foodSource.SetActive(true);
+            foodCounter.enabled = true;
         }
-        foreach (GameObject ironBuild in ironSource)
+        if (woodConstructAvailable <= 0)
         {
-            if (ironConstructAvailable <= 0)
-            {
-                ironBuild.SetActive(false);
-                ironCounter.enabled = false;
-            }
-            else
-            {
-                ironBuild.SetActive(true);
-                ironCounter.enabled = true;
-            }
+            woodSource.SetActive(false);
+            woodCounter.enabled = false;
         }
-        foreach (GameObject waterBuild in waterSource)
+        else
         {
-            if (waterConstructAvailable <= 0)
-            {
-                waterBuild.SetActive(false);
-                waterCounter.enabled = false;
-            }
-            else
-            {
-                waterBuild.SetActive(true);
-                waterCounter.enabled = true;
-            }
+            woodSource.SetActive(true);
+            woodCounter.enabled = true;
+        }
+        if (ironConstructAvailable <= 0)
+        {
+            ironSource.SetActive(false);
+            ironCounter.enabled = false;
+        }
+        else
+        {
+            ironSource.SetActive(true);
+            ironCounter.enabled = true;
+        }
+        if (waterConstructAvailable <= 0)
+        {
+            waterSource.SetActive(false);
+            waterCounter.enabled = false;
+        }
+        else
+        {
+            waterSource.SetActive(true);
+            waterCounter.enabled = true;
         }
     }
 }
