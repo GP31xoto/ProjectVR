@@ -15,12 +15,12 @@ C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60860
+51913
 Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.87 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.11 ms.
+Refreshing native plugins compatible for Editor in 162.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.16 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1/Assets
@@ -30,255 +30,95 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
     VRAM:     1979 MB
-    Driver:   24.21.13.9901
+    Driver:   30.0.14.7196
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004390 seconds.
+Registered in 0.003515 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.83 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 98.26 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.291 seconds
+- Completed reload, in  2.585 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015936 seconds.
+Registered in 0.016792 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.250 seconds
+- Completed reload, in  2.563 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 138.0 MB.
 System memory in use after: 137.4 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 4.422000 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.212900 ms MarkObjects: 3.143900 ms  DeleteObjects: 0.705100 ms)
+Total: 4.318400 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.146200 ms MarkObjects: 2.922500 ms  DeleteObjects: 0.906200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Menu.prefab
-  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ee781a66b67230bf78100b66c618a1') in 6.732683 seconds
-  Import took 6.764604 seconds .
+  path: Assets/Prefabs/Workshop/Workshop_3.prefab
+  artifactKey: Guid(51192711533326046993d1c67cd4b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workshop/Workshop_3.prefab using Guid(51192711533326046993d1c67cd4b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b8e744ebd5ee1114ec01bcf85fedf9') in 0.759261 seconds
+  Import took 0.776256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.450880 seconds.
-  path: Assets/Prefabs/Forge/Forge_2.prefab
-  artifactKey: Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Forge/Forge_2.prefab using Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495edd210cb1bc2a8a7c1186684f5ffa') in 0.353017 seconds
-  Import took 0.378689 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/Prefabs/Workshop/Workshop_2.prefab
+  artifactKey: Guid(a904d699971ad8b4e845b212f3dc73e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workshop/Workshop_2.prefab using Guid(a904d699971ad8b4e845b212f3dc73e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bcbd2da9f9144d93628610422f07ea') in 0.332403 seconds
+  Import took 0.345897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Prefabs/Forge/Forge_3.prefab
-  artifactKey: Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Forge/Forge_3.prefab using Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826036724133266a92a9ccb2c408804f') in 0.355937 seconds
-  Import took 0.375339 seconds .
+  Time since last request: 0.000492 seconds.
+  path: Assets/Prefabs/Workshop/Workshop_1.prefab
+  artifactKey: Guid(0a6373975a332e24688d16ab45c3078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workshop/Workshop_1.prefab using Guid(0a6373975a332e24688d16ab45c3078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed57461c6bc405b36a4d3114955ea92') in 0.310489 seconds
+  Import took 0.324969 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 11.818586 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Forges/Forge2_Material.mat
-  artifactKey: Guid(4efb5f527b8cb75479d47895967bd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Forges/Forge2_Material.mat using Guid(4efb5f527b8cb75479d47895967bd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d6fd6144ded2a0f4efa57dc521e37f') in 0.539562 seconds
-  Import took 0.546695 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 134.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Forges/Forge3_Material.mat
-  artifactKey: Guid(d3f22dbc83e06dd40809c945d79fab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Forges/Forge3_Material.mat using Guid(d3f22dbc83e06dd40809c945d79fab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc9f818111b9a9cd036ec9ef95be1df') in 0.208508 seconds
-  Import took 0.213605 seconds .
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3028.
+Total: 3.688100 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.512800 ms  DeleteObjects: 0.754800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 13.432722 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Forges/Forge4_Material.mat
-  artifactKey: Guid(e6f386c527a0fe144aecf45b458fc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Forges/Forge4_Material.mat using Guid(e6f386c527a0fe144aecf45b458fc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d04d08f795c14b062f3d6d5e7c6a42') in 0.015140 seconds
-  Import took 0.022720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.736006 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Forges/Forge5_Material.mat
-  artifactKey: Guid(44c03628f6fb67b41a4812ffde4102c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Forges/Forge5_Material.mat using Guid(44c03628f6fb67b41a4812ffde4102c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d6a2732bd6f581c7ba4f627510afa4') in 0.014762 seconds
-  Import took 0.020821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.131282 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(80597fba4602a69488b1a5867c32a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_BaseMap.png using Guid(80597fba4602a69488b1a5867c32a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfe4a59b3d785fcccb69dd01188f0d5') in 0.203362 seconds
-  Import took 0.210072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(80b4ce7d5d1cb93429568d3e1bc8be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_Normal.png using Guid(80b4ce7d5d1cb93429568d3e1bc8be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239a0b6a95724468412f9c3913be02c4') in 0.086304 seconds
-  Import took 0.090748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(9bbb0f6c0659b214caea75fdb6e06561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_BaseMap.png using Guid(9bbb0f6c0659b214caea75fdb6e06561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d62b253c6b783ab691e4fdddd9f7ac') in 0.078270 seconds
-  Import took 0.084427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(56b100b5522e2574d9a33a822b0d8380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_Normal.png using Guid(56b100b5522e2574d9a33a822b0d8380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6dac0dc574347c3221f05d4716aa53') in 0.084875 seconds
-  Import took 0.090687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(589cd2c927fe83443954b8eca33316e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model3_1_DefaultMaterial_MaskMap.png using Guid(589cd2c927fe83443954b8eca33316e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207019b4f600496b06b5b0466b73053') in 0.085352 seconds
-  Import took 0.089950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(b231e096d98b9ca418bd0e8b20cd65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model2_1_DefaultMaterial_MaskMap.png using Guid(b231e096d98b9ca418bd0e8b20cd65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64be606ed3441ec84f12ffc80591a47') in 0.081117 seconds
-  Import took 0.087292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.488146 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(ee269af6ceb5b574a82b506b52790d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_BaseMap.png using Guid(ee269af6ceb5b574a82b506b52790d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb229c329eac26860f731a3d71cab274') in 0.078220 seconds
-  Import took 0.083961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(00ba95204086f82469d9f84a218bb396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_MaskMap.png using Guid(00ba95204086f82469d9f84a218bb396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24569c18b84c0a5caf14eb0a7b47ec92') in 0.088821 seconds
-  Import took 0.093734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(0a44b0176b241164baceca91b256c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_Normal.png using Guid(0a44b0176b241164baceca91b256c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba25b7e28b375e34e2b223454438c31f') in 0.080956 seconds
-  Import took 0.086210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(203b4982e0f67574a826ebbb48087e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_BaseMap.png using Guid(203b4982e0f67574a826ebbb48087e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f606b692eb91d05c91d265bd7e976836') in 0.074117 seconds
-  Import took 0.079600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(a3fa8f6cfe35592409c9e0e2d1d7157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_MaskMap.png using Guid(a3fa8f6cfe35592409c9e0e2d1d7157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264148e1be0de596534e7222ef63f224') in 0.087157 seconds
-  Import took 0.092844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png using Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88680c5834eda1426c7a259923024ef') in 0.078092 seconds
-  Import took 0.082705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.825321 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(0a44b0176b241164baceca91b256c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model4_1_DefaultMaterial_Normal.png using Guid(0a44b0176b241164baceca91b256c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102146041d9177d1cdf9e61a2eda1f92') in 0.073531 seconds
-  Import took 0.080282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.432943 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges
-  artifactKey: Guid(eb4b78a072df6e04f9372bda9c6e704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges using Guid(eb4b78a072df6e04f9372bda9c6e704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bf706a85e80cf05fe6729a3d616fcd') in 0.006276 seconds
-  Import took 0.018079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.010446 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(203b4982e0f67574a826ebbb48087e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_BaseMap.png using Guid(203b4982e0f67574a826ebbb48087e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cc429278c27dcbfaa33a8834c4245c') in 0.083543 seconds
-  Import took 0.092457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png using Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8e4c2d74b2112c50a598a2691ebbcb') in 0.086267 seconds
-  Import took 0.093651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.132540 seconds.
-  path: Assets/Prefabs/Menu.prefab
-  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb6756ec66c3cc960792f85fd670184') in 5.678222 seconds
-  Import took 5.715964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Prefabs/Forge/Forge_4.prefab
-  artifactKey: Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Forge/Forge_4.prefab using Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c360433d357524ac3d526d41bed2757') in 0.139724 seconds
-  Import took 0.158469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.348537 seconds.
-  path: Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png
-  artifactKey: Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TextureMappedMaterials/Textures/Forges/Forge_model5_1_DefaultMaterial_Normal.png using Guid(9ba1cec14173b534faf2884334f55028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6830078a7b362c959ffa8cc561df8b') in 0.124727 seconds
-  Import took 0.131332 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 5274213280908265357}
   m_Layer: 0
   m_Name: NPC_Model1_2
-  m_TagString: Untagged
+  m_TagString: Doll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,11 +703,25 @@ MonoBehaviour:
   resourcePos: {x: 0, y: 0, z: 0}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 0
+  npcAnimator: {fileID: 0}
+  idleTime: 0
+  walkTime: 0
+  buildTime: 0
+  collectTime: 0
+  death1Time: 0
+  death2Time: 0
+  death3Time: 0
+  death4Time: 0
+  idleWarTime: 0
+  attackTime: 0
+  damageTime: 0
+  runTime: 0
   resourceNull: 0
   collectRange: 0
   ResourceInSightRange: 0
   ResourceInCollectRange: 0
   foundResource: 0
+  atWar: 0
   talking: {fileID: 8300000, guid: 7bf606c70a46a6247bba7f2309515252, type: 3}
   footsteps: {fileID: 8300000, guid: 9c537210db26e76498105e2fb491a390, type: 3}
   kissing: {fileID: 8300000, guid: ccbb2cde2d96b564183682b827f13aa3, type: 3}
