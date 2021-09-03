@@ -179,7 +179,7 @@ public class Hand_Menu : MonoBehaviour
     {
         playSoundEffect(select);
         //if there are food sources that can be built for this type
-        if (foodConstructAvailable > 0)
+        if (foodConstructAvailable > 0 && GameFlow.GetComponent<GameFlow>().water > 0)
         {
             //reduce food sources available depending on type
             foodConstructAvailable--;
@@ -200,7 +200,7 @@ public class Hand_Menu : MonoBehaviour
     {
         playSoundEffect(select);
         //if there are wood sources that can be built for this type
-        if (woodConstructAvailable > 0)
+        if (woodConstructAvailable > 0 && GameFlow.GetComponent<GameFlow>().water > 0)
         {
             //reduce wood sources available depending on type
             woodConstructAvailable--;
@@ -376,6 +376,39 @@ public class Hand_Menu : MonoBehaviour
         else
         {
             constructsTab.SetActive(true);
+            foreach (GameObject housing in houseType)
+            {
+                if (GameFlow.GetComponent<GameFlow>().wood < housing.GetComponent<House>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < housing.GetComponent<House>().cost.consumeIron())
+                {
+                    housing.SetActive(false);
+                }
+                else
+                {
+                    housing.SetActive(true);
+                }
+            }
+            foreach (GameObject forging in forgeType)
+            {
+                if (GameFlow.GetComponent<GameFlow>().wood < forging.GetComponent<Forge>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < forging.GetComponent<Forge>().cost.consumeIron())
+                {
+                    forging.SetActive(false);
+                }
+                else
+                {
+                    forging.SetActive(true);
+                }
+            }
+            foreach (GameObject graining in granaryType)
+            {
+                if (GameFlow.GetComponent<GameFlow>().wood < graining.GetComponent<Granary>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < graining.GetComponent<Granary>().cost.consumeIron())
+                {
+                    graining.SetActive(false);
+                }
+                else
+                {
+                    graining.SetActive(true);
+                }
+            }
             foodCounter.enabled = true;
             woodCounter.enabled = true;
             ironCounter.enabled = true;
@@ -391,40 +424,6 @@ public class Hand_Menu : MonoBehaviour
             populationCounter.enabled = true;
         }
 
-        foreach(GameObject housing in houseType)
-        {
-            if (GameFlow.GetComponent<GameFlow>().wood < housing.GetComponent<House>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < housing.GetComponent<House>().cost.consumeIron())
-            {
-                housing.SetActive(false);
-            }
-            else
-            {
-                housing.SetActive(true);
-            }
-        }
-        foreach (GameObject forging in forgeType)
-        {
-            if (GameFlow.GetComponent<GameFlow>().wood < forging.GetComponent<Forge>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < forging.GetComponent<Forge>().cost.consumeIron())
-            {
-                forging.SetActive(false);
-            }
-            else
-            {
-                forging.SetActive(true);
-            }
-        }
-        foreach (GameObject graining in granaryType)
-        {
-            if (GameFlow.GetComponent<GameFlow>().wood < graining.GetComponent<Granary>().cost.consumeWood() || GameFlow.GetComponent<GameFlow>().iron < graining.GetComponent<Granary>().cost.consumeIron())
-            {
-                graining.SetActive(false);
-            }
-            else
-            {
-                graining.SetActive(true);
-            }
-        }
-
         if (foodConstructAvailable <= 0)
         {
             foodSource.SetActive(false);
@@ -432,8 +431,16 @@ public class Hand_Menu : MonoBehaviour
         }
         else
         {
-            foodSource.SetActive(true);
-            foodCounter.enabled = true;
+            if (GameFlow.GetComponent<GameFlow>().water <= 0)
+            {
+                foodSource.SetActive(false);
+                foodCounter.enabled = false;
+            }
+            else
+            {
+                foodSource.SetActive(true);
+                foodCounter.enabled = true;
+            }
         }
         if (woodConstructAvailable <= 0)
         {
@@ -442,8 +449,16 @@ public class Hand_Menu : MonoBehaviour
         }
         else
         {
-            woodSource.SetActive(true);
-            woodCounter.enabled = true;
+            if (GameFlow.GetComponent<GameFlow>().water <= 0)
+            {
+                woodSource.SetActive(false);
+                woodCounter.enabled = false;
+            }
+            else
+            {
+                woodSource.SetActive(true);
+                woodCounter.enabled = true;
+            }
         }
         if (ironConstructAvailable <= 0)
         {
