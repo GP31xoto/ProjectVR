@@ -58,22 +58,21 @@ namespace OculusSampleFramework
             m_renderer.SetPropertyBlock(m_mpb);
         }
 
-        void RefreshCrosshair()
-        {
-            if (m_crosshair)
-            {
-                if (isGrabbed) m_crosshair.SetState(GrabbableCrosshair.CrosshairState.Disabled);
-                else if (!InRange) m_crosshair.SetState(GrabbableCrosshair.CrosshairState.Disabled);
-                else m_crosshair.SetState(Targeted ? GrabbableCrosshair.CrosshairState.Targeted : GrabbableCrosshair.CrosshairState.Enabled);
-            }
-            if (m_materialColorField != null)
-            {
-                m_renderer.GetPropertyBlock(m_mpb);
-                if (isGrabbed || !InRange) m_mpb.SetColor(m_materialColorField, m_crosshairManager.OutlineColorOutOfRange);
-                else if (Targeted) m_mpb.SetColor(m_materialColorField, m_crosshairManager.OutlineColorHighlighted);
-                else m_mpb.SetColor(m_materialColorField, m_crosshairManager.OutlineColorInRange);
-                m_renderer.SetPropertyBlock(m_mpb);
-            }
+        void RefreshCrosshair() {
+            try {
+                if (m_crosshair) {
+                    if (isGrabbed) m_crosshair.SetState(GrabbableCrosshair.CrosshairState.Disabled);
+                    else if (!InRange) m_crosshair.SetState(GrabbableCrosshair.CrosshairState.Disabled);
+                    else m_crosshair.SetState(Targeted ? GrabbableCrosshair.CrosshairState.Targeted : GrabbableCrosshair.CrosshairState.Enabled);
+                }
+                if (m_materialColorField != null) {
+                    m_renderer.GetPropertyBlock(m_mpb);
+                    if (isGrabbed || !InRange) m_mpb.SetColor(m_materialColorField,m_crosshairManager.OutlineColorOutOfRange);
+                    else if (Targeted) m_mpb.SetColor(m_materialColorField,m_crosshairManager.OutlineColorHighlighted);
+                    else m_mpb.SetColor(m_materialColorField,m_crosshairManager.OutlineColorInRange);
+                    m_renderer.SetPropertyBlock(m_mpb);
+                }
+            } catch { };
         }
     }
 }

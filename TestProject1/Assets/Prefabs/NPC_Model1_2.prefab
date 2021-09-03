@@ -355,6 +355,7 @@ GameObject:
   - component: {fileID: 273199838993814490}
   - component: {fileID: 5955472104663859256}
   - component: {fileID: -8367785188258348122}
+  - component: {fileID: 2203914756480490957}
   m_Layer: 0
   m_Name: NPC_Model1_2
   m_TagString: Doll
@@ -830,6 +831,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &2203914756480490957
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224119180575434286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.11708832
+  m_Height: 1.3011322
+  m_Direction: 1
+  m_Center: {x: -0.000022888184, y: 0.65766144, z: 0.002166748}
 --- !u!1 &1449089006946253714
 GameObject:
   m_ObjectHideFlags: 0
