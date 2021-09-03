@@ -131,11 +131,17 @@ public class EnemyAI : MonoBehaviour {
         if (!walkPointSet) SearchWalkPoint();
         if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0f)
         {
-            npcAnimator.SetFloat("Speed", 0.5f);
+            if(npcAnimator.GetFloat("Speed") != 0.5f)
+            {
+                npcAnimator.SetFloat("Speed", 0.5f);
+            }
         }
         else
         {
-            npcAnimator.SetFloat("Speed", 1f);
+            if (npcAnimator.GetFloat("Speed") != 1f)
+            {
+                npcAnimator.SetFloat("Speed", 1f);
+            }
         }
 
         if (foundResource) {
@@ -183,13 +189,22 @@ public class EnemyAI : MonoBehaviour {
                 print("Collecting");
             }
             //Stay in place??
-            npcAnimator.SetFloat("Speed", 0f);
+            if (npcAnimator.GetFloat("Speed") > 0f)
+            {
+                npcAnimator.SetFloat("Speed", 0f);
+            }
             //when does it stop?
-            npcAnimator.SetBool("CollectResource", true);
+            if (!npcAnimator.GetBool("CollectResource"))
+            {
+                npcAnimator.SetBool("CollectResource", true);
+            }
         }
         else
         {
-            npcAnimator.SetBool("CollectResource", false);
+            if (npcAnimator.GetBool("CollectResource"))
+            {
+                npcAnimator.SetBool("CollectResource", false);
+            }
         }
     }
 
@@ -197,11 +212,17 @@ public class EnemyAI : MonoBehaviour {
     {
         if (atWar)
         {
-            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
+            if(npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) <= 0f)
+            {
+                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
+            }
         }
         else
         {
-            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) > 0f)
+            {
+                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
+            }
         }
     }
 
@@ -211,14 +232,14 @@ public class EnemyAI : MonoBehaviour {
         //if it's not war death and war layer is active, reset to base; if it is war death and war layer isn't active, activate it
         if (type < 3)
         {
-            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 1f)
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) > 0f)
             {
                 npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 0f);
             }
         }
         else
         {
-            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) == 0f)
+            if (npcAnimator.GetLayerWeight(npcAnimator.GetLayerIndex("War Layer")) <= 0f)
             {
                 npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("War Layer"), 1f);
             }
