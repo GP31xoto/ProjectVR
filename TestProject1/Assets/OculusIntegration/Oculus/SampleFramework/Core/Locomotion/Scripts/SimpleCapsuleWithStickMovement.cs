@@ -103,4 +103,7 @@ public class SimpleCapsuleWithStickMovement : MonoBehaviour
 			ReadyToSnapTurn = true;
 		}
 	}
+
+    private void OnTriggerEnter(Collider other) {
+    }
 }
