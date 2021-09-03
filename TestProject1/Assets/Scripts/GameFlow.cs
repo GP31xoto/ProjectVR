@@ -181,7 +181,9 @@ public class GameFlow : MonoBehaviour
         for(int i = 0; i<numberOfDolls;i++)
         {
             dollsSpawned++;
-            Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
+            GameObject dollInstance = Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
+            dollInstance.GetComponent<EnemyAI>().enabled = true;
+            dollInstance.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
 

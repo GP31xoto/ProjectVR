@@ -65,8 +65,8 @@ public class PhysicsPointer : MonoBehaviour {
     private void LateUpdate() {
         UpdateLength();
 
-        Debug.Log("Left: " + OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, cont));
-        Debug.Log("Right: " + OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont));
+        //Debug.Log("Left: " + OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, cont));
+        //Debug.Log("Right: " + OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont));
 
         //Right Grab
         if (DistanceGrabber.name.Contains("Right")) {
@@ -76,7 +76,6 @@ public class PhysicsPointer : MonoBehaviour {
                 originalScaleR = new Vector3();
                 originalScaleDefinedR = true;
                 instR = null;
-                Debug.Log(1);
             }
 
             if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger, cont)) {
@@ -84,16 +83,13 @@ public class PhysicsPointer : MonoBehaviour {
                     if (originalScaleDefinedR) {
                         originalScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
                         originalScaleDefinedR = false;
-                        Debug.Log(2);
                     }
                     atualScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
-                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.02f,.02f,.02f),0.08f);
-                    Debug.Log(3);
+                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.02f,.02f,.02f),0.1f);
 
                     if (DistanceGrabber.grabbedObject.isGrabbed) {
                         Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOR = DistanceGrabber.grabbedObject.gameObject;
-                        Debug.Log(4);
 
                     }
                 } catch (Exception e) {
@@ -107,8 +103,6 @@ public class PhysicsPointer : MonoBehaviour {
                 instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
 
                 instR.GetComponent<OVRGrabbable>().enabled = true;
-                Debug.Log(5);
-
             }
         }
 
