@@ -9,24 +9,45 @@ public class PhysicsPointer : MonoBehaviour{
 
     public float defaultLength = 1000.0f;
 
-    private LineRenderer lineRenderer = null;
-
     public OVRGrabber DistanceGrabber;
-
-    private GameObject grabbedObject;
-
-    private GameObject grabbableGOL;
-    private GameObject grabbableGOR;
 
     public GameObject Menu;
 
     public Transform player;
+
+    public float speed = 50.0f;
+
+    //private variables
+    private LineRenderer lineRenderer = null;
+    private GameObject grabbedObject;
+    private GameObject grabbableGOL;
+    private GameObject grabbableGOR;
+
+    public Vector3 originalScale;
+    public Vector3 atualScale;
+    public bool originalScaleDefined = true;
 
     private void Awake(){
         lineRenderer = GetComponent<LineRenderer>();
         //layerMask = 1 << 2; // 2 = ignoreraycast layer
         layerMask = ~layerMask;
     }
+
+    //IEnumerator test (Vector3 a, Vector3 b, float time) {
+    //    while (true) {
+    //        yield return scaleUp( a, b, time);
+    //    }
+    //}
+
+    //IEnumerator scaleUp(Vector3 a, Vector3 b, float time) {
+    //    float i = 0f;
+    //    float rate = (1.0f/time)* speed;
+    //    while (i < 1.0f) {
+    //        i += Time.deltaTime * rate;
+    //        transform.localScale = Vector3.Lerp(a,b,i);
+    //        yield return null;
+    //    }
+    //}
 
     // Update is called once per frame
     private void LateUpdate() {
@@ -35,7 +56,15 @@ public class PhysicsPointer : MonoBehaviour{
         //Right Grab
         if (DistanceGrabber.name.Contains("Right")) {
             if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger)) {
-                try { 
+                try {
+                    if (originalScaleDefined) {
+                        originalScale = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                        originalScaleDefined = false;
+                    }
+                    atualScale = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScale,new Vector3(1,1,1), 0.075f);
+                    Debug.Log(Time.deltaTime);
+
                     if (DistanceGrabber.grabbedObject.isGrabbed) { 
                         Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOR = DistanceGrabber.grabbedObject.gameObject;
@@ -48,7 +77,15 @@ public class PhysicsPointer : MonoBehaviour{
             if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger)) {
                 Debug.Log(grabbableGOR);
                 Destroy(grabbableGOR);
-                GameObject instance = Instantiate(grabbableGOR,CalculateEnd(),Quaternion.identity);
+                GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
+
+                while (instance.transform.localScale != originalScale) {
+                    instance.transform.localScale = Vector3.Lerp(instance.transform.localScale,originalScale,0.02f);
+                }
+
+                atualScale = new Vector3();
+                originalScale = new Vector3();
+                originalScaleDefined = true;
                 instance.GetComponent<OVRGrabbable>().enabled = true;
             }
         }
