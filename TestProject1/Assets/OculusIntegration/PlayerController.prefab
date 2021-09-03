@@ -1076,13 +1076,10 @@ MonoBehaviour:
     m_Bits: 36
   defaultLength: 1000
   DistanceGrabber: {fileID: 242043999881279240}
-  Menu: {fileID: 0}
+  Menu: {fileID: 6322680664187236465}
   player: {fileID: 3140694348675813221}
   speed: 50
-  originalScale: {x: 0, y: 0, z: 0}
-  atualScale: {x: 0, y: 0, z: 0}
-  atualScale2: {x: 0, y: 0, z: 0}
-  originalScaleDefined: 1
+  cont: 3
 --- !u!1 &1419380173789172402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1437,7 @@ MonoBehaviour:
   m_noSnapThreshhold: 0.05
   m_useSpherecast: 0
   m_preventGrabThroughWalls: 1
-  m_objectPullVelocity: 200
+  m_objectPullVelocity: 400
   m_maxGrabDistance: 2
   m_grabObjectsInLayer: 6
   m_obstructionLayer: 0
@@ -2476,13 +2473,10 @@ MonoBehaviour:
     m_Bits: 36
   defaultLength: 1000
   DistanceGrabber: {fileID: 8687073919898199030}
-  Menu: {fileID: 0}
+  Menu: {fileID: 6322680664187236465}
   player: {fileID: 3140694348675813221}
   speed: 50
-  originalScale: {x: 0, y: 0, z: 0}
-  atualScale: {x: 0, y: 0, z: 0}
-  atualScale2: {x: 0, y: 0, z: 0}
-  originalScaleDefined: 1
+  cont: 3
 --- !u!1 &3292959019382906540
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,7 +4364,7 @@ MonoBehaviour:
   m_noSnapThreshhold: 0.05
   m_useSpherecast: 0
   m_preventGrabThroughWalls: 1
-  m_objectPullVelocity: 200
+  m_objectPullVelocity: 400
   m_maxGrabDistance: 2
   m_grabObjectsInLayer: 6
   m_obstructionLayer: 0
@@ -6004,6 +5998,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df914f6a099bdde4194751910c2639d9, type: 3}
+--- !u!1 &6322680664187236465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6322680664037467762, guid: df914f6a099bdde4194751910c2639d9, type: 3}
+  m_PrefabInstance: {fileID: 154359299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4597024820564102140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4597024820412276223, guid: df914f6a099bdde4194751910c2639d9, type: 3}
@@ -6203,13 +6202,13 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6636954006194370508, guid: acc19d2895146cb4d95c0c3f728951e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: acc19d2895146cb4d95c0c3f728951e3, type: 3}
---- !u!4 &6323240207539602501 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4184352418801890658, guid: acc19d2895146cb4d95c0c3f728951e3, type: 3}
-  m_PrefabInstance: {fileID: 7913219465626923303}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1161282944454766712 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9064852709140857183, guid: acc19d2895146cb4d95c0c3f728951e3, type: 3}
+  m_PrefabInstance: {fileID: 7913219465626923303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6323240207539602501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4184352418801890658, guid: acc19d2895146cb4d95c0c3f728951e3, type: 3}
   m_PrefabInstance: {fileID: 7913219465626923303}
   m_PrefabAsset: {fileID: 0}

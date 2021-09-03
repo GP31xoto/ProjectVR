@@ -20,15 +20,24 @@ public class PhysicsPointer : MonoBehaviour {
     //private variables
     private LineRenderer lineRenderer = null;
     private GameObject grabbedObject;
-    private GameObject grabbableGOL;
+
+    //Right Var
     private GameObject grabbableGOR;
+    private GameObject instR;
+    private Vector3 originalScaleR;
+    private Vector3 atualScaleR;
+    private Vector3 atualScale2R;
+    private bool originalScaleDefinedR = true;
 
-    private GameObject inst;
+    //Left Var
+    private GameObject grabbableGOL;
+    private GameObject instL;
+    private Vector3 originalScaleL;
+    private Vector3 atualScaleL;
+    private Vector3 atualScale2L;
+    private bool originalScaleDefinedL = true;
 
-    private Vector3 originalScale;
-    private Vector3 atualScale;
-    private Vector3 atualScale2;
-    private bool originalScaleDefined = true;
+    public OVRInput.Controller cont; 
 
     private void Awake() {
         lineRenderer = GetComponent<LineRenderer>();
@@ -56,59 +65,54 @@ public class PhysicsPointer : MonoBehaviour {
     private void LateUpdate() {
         UpdateLength();
 
+        Debug.Log("Left: " + OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, cont));
+        Debug.Log("Right: " + OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont));
+
         //Right Grab
         if (DistanceGrabber.name.Contains("Right")) {
-            if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger)) {
-                atualScale = new Vector3();
-                originalScale = new Vector3();
-                originalScaleDefined = true;
-                inst = null;
-                Debug.Log("1st");
+
+            if (OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont)) {
+                atualScaleR = new Vector3();
+                originalScaleR = new Vector3();
+                originalScaleDefinedR = true;
+                instR = null;
+                Debug.Log(1);
             }
 
-                
-
-            if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger)) {
+            if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger, cont)) {
                 try {
-                    if (originalScaleDefined) {
-                        originalScale = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
-                        originalScaleDefined = false;
+                    if (originalScaleDefinedR) {
+                        originalScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                        originalScaleDefinedR = false;
+                        Debug.Log(2);
                     }
-                    atualScale = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
-                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScale,new Vector3(.02f,.02f,.02f),0.1f);
+                    atualScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.02f,.02f,.02f),0.08f);
+                    Debug.Log(3);
+
                     if (DistanceGrabber.grabbedObject.isGrabbed) {
                         Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOR = DistanceGrabber.grabbedObject.gameObject;
+                        Debug.Log(4);
+
                     }
                 } catch (Exception e) {
                     //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbedobject e nulo
                 }
             }
 
-            if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger)) {
-                Debug.Log(grabbableGOR);
+            if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger,cont)) {
                 Destroy(grabbableGOR);
                 //GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
-                inst = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
+                instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
 
-                inst.GetComponent<OVRGrabbable>().enabled = true;
+                instR.GetComponent<OVRGrabbable>().enabled = true;
+                Debug.Log(5);
+
             }
         }
 
-        try { 
-            if (Vector3Int.RoundToInt(inst.transform.localScale) == originalScale) {
-                atualScale = new Vector3();
-                originalScale = new Vector3();
-                originalScaleDefined = true;
-                inst = null;
-                Debug.Log("equal");
-            } else {
-                atualScale2 = inst.transform.localScale;
-                inst.transform.localScale = Vector3.Lerp(atualScale2,originalScale,.1f);
-            }
-        } catch(Exception e){
-            //Debug.Log(e); //Null Exception 
-        }
+        
 
         //Left Grab
         if (DistanceGrabber.name.Contains("Left")) {
@@ -120,8 +124,23 @@ public class PhysicsPointer : MonoBehaviour {
                 //Debug.Log("Pressed Y");
             }
 
-            if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger)) {
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger,cont)) {
+                atualScaleL = new Vector3();
+                originalScaleL = new Vector3();
+                originalScaleDefinedL = true;
+                instL = null;
+                Debug.Log("2st");
+            }
+
+            if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger,cont)) {
                 try {
+                    if (originalScaleDefinedL) {
+                        originalScaleL = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                        originalScaleDefinedL = false;
+                    }
+                    atualScaleL = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleL,new Vector3(.02f,.02f,.02f),0.08f);
+
                     if (DistanceGrabber.grabbedObject.isGrabbed) {
                         Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOL = DistanceGrabber.grabbedObject.gameObject;
@@ -131,12 +150,44 @@ public class PhysicsPointer : MonoBehaviour {
                 }
             }
 
-            if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger)) {
-                Debug.Log(grabbableGOL);
+            if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger,cont)) {
                 Destroy(grabbableGOL);
-                GameObject instance = Instantiate(grabbableGOL,CalculateEnd(),Quaternion.identity);
-                instance.GetComponent<OVRGrabbable>().enabled = true;
+                instL = Instantiate(grabbableGOL,CalculateEnd() + Vector3.up,Quaternion.identity);
+                instL.GetComponent<OVRGrabbable>().enabled = true;
             }
+        }
+
+
+        try {
+            if (Vector3Int.RoundToInt(instR.transform.localScale) == originalScaleR) {
+                atualScaleR = new Vector3();
+                originalScaleR = new Vector3();
+                originalScaleDefinedR = true;
+                instR = null;
+                Debug.Log("equal");
+            } else {
+                Debug.Log(6);
+
+                atualScale2R = instR.transform.localScale;
+                instR.transform.localScale = Vector3.Lerp(atualScale2R,originalScaleR,.1f);
+            }
+        } catch (Exception e) {
+            //Debug.Log(e); //Null Exception 
+        }
+
+        try {
+            if (Vector3Int.RoundToInt(instL.transform.localScale) == originalScaleL) {
+                atualScaleL = new Vector3();
+                originalScaleL = new Vector3();
+                originalScaleDefinedL = true;
+                instL = null;
+                Debug.Log("equal");
+            } else {
+                atualScale2L = instL.transform.localScale;
+                instL.transform.localScale = Vector3.Lerp(atualScale2L,originalScaleL,.1f);
+            }
+        } catch (Exception e) {
+            //Debug.Log(e); //Null Exception 
         }
     }
 
