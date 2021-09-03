@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4466103768502163377}
   - component: {fileID: 8260519397860638460}
   - component: {fileID: 4244697677646945727}
-  - component: {fileID: 1102438250602686900}
   - component: {fileID: 178680352438519424}
+  - component: {fileID: 1509971612211142955}
+  - component: {fileID: -218802122332378228}
   m_Layer: 0
   m_Name: House_2
   m_TagString: House
@@ -77,23 +78,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1102438250602686900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8566378889038063134}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!65 &178680352438519424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107,6 +91,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.77, y: 4.85, z: 9.77}
   m_Center: {x: 2.46, y: 2.3, z: 2.46}
+--- !u!54 &1509971612211142955
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566378889038063134}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!114 &-218802122332378228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566378889038063134}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
 --- !u!1001 &3909670665294839798
 PrefabInstance:
   m_ObjectHideFlags: 0

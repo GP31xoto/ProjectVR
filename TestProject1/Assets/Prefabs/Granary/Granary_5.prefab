@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3592805921911378985}
   - component: {fileID: 7350786052792909147}
   - component: {fileID: 6394586001459324660}
-  - component: {fileID: 7003147057609335677}
   - component: {fileID: 3433817889532825771}
+  - component: {fileID: 1751984157028259103}
+  - component: {fileID: -9104341945137934169}
   m_Layer: 0
   m_Name: Granary_5
   m_TagString: Granary
@@ -62,23 +63,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.61, y: 3.27, z: 2.68}
   m_Center: {x: -0.21, y: 1.62, z: -0.18}
---- !u!114 &7003147057609335677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5007483235129281886}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!114 &3433817889532825771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +92,40 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1751984157028259103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5007483235129281886}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
+--- !u!54 &-9104341945137934169
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5007483235129281886}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
 --- !u!1001 &6292268279210437036
 PrefabInstance:
   m_ObjectHideFlags: 0
