@@ -919,6 +919,7 @@ GameObject:
   - component: {fileID: 4976269159334970789}
   - component: {fileID: -836984749018985790}
   - component: {fileID: -1249912433384698261}
+  - component: {fileID: -1342614761480454156}
   m_Layer: 0
   m_Name: Mine 1
   m_TagString: Iron
@@ -1030,6 +1031,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!114 &-1342614761480454156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8017522812530839579}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &8779922034304738075
 GameObject:
   m_ObjectHideFlags: 0

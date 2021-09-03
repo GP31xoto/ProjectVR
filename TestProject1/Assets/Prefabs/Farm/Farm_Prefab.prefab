@@ -944,6 +944,7 @@ GameObject:
   - component: {fileID: 1475975956694822812}
   - component: {fileID: 200798610250351592}
   - component: {fileID: -4296424968336207434}
+  - component: {fileID: -1522991431241126000}
   m_Layer: 0
   m_Name: Farm_Prefab
   m_TagString: Food
@@ -1057,6 +1058,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!114 &-1522991431241126000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8810776064297789019}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &8810776064307020970
 GameObject:
   m_ObjectHideFlags: 0

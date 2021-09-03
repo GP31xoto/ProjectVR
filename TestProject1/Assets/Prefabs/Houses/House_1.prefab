@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8010945772097164951}
   - component: {fileID: -7024253586873163747}
   - component: {fileID: 1818314898841237714}
+  - component: {fileID: 7479168782193708215}
   m_Layer: 0
   m_Name: House_1
   m_TagString: House
@@ -125,6 +126,23 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!114 &7479168782193708215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3967935190648108711}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &401291426188546158
 PrefabInstance:
   m_ObjectHideFlags: 0

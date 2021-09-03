@@ -190,7 +190,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(foodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //foodToPlace.GetComponent<OVRGrabbable>().enabled = true;
+            foodToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -211,7 +211,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(woodToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //woodToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            woodToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -232,7 +232,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(ironToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //ironToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            ironToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -253,7 +253,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(waterToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //waterToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            waterToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -275,7 +275,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(houseToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //houseToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            houseToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -297,7 +297,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(granaryToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //granaryToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            granaryToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -319,7 +319,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(forgeToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //forgeToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            forgeToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         }
@@ -342,7 +342,7 @@ public class Hand_Menu : MonoBehaviour
             //remove eventTrigger from copy
             Destroy(workshopToPlace.GetComponent<EventTrigger>());
             //activate copy as grabbable
-            //workshopToPlace.GetComponent<DistanceGrabbable>().enabled = true;
+            workshopToPlace.GetComponent<OVRGrabbable>().enabled = true;
 
             playSoundEffect(placing);
         //}

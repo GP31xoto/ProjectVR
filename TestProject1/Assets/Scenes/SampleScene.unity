@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 291356133}
   m_Layer: 0
   m_Name: GameFlow
-  m_TagString: Untagged
+  m_TagString: GameFlow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -813,13 +813,13 @@ MonoBehaviour:
   numWater: 0
   numWood: 0
   numIron: 0
-  defaultResourceNumber: 0
-  population: 0
-  rateOfGrowth: 0
-  happiness: 0
+  defaultResourceNumber: 100
+  population: 100
+  rateOfGrowth: 1
+  happiness: 50
   dollPrefab: {fileID: 1224119180575434286, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
   spawnPoint: {fileID: 1214688590}
-  turncost: 1
+  turncost: 0
   doll: {fileID: 1224119180575434286, guid: 2ae6a26c72e883e499b7b2d7645e26e0, type: 3}
 --- !u!4 &291356136
 Transform:
@@ -2268,7 +2268,7 @@ GameObject:
   - component: {fileID: 788312757}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

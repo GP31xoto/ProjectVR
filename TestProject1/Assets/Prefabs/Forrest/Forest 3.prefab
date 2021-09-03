@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 3764605033340979280}
   - component: {fileID: -6503934135745675523}
   - component: {fileID: 4178653024868644526}
+  - component: {fileID: 6940494091177614071}
   m_Layer: 0
   m_Name: Forest 3
   m_TagString: Wood
@@ -248,6 +249,23 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!114 &6940494091177614071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272219327643186229}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 1
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &785320089978404114
 PrefabInstance:
   m_ObjectHideFlags: 0
