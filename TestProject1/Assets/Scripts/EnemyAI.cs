@@ -186,10 +186,9 @@ public class EnemyAI : MonoBehaviour {
             npcAnimator.SetFloat("Speed", 0f);
             //when does it stop?
             npcAnimator.SetBool("CollectResource", true);
-            while(!resourceNull && distanceToResource.magnitude < 3f)
-            {
-
-            }
+        }
+        else
+        {
             npcAnimator.SetBool("CollectResource", false);
         }
     }
