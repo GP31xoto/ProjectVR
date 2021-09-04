@@ -549,7 +549,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -645,7 +645,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -860,7 +860,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   angle: 0
-  ResourceRef: {fileID: 0}
+  ResourceWaterRef: []
+  ResourceWoodRef: []
+  ResourceFoodRef: []
+  ResourceIronRef: []
   targetMask:
     serializedVersion: 2
     m_Bits: 64
@@ -868,6 +871,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   canSeeResource: 0
+  resourceTypeSeen: 
+  resourceTypeIndex: 0
 --- !u!1 &1449089006946253714
 GameObject:
   m_ObjectHideFlags: 0

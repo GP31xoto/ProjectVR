@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_stinger: {fileID: 8300000, guid: 53cc1ae3ab7b18c40a75fa7b7f92b9be, type: 3}
   m_tensionMusic: {fileID: 8300000, guid: e65ee4671d101b54d8a4364a99cd80fb, type: 3}
   m_disasterSound: {fileID: 8300000, guid: fc01929750d28bb46af51b89a2ce418b, type: 3}
-  m_destroyedConstruction: {fileID: 0}
+  m_destroyedConstruction: {fileID: 8300000, guid: 3f294fa992f290c458beeca33370e9b6, type: 3}
 --- !u!82 &291356134
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3443,9 +3443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda9dd44d90dc2641848ebfecfae1ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {fileID: 0}
-  waves: {fileID: 0}
-  chirping: {fileID: 0}
+  wind: {fileID: 8300000, guid: 2c19e5aefa525fc49bb300191d74b983, type: 3}
+  waves: {fileID: 8300000, guid: cdbaa38ac5efb094898c2648b9c24909, type: 3}
+  chirping: {fileID: 8300000, guid: ea4434ac5521da840aad18be183fd254, type: 3}
 --- !u!82 &1316394393
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3502,7 +3502,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3598,7 +3598,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3694,7 +3694,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
