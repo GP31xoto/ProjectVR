@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 3386566183202900234}
   - component: {fileID: 8729993309092070426}
   - component: {fileID: -7905547817102519542}
+  - component: {fileID: -6983083751011952066}
   m_Layer: 6
   m_Name: Mine 3
   m_TagString: Iron
@@ -609,6 +610,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-6983083751011952066
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485159123175270211}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4056292504291123801
 GameObject:
   m_ObjectHideFlags: 0

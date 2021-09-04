@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -9023326848231248340}
   - component: {fileID: -5161326583309383294}
   - component: {fileID: -6257979765972482862}
+  - component: {fileID: -634928851142264279}
   m_Layer: 6
   m_Name: Forge_6
   m_TagString: Forge
@@ -184,6 +185,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-634928851142264279
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51343763130037634}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7868810015096809205
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4079055500447176499}
   - component: {fileID: -212318824874975449}
   - component: {fileID: -7478830311998172324}
+  - component: {fileID: -3804741934728913939}
   m_Layer: 6
   m_Name: Granary_2
   m_TagString: Granary
@@ -192,6 +193,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-3804741934728913939
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364874676097384756}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &301690118547160628
 PrefabInstance:
   m_ObjectHideFlags: 0

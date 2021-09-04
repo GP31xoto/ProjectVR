@@ -946,6 +946,7 @@ GameObject:
   - component: {fileID: -4296424968336207434}
   - component: {fileID: -1522991431241126000}
   - component: {fileID: 8159457385323913879}
+  - component: {fileID: 1701143166947079163}
   m_Layer: 6
   m_Name: Farm_Prefab
   m_TagString: Food
@@ -1116,6 +1117,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1701143166947079163
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8810776064297789019}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8810776064307020970
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -6354164655547807966}
   - component: {fileID: -2417454351729540813}
   - component: {fileID: -6062851958363161405}
+  - component: {fileID: 6549647416792472827}
   m_Layer: 6
   m_Name: House_6
   m_TagString: House
@@ -184,6 +185,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6549647416792472827
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247336961914566689}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &370004162314856375
 PrefabInstance:
   m_ObjectHideFlags: 0
