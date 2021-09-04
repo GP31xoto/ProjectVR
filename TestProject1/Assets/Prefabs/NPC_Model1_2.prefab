@@ -392,7 +392,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224119180575434286}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ec7fc1deb89fed5469cee28aafba16bc, type: 3}
+  m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ed513f3e25f0a3349a3b0801bc06ef84, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -696,18 +696,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3a0f45d1a205c49a1b152cc05f5fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  player: {fileID: 0}
+  agent: {fileID: 5274213280908265357}
+  player: {fileID: 2785379820130145341}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   whatIsResource:
     serializedVersion: 2
     m_Bits: 0
   resourcePos: {x: 0, y: 0, z: 0}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 0
-  npcAnimator: {fileID: 0}
+  npcAnimator: {fileID: 5201002200443304263}
   idleTime: 0
   walkTime: 0
   buildTime: 0
