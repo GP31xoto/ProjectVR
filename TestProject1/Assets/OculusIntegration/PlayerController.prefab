@@ -508,7 +508,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 1000
+  far clip plane: 5000
   field of view: 90
   orthographic: 0
   orthographic size: 5
@@ -5489,7 +5489,7 @@ MonoBehaviour:
   CameraRig: {fileID: 1102349404075604766}
   CollideLayers:
     serializedVersion: 2
-    m_Bits: 19
+    m_Bits: 147
   HeightOffset: 1
   MinimumHeight: 1
   MaximumHeight: 2.5
@@ -5512,6 +5512,7 @@ MonoBehaviour:
   RotationAngle: 45
   Speed: 150
   CameraRig: {fileID: 0}
+  eyeAnchor: {fileID: 819099782236254707}
 --- !u!136 &432613088875319805
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5522,10 +5523,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.35
-  m_Height: 1.9569893
+  m_Radius: 2
+  m_Height: 10
   m_Direction: 1
-  m_Center: {x: 0, y: -0.41864204, z: 0}
+  m_Center: {x: 0, y: 0.13750935, z: -1.5367727}
 --- !u!54 &1028775501269716208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5541,7 +5542,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 2
+  m_CollisionDetection: 0
 --- !u!1 &8330505181778340689
 GameObject:
   m_ObjectHideFlags: 0

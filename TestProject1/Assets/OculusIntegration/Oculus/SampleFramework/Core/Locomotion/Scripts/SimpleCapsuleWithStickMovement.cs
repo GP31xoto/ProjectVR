@@ -19,6 +19,8 @@ public class SimpleCapsuleWithStickMovement : MonoBehaviour
 	public event Action CameraUpdated;
 	public event Action PreCharacterMove;
 
+	//public GameObject eyeAnchor;
+
 	private void Awake()
 	{
 		_rigidbody = GetComponent<Rigidbody>();
@@ -104,6 +106,18 @@ public class SimpleCapsuleWithStickMovement : MonoBehaviour
 		}
 	}
 
-    private void OnTriggerEnter(Collider other) {
-    }
+ //   private IEnumerator OnTriggerEnter(Collider other) {
+	//	Debug.Log(this.transform);
+	//	Debug.Log(this.GetComponent<CapsuleCollider>());
+	//	//Debug.Log(other.gameObject.name);
+	//	if (other.tag == "Boundaries") {
+	//		eyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
+	//		Debug.Log("antes");
+	//		yield return new WaitForSeconds(2);
+	//		Debug.Log("depois");
+	//		this.transform.position = new Vector3(0,100,0);
+	//		eyeAnchor.GetComponent<OVRScreenFade>().FadeIn();
+	//	}
+	//	yield return null;
+	//}
 }
