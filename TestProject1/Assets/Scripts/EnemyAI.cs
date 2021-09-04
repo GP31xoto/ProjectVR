@@ -54,7 +54,8 @@ public class EnemyAI : MonoBehaviour {
         AudioSource[] audios = GetComponents<AudioSource>();
         workAudio = audios[0];
         dollAudio = audios[1];//add a audio source to the doll, its where the sounds will be coming out of
-        player = GameObject.Find("Player").transform;
+        //player = GameObject.Find("Player").transform;
+        player = GameObject.FindWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
         npcAnimator = GetComponent<Animator>();
         AnimationClip[] clips = npcAnimator.runtimeAnimatorController.animationClips;

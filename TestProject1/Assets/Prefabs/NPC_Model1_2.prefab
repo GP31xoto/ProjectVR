@@ -356,6 +356,7 @@ GameObject:
   - component: {fileID: 5955472104663859256}
   - component: {fileID: -8367785188258348122}
   - component: {fileID: 2203914756480490957}
+  - component: {fileID: 5869103851735686554}
   m_Layer: 6
   m_Name: NPC_Model1_2
   m_TagString: Doll
@@ -845,6 +846,28 @@ CapsuleCollider:
   m_Height: 1.3011322
   m_Direction: 1
   m_Center: {x: -0.000022888184, y: 0.65766144, z: 0.002166748}
+--- !u!114 &5869103851735686554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224119180575434286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b91340e90b3d874eb61d7aa3b4c08ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0
+  angle: 0
+  ResourceRef: {fileID: 0}
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 64
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 1
+  canSeeResource: 0
 --- !u!1 &1449089006946253714
 GameObject:
   m_ObjectHideFlags: 0
