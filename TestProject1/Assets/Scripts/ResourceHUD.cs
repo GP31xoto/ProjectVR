@@ -34,7 +34,7 @@ public class ResourceHUD : MonoBehaviour
         {
             foodCounterMaterial.color = Color.red;
         }
-        foodCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().food, 30, 1);
+        foodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().food / 50, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().wood >= 40f)
         {
             woodCounterMaterial.color = Color.green;
@@ -43,7 +43,7 @@ public class ResourceHUD : MonoBehaviour
         {
             woodCounterMaterial.color = Color.red;
         }
-        woodCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().wood, 30, 1);
+        woodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().wood / 50, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().iron >= 40f)
         {
             ironCounterMaterial.color = Color.green;
@@ -52,7 +52,7 @@ public class ResourceHUD : MonoBehaviour
         {
             ironCounterMaterial.color = Color.red;
         }
-        ironCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().iron, 30, 1);
+        ironCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().iron / 50, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().water >= 40f)
         {
             waterCounterMaterial.color = Color.green;
@@ -61,7 +61,7 @@ public class ResourceHUD : MonoBehaviour
         {
             waterCounterMaterial.color = Color.red;
         }
-        waterCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().water, 30, 1);
+        waterCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().water / 50, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().population >= 25)
         {
             populationCounterMaterial.color = Color.green;
@@ -70,6 +70,6 @@ public class ResourceHUD : MonoBehaviour
         {
             populationCounterMaterial.color = Color.red;
         }
-        populationCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().food, 30, 1);
+        populationCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().population / 50, 30, 1);
     }
 }
