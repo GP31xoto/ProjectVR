@@ -53,8 +53,9 @@ public class Hand_Menu : MonoBehaviour
     {
         GameFlow = GameObject.FindWithTag("GameFlow");
         //set resource lists from options in menu
-        foreach (GameObject child in resourcesTab.transform)
+        for (int i = 0; i < resourcesTab.transform.childCount; i++)
         {
+            GameObject child = resourcesTab.transform.GetChild(i).gameObject;
             if (child.tag == "Food")
             {
                 foodSource = child;
@@ -66,50 +67,42 @@ public class Hand_Menu : MonoBehaviour
             else if (child.tag == "Iron")
             {
                 ironSource = child;
-            }else if (child.tag == "Water")
+            }
+            else if (child.tag == "Water")
             {
                 waterSource = child;
             }
         }
         //set construction lists from options in menu
         houseType = new GameObject[6];
-        int i = 0;
-        foreach (GameObject child in constructsTab.transform)
+        int j = 0;
+        forgeType = new GameObject[6];
+        int x = 0;
+        granaryType = new GameObject[6];
+        int y = 0;
+        workshopType = new GameObject[6];
+        int z = 0;
+        for (int i = 0; i < constructsTab.transform.childCount; i++)
         {
+            GameObject child = constructsTab.transform.GetChild(i).gameObject;
             if (child.tag == "House")
             {
-                houseType[i] = child;
-                i++;
+                houseType[j] = child;
+                j++;
             }
-        }
-        forgeType = new GameObject[6];
-        i = 0;
-        foreach (GameObject child in constructsTab.transform)
-        {
-            if (child.tag == "Forge")
+            else if (child.tag == "Forge")
             {
-                forgeType[i] = child;
-                i++;
+                forgeType[x] = child;
+                x++;
+            }else if (child.tag == "Granary")
+            {
+                granaryType[y] = child;
+                y++;
             }
-        }
-        granaryType = new GameObject[6];
-        i = 0;
-        foreach (GameObject child in constructsTab.transform)
-        {
-            if (child.tag == "Granary")
+            else if (child.tag == "Workshop")
             {
-                granaryType[i] = child;
-                i++;
-            }
-        }
-        workshopType = new GameObject[6];
-        i = 0;
-        foreach (GameObject child in constructsTab.transform)
-        {
-            if (child.tag == "Workshop")
-            {
-                workshopType[i] = child;
-                i++;
+                workshopType[z] = child;
+                z++;
             }
         }
         //set max resources that can be built
