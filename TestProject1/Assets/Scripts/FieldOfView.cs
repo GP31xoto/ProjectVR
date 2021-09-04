@@ -38,6 +38,25 @@ public class FieldOfView : MonoBehaviour
         }
     }
 
+    public void UpdateResourceRef(string type)
+    {
+        switch (type)
+        {
+            case "Food":
+                ResourceFoodRef = GameObject.FindGameObjectsWithTag("Food");
+                break;
+            case "Wood":
+                ResourceWoodRef = GameObject.FindGameObjectsWithTag("Wood");
+                break;
+            case "Iron":
+                ResourceIronRef = GameObject.FindGameObjectsWithTag("Iron");
+                break;
+            case "Water":
+                ResourceWaterRef = GameObject.FindGameObjectsWithTag("Water");
+                break;
+        }
+    }
+
     private void FieldOfViewCheck(){
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
 
