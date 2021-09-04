@@ -8,15 +8,23 @@ public class FieldOfView : MonoBehaviour
     [Range(0,360)]
     public float angle;
 
-    public GameObject ResourceRef;
+    public GameObject ResourceWaterRef;
+    public GameObject ResourceWoodRef;
+    public GameObject ResourceFoodRef;
+    public GameObject ResourceIronRef;
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
     public bool canSeeResource;
+    public string resourceTypeSeen;
 
-    void Start(){
-        ResourceRef = GameObject.FindGameObjectWithTag("Resource");
+    void Start()
+    {
+        ResourceFoodRef = GameObject.FindGameObjectWithTag("Food");
+        ResourceWoodRef = GameObject.FindGameObjectWithTag("Wood");
+        ResourceIronRef = GameObject.FindGameObjectWithTag("Iron");
+        ResourceWaterRef = GameObject.FindGameObjectWithTag("Water");
         StartCoroutine(FOVRoutine());
     }
 
@@ -41,16 +49,20 @@ public class FieldOfView : MonoBehaviour
 
                 if (!Physics.Raycast(transform.position,directionToTarget,distanceToTarget,obstructionMask)) {
                     canSeeResource = true;
+                    resourceTypeSeen = target.gameObject.tag;
                     //radius = 10;
                     angle = 180;
                 } else {
                     canSeeResource = false;
+                    resourceTypeSeen = "";
                 }
             } else {
                 canSeeResource = false;
+                resourceTypeSeen = "";
             }
         } else if(canSeeResource) {
             canSeeResource = false;
+            resourceTypeSeen = "";
             //radius = 20;
             angle = 90;
         }
