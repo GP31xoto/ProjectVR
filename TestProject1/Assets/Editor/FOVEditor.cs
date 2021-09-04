@@ -20,19 +20,23 @@ public class FOVEditor : Editor{
             Handles.color = Color.green;
             if (fov.resourceTypeSeen == "Food")
             {
-                Handles.DrawLine(fov.transform.position, fov.ResourceFoodRef.transform.position);
+                GameObject resourceFound = fov.ResourceFoodRef[fov.resourceTypeIndex];
+                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
             }
             else if (fov.resourceTypeSeen == "Wood")
             {
-                Handles.DrawLine(fov.transform.position, fov.ResourceWoodRef.transform.position);
+                GameObject resourceFound = fov.ResourceWoodRef[fov.resourceTypeIndex];
+                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
             }
             else if (fov.resourceTypeSeen == "Iron")
             {
-                Handles.DrawLine(fov.transform.position, fov.ResourceIronRef.transform.position);
+                GameObject resourceFound = fov.ResourceIronRef[fov.resourceTypeIndex];
+                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
             }
             else if (fov.resourceTypeSeen == "Water")
             {
-                Handles.DrawLine(fov.transform.position, fov.ResourceWaterRef.transform.position);
+                GameObject resourceFound = fov.ResourceWaterRef[fov.resourceTypeIndex];
+                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
             }
         }
     }

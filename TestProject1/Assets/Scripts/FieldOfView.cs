@@ -8,23 +8,24 @@ public class FieldOfView : MonoBehaviour
     [Range(0,360)]
     public float angle;
 
-    public GameObject ResourceWaterRef;
-    public GameObject ResourceWoodRef;
-    public GameObject ResourceFoodRef;
-    public GameObject ResourceIronRef;
+    public GameObject[] ResourceWaterRef;
+    public GameObject[] ResourceWoodRef;
+    public GameObject[] ResourceFoodRef;
+    public GameObject[] ResourceIronRef;
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
     public bool canSeeResource;
     public string resourceTypeSeen;
+    public int resourceTypeIndex;
 
     void Start()
     {
-        ResourceFoodRef = GameObject.FindGameObjectWithTag("Food");
-        ResourceWoodRef = GameObject.FindGameObjectWithTag("Wood");
-        ResourceIronRef = GameObject.FindGameObjectWithTag("Iron");
-        ResourceWaterRef = GameObject.FindGameObjectWithTag("Water");
+        ResourceFoodRef = GameObject.FindGameObjectsWithTag("Food");
+        ResourceWoodRef = GameObject.FindGameObjectsWithTag("Wood");
+        ResourceIronRef = GameObject.FindGameObjectsWithTag("Iron");
+        ResourceWaterRef = GameObject.FindGameObjectsWithTag("Water");
         StartCoroutine(FOVRoutine());
     }
 
@@ -50,19 +51,65 @@ public class FieldOfView : MonoBehaviour
                 if (!Physics.Raycast(transform.position,directionToTarget,distanceToTarget,obstructionMask)) {
                     canSeeResource = true;
                     resourceTypeSeen = target.gameObject.tag;
+                    if (resourceTypeSeen == "Food")
+                    {
+                        for(int i = 0; i < ResourceFoodRef.Length; i++)
+                        {
+                            if(ResourceFoodRef[i] == target.gameObject)
+                            {
+                                resourceTypeIndex = i;
+                                break;
+                            }
+                        }
+                    }else if (resourceTypeSeen == "Wood")
+                    {
+                        for (int i = 0; i < ResourceWoodRef.Length; i++)
+                        {
+                            if (ResourceWoodRef[i] == target.gameObject)
+                            {
+                                resourceTypeIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                    else if (resourceTypeSeen == "Iron")
+                    {
+                        for (int i = 0; i < ResourceIronRef.Length; i++)
+                        {
+                            if (ResourceIronRef[i] == target.gameObject)
+                            {
+                                resourceTypeIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                    else if (resourceTypeSeen == "Water")
+                    {
+                        for (int i = 0; i < ResourceWaterRef.Length; i++)
+                        {
+                            if (ResourceWaterRef[i] == target.gameObject)
+                            {
+                                resourceTypeIndex = i;
+                                break;
+                            }
+                        }
+                    }
                     //radius = 10;
                     angle = 180;
                 } else {
                     canSeeResource = false;
                     resourceTypeSeen = "";
+                    resourceTypeIndex = -1;
                 }
             } else {
                 canSeeResource = false;
                 resourceTypeSeen = "";
+                resourceTypeIndex = -1;
             }
         } else if(canSeeResource) {
             canSeeResource = false;
             resourceTypeSeen = "";
+            resourceTypeIndex = -1;
             //radius = 20;
             angle = 90;
         }
