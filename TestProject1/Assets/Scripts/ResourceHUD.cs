@@ -7,10 +7,15 @@ public class ResourceHUD : MonoBehaviour
 
     [SerializeField] private GameObject GameFlow;
     [SerializeField] private GameObject foodCounter;
+    [SerializeField] private Material foodCounterMaterial;
     [SerializeField] private GameObject woodCounter;
+    [SerializeField] private Material woodCounterMaterial;
     [SerializeField] private GameObject ironCounter;
+    [SerializeField] private Material ironCounterMaterial;
     [SerializeField] private GameObject waterCounter;
+    [SerializeField] private Material waterCounterMaterial;
     [SerializeField] private GameObject populationCounter;
+    [SerializeField] private Material populationCounterMaterial;
 
     // Start is called before the first frame update
     void Start()
@@ -23,47 +28,47 @@ public class ResourceHUD : MonoBehaviour
     {
         if (GameFlow.GetComponent<GameFlow>().food >= 40f)
         {
-            foodCounter.GetComponentInChildren<Material>().color = Color.green;
+            foodCounterMaterial.color = Color.green;
         }
         else
         {
-            foodCounter.GetComponentInChildren<Material>().color = Color.red;
+            foodCounterMaterial.color = Color.red;
         }
         foodCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().food, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().wood >= 40f)
         {
-            woodCounter.GetComponentInChildren<Material>().color = Color.green;
+            woodCounterMaterial.color = Color.green;
         }
         else
         {
-            woodCounter.GetComponentInChildren<Material>().color = Color.red;
+            woodCounterMaterial.color = Color.red;
         }
         woodCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().wood, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().iron >= 40f)
         {
-            ironCounter.GetComponentInChildren<Material>().color = Color.green;
+            ironCounterMaterial.color = Color.green;
         }
         else
         {
-            ironCounter.GetComponentInChildren<Material>().color = Color.red;
+            ironCounterMaterial.color = Color.red;
         }
         ironCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().iron, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().water >= 40f)
         {
-            waterCounter.GetComponentInChildren<Material>().color = Color.green;
+            waterCounterMaterial.color = Color.green;
         }
         else
         {
-            waterCounter.GetComponentInChildren<Material>().color = Color.red;
+            waterCounterMaterial.color = Color.red;
         }
         waterCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().water, 30, 1);
-        if (GameFlow.GetComponent<GameFlow>().population >= 40)
+        if (GameFlow.GetComponent<GameFlow>().population >= 25)
         {
-            populationCounter.GetComponentInChildren<Material>().color = Color.green;
+            populationCounterMaterial.color = Color.green;
         }
         else
         {
-            populationCounter.GetComponentInChildren<Material>().color = Color.red;
+            populationCounterMaterial.color = Color.red;
         }
         populationCounter.transform.localScale = new Vector3(50f * GameFlow.GetComponent<GameFlow>().food, 30, 1);
     }

@@ -2715,10 +2715,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameFlow: {fileID: 291356132}
   foodCounter: {fileID: 631984608}
+  foodCounterMaterial: {fileID: 2100000, guid: dac437fdfa0d06c4e8e92902a9cbd844, type: 2}
   woodCounter: {fileID: 227943696}
+  woodCounterMaterial: {fileID: 2100000, guid: c91417ce4fbecb84f877c7c3efeb56da, type: 2}
   ironCounter: {fileID: 1686952120}
+  ironCounterMaterial: {fileID: 2100000, guid: ac965b90fc4e3a9498d3c5b57170c2ab, type: 2}
   waterCounter: {fileID: 1003433892}
+  waterCounterMaterial: {fileID: 2100000, guid: 81a0171f81fffeb4980d95a2a8276c26, type: 2}
   populationCounter: {fileID: 163729931}
+  populationCounterMaterial: {fileID: 2100000, guid: d7e56744aeb4ecf40b734890a9d6e6f0, type: 2}
 --- !u!1 &1003433892
 GameObject:
   m_ObjectHideFlags: 0

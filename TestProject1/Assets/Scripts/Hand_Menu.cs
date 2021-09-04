@@ -113,9 +113,9 @@ public class Hand_Menu : MonoBehaviour
             }
         }
         //set max resources that can be built
-        foodConstructAvailable = 3;
-        woodConstructAvailable = 3;
-        ironConstructAvailable = 4;
+        foodConstructAvailable = 5;
+        woodConstructAvailable = 5;
+        ironConstructAvailable = 5;
         waterConstructAvailable = 5;
     }
 
@@ -128,12 +128,6 @@ public class Hand_Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if button one (change later) is pressed
-        if (OVRInput.GetDown(OVRInput.Button.One))
-        {
-            //activate change menu function
-            //ChangeMenuState();
-        }
         //adjust menu options visibility
         MenuOptionsVisibility();
         //refill resurces to be built after 1 round (determine round time later)

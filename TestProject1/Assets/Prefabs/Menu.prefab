@@ -540,8 +540,8 @@ MonoBehaviour:
   ironCounter: {fileID: 2225349689233583795}
   woodCounter: {fileID: 8514035283335442747}
   waterCounter: {fileID: 4380780735329526619}
-  placing: {fileID: 0}
-  select: {fileID: 0}
+  placing: {fileID: 8300000, guid: 723c402f454ad1447907ba956d6c6a7f, type: 3}
+  select: {fileID: 8300000, guid: 8dd8caa00d8ff914b97ccea72cce333c, type: 3}
 --- !u!114 &8642982091334159804
 MonoBehaviour:
   m_ObjectHideFlags: 0
