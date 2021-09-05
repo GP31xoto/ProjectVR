@@ -97,7 +97,7 @@ public class GameFlow : MonoBehaviour
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 int numOfDolls = population / 25;
-                deSpawnDoll(numOfDolls, 2);
+                deSpawnDoll(numOfDolls, 3);
                 warBool = true;
             }
             else{unhappyBool = false;}
@@ -114,7 +114,7 @@ public class GameFlow : MonoBehaviour
                 int deathPops = (int)(Random.Range(100,200)/(1+popBuff));
                 population = population - deathPops;
                 int numOfDolls = population / 25;
-                deSpawnDoll(numOfDolls, 3);
+                deSpawnDoll(numOfDolls, 4);
                 warBool = true;
             }
             else{warBool = false; }
@@ -132,7 +132,7 @@ public class GameFlow : MonoBehaviour
             int deathPops = (int)(Random.Range(50,100)/(1+popBuff));
             population = population - deathPops;
             int numOfDolls = population / 25;
-            deSpawnDoll(numOfDolls, 1);
+            deSpawnDoll(numOfDolls, 2);
             foodDeath = true;
         }
         else{foodDeath = false;}
@@ -145,7 +145,7 @@ public class GameFlow : MonoBehaviour
             int deathPops = (int)(Random.Range(70,170)/(1+popBuff));
             population = population - deathPops;
             int numOfDolls = population / 25;
-            deSpawnDoll(numOfDolls, 0);
+            deSpawnDoll(numOfDolls, 1);
             waterDeath = true;
         }
         else{waterDeath = false;}
