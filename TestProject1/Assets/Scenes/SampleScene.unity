@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.26
-    agentHeight: 1.42
-    agentSlope: 57.1
-    agentClimb: 0.92
+    agentRadius: 0.15
+    agentHeight: 1.5
+    agentSlope: 45
+    agentClimb: 0.53
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.086666666
+    cellSize: 0.05
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 831c57ad86f1cab49b46b87cf33a1897, type: 2}
 --- !u!1 &1578199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287039719887, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -137,8 +137,8 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1578199}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 1.342, y: 0.864, z: 1.371}
+  m_Shape: 0
+  m_Extents: {x: 1.371, y: 0.864, z: 1.371}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -451,8 +451,8 @@ NavMeshObstacle:
   m_GameObject: {fileID: 13260440}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 5.793, y: 2.8130002, z: 2.8850002}
+  m_Shape: 0
+  m_Extents: {x: 3.21, y: 2.8130002, z: 3.21}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -472,7 +472,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 27156975}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.396, y: 0.23700002, z: 1.6070001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -493,7 +493,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 34090704}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.4260001, y: 5.0470004, z: 1.404}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -589,7 +589,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 92700229}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.085, y: 6.3560004, z: 2.0140002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -610,7 +610,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 92790254}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.868, y: 4.761, z: 1.6550001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -631,7 +631,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 132520397}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7650001, y: 2.0010002, z: 1.4020001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -652,7 +652,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 137315349}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 3.3330002, y: 3.2740002, z: 2.6790001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -709,7 +709,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 178363616}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.562, y: 2.4060001, z: 1.133}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -730,7 +730,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 180228497}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3470001, y: 3.065, z: 2.3430002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -832,7 +832,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 271016550}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.3900001, y: 2.6620002, z: 1.7600001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1320,7 +1320,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 319512630}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.6220002, y: 2.8590002, z: 2.262}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1341,7 +1341,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 326618212}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.085, y: 6.3560004, z: 2.0140002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1362,7 +1362,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 333854612}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7320001, y: 2.342, z: 2.1890001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1383,7 +1383,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 346860720}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7420001, y: 2.542, z: 1.7400001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1464,6 +1464,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &363194045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363194047}
+  - component: {fileID: 363194046}
+  m_Layer: 0
+  m_Name: NavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &363194046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363194045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.086666666
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 23800000, guid: d9674f73128304c4d91f8e46f00407ea, type: 2}
+--- !u!4 &363194047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363194045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404240804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287629733289, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1478,7 +1538,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 404240804}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.419, y: 3.9060001, z: 1.3950001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1499,7 +1559,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 405007785}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.614, y: 4.716, z: 1.8230001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1520,7 +1580,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 412051522}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.1040001, y: 0.536, z: 1.172}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1699,7 +1759,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 459589744}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.88500005, y: 0.62600005, z: 0.683}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1957,7 +2017,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 503469037}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.614, y: 4.716, z: 1.8230001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1978,7 +2038,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 508059839}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.45900002, y: 1.006, z: 0.504}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -1999,7 +2059,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 535082051}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.90900004, y: 1.432, z: 0.80200005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2020,7 +2080,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 550474459}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.396, y: 0.23700002, z: 1.6070001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2110,7 +2170,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 589208113}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.88900006, y: 0.256, z: 0.87500006}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2131,7 +2191,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 602319338}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.4980001, y: 3.4150002, z: 1.9850001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2227,7 +2287,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 631433894}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.596, y: 0.32500002, z: 0.499}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2399,7 +2459,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 656102778}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 3.3330002, y: 3.2740002, z: 2.6790001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2420,7 +2480,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 665212495}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7650001, y: 2.0010002, z: 1.4020001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2542,7 +2602,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 674729940}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7420001, y: 2.542, z: 1.7400001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2810,7 +2870,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 709323918}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3470001, y: 2.115, z: 2.3430002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2831,7 +2891,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 711328282}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.83300006, y: 0.85200006, z: 0.98100007}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2852,7 +2912,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 728493506}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.82100004, y: 1.7500001, z: 0.9480001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2873,7 +2933,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 728861612}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3070002, y: 2.937, z: 1.577}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2952,7 +3012,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 731150812}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 3.3330002, y: 3.2740002, z: 2.6790001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -2973,7 +3033,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 734066929}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.84400004, y: 1.001, z: 0.68700004}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3007,8 +3067,8 @@ NavMeshObstacle:
   m_GameObject: {fileID: 746798901}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 5.793, y: 2.8130002, z: 2.8850002}
+  m_Shape: 0
+  m_Extents: {x: 3.47, y: 2.8130002, z: 3.47}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3028,7 +3088,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 749727454}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.797, y: 3.1430001, z: 1.9460001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3049,7 +3109,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 751520102}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 1.577, z: 1.3520001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3070,7 +3130,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 759233193}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.596, y: 0.32500002, z: 0.499}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3157,7 +3217,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 779650547}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.69900006, y: 0.98700005, z: 0.95400006}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3178,7 +3238,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 781196069}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3470001, y: 3.065, z: 2.3430002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3230,7 +3290,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 824544170}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.596, y: 0.32500002, z: 0.499}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3251,7 +3311,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 825200429}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.596, y: 0.32500002, z: 0.499}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3272,7 +3332,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 867484681}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.342, y: 0.864, z: 1.371}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3293,7 +3353,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 870539038}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.934, y: 1.6070001, z: 1.026}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3314,7 +3374,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 885646540}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.91700006, y: 1.32, z: 0.70900005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3536,7 +3596,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 934415442}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.60800004, y: 0.42900002, z: 0.574}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3636,7 +3696,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 946978758}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 1.577, z: 1.3520001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3740,7 +3800,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 977447870}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.549, y: 3.1950002, z: 1.3050001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3866,7 +3926,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1035167581}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.88900006, y: 0.256, z: 0.87500006}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3887,7 +3947,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1048421041}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.90900004, y: 1.432, z: 0.80200005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3955,7 +4015,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1051274932}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.60800004, y: 0.42900002, z: 0.574}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -3976,7 +4036,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1059392444}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.84400004, y: 1.001, z: 0.68700004}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4033,7 +4093,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1067565656}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.614, y: 4.716, z: 1.8230001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4054,7 +4114,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1079488185}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.88900006, y: 0.256, z: 0.87500006}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4075,7 +4135,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1082821346}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.4560001, y: 0.71400005, z: 1.4440001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4250,7 +4310,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1172085723}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.934, y: 1.6070001, z: 1.026}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4355,7 +4415,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1180436235}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.562, y: 2.4060001, z: 1.133}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4376,7 +4436,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1182951479}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.1040001, y: 0.536, z: 1.172}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4397,7 +4457,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1197677186}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7650001, y: 2.0010002, z: 1.4020001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4418,7 +4478,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1198411395}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.549, y: 3.1950002, z: 1.3050001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4548,7 +4608,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1242722802}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.868, y: 4.761, z: 1.6550001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4749,7 +4809,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1267651506}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 1.577, z: 1.3520001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -4806,7 +4866,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1274370491}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.934, y: 1.6070001, z: 1.026}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5164,7 +5224,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1333029687}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.342, y: 0.864, z: 1.371}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5185,7 +5245,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1364891946}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 1.577, z: 1.3520001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5206,7 +5266,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1412169673}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7650001, y: 2.0010002, z: 1.4020001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5227,7 +5287,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1438587135}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.90900004, y: 1.432, z: 0.80200005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5248,7 +5308,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1467311022}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.4260001, y: 5.0470004, z: 1.404}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5269,7 +5329,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1506390627}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.345, y: 0.943, z: 1.3110001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5290,7 +5350,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1509324360}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.376, y: 3.2900002, z: 1.5890001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5390,7 +5450,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1542781134}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.45900002, y: 1.006, z: 0.504}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5411,7 +5471,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1543491400}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.84400004, y: 1.001, z: 0.68700004}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5432,7 +5492,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1544467579}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.4980001, y: 3.4150002, z: 1.9850001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5453,7 +5513,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1552734414}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 0.94600004, z: 1.411}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5543,7 +5603,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1563421882}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.69900006, y: 0.98700005, z: 0.95400006}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5564,7 +5624,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1566998629}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.88500005, y: 0.62600005, z: 0.683}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5585,7 +5645,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1630019090}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.3100001, y: 2.302, z: 1.5130001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5606,7 +5666,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1634712152}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.4030001, y: 0.95000005, z: 1.1810001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5627,7 +5687,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1654043353}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.42000002, y: 0.293, z: 0.536}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -5781,7 +5841,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1668717689}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.91700006, y: 1.32, z: 0.70900005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6027,7 +6087,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1710952933}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.84, y: 2.7450001, z: 2.0670002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6095,7 +6155,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1718260655}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3070002, y: 2.937, z: 1.577}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6195,7 +6255,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1728459928}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.3470001, y: 2.115, z: 2.3430002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6216,7 +6276,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1732027111}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.91700006, y: 1.32, z: 0.70900005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6237,7 +6297,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1743300834}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.3900001, y: 2.6620002, z: 1.7600001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6258,7 +6318,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1761112003}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.342, y: 0.864, z: 1.371}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6279,7 +6339,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1762576169}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 3.3330002, y: 3.2740002, z: 2.6790001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6450,7 +6510,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1818422146}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.358, y: 0.94600004, z: 1.411}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6550,7 +6610,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1837689085}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 3.8170002, y: 3.505, z: 2.377}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6571,7 +6631,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1875556164}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.84, y: 2.7450001, z: 2.0670002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6592,7 +6652,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1875583251}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.90900004, y: 1.432, z: 0.80200005}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6715,7 +6775,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1891067378}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.7650001, y: 2.0010002, z: 1.4020001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6736,7 +6796,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1897007655}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.6220002, y: 2.8590002, z: 2.262}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6757,7 +6817,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1910425844}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.6220002, y: 2.8590002, z: 2.262}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -6979,7 +7039,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1934792227}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.4560001, y: 0.71400005, z: 1.4440001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -7000,7 +7060,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1941951732}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.84, y: 2.7450001, z: 2.0670002}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -7132,7 +7192,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2007914059}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.6500001, y: 4.9550004, z: 1.9060001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -7564,7 +7624,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2038040316}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.868, y: 4.761, z: 1.6550001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -7628,7 +7688,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2080283770}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 2.1520002, y: 0.791, z: 1.2880001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -7919,7 +7979,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2115945967}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 1.376, y: 3.2900002, z: 1.5890001}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -8152,7 +8212,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2129959463}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
+  m_Shape: 0
   m_Extents: {x: 0.934, y: 1.6070001, z: 1.026}
   m_MoveThreshold: 0.1
   m_Carve: 1
@@ -8221,6 +8281,14 @@ PrefabInstance:
     - target: {fileID: 1718671913604394962, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928582730666506195, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
+      propertyPath: m_Shape
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928582730666506195, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
+      propertyPath: m_Extents.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3518345672419903287, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10242,5 +10310,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1928582730666506195, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
