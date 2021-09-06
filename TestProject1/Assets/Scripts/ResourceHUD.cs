@@ -26,7 +26,7 @@ public class ResourceHUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameFlow.GetComponent<GameFlow>().food >= 40f)
+        if (GameFlow.GetComponent<GameFlow>().food >= 25f)
         {
             foodCounterMaterial.color = Color.green;
         }
@@ -34,8 +34,8 @@ public class ResourceHUD : MonoBehaviour
         {
             foodCounterMaterial.color = Color.red;
         }
-        foodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().food / 50, 30, 1);
-        if (GameFlow.GetComponent<GameFlow>().wood >= 40f)
+        foodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().food, 30, 1);
+        if (GameFlow.GetComponent<GameFlow>().wood >= 25f)
         {
             woodCounterMaterial.color = Color.green;
         }
@@ -43,8 +43,8 @@ public class ResourceHUD : MonoBehaviour
         {
             woodCounterMaterial.color = Color.red;
         }
-        woodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().wood / 50, 30, 1);
-        if (GameFlow.GetComponent<GameFlow>().iron >= 40f)
+        woodCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().wood, 30, 1);
+        if (GameFlow.GetComponent<GameFlow>().iron >= 25f)
         {
             ironCounterMaterial.color = Color.green;
         }
@@ -52,8 +52,8 @@ public class ResourceHUD : MonoBehaviour
         {
             ironCounterMaterial.color = Color.red;
         }
-        ironCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().iron / 50, 30, 1);
-        if (GameFlow.GetComponent<GameFlow>().water >= 40f)
+        ironCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().iron, 30, 1);
+        if (GameFlow.GetComponent<GameFlow>().water >= 25f)
         {
             waterCounterMaterial.color = Color.green;
         }
@@ -61,7 +61,7 @@ public class ResourceHUD : MonoBehaviour
         {
             waterCounterMaterial.color = Color.red;
         }
-        waterCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().water / 50, 30, 1);
+        waterCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().water, 30, 1);
         if (GameFlow.GetComponent<GameFlow>().population >= 25)
         {
             populationCounterMaterial.color = Color.green;
@@ -70,6 +70,6 @@ public class ResourceHUD : MonoBehaviour
         {
             populationCounterMaterial.color = Color.red;
         }
-        populationCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().population / 50, 30, 1);
+        populationCounter.transform.localScale = new Vector3((float)GameFlow.GetComponent<GameFlow>().population, 30, 1);
     }
 }

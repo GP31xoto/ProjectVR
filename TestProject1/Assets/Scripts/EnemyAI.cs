@@ -109,8 +109,8 @@ public class EnemyAI : MonoBehaviour {
         ResourceInCollectRange = Physics.CheckSphere(transform.position, collectRange, whatIsResource);
 
         if (!ResourceInSightRange && !ResourceInCollectRange) Walking();
-        if (ResourceInSightRange && !ResourceInCollectRange) FoundResource();
-        if (ResourceInSightRange && ResourceInCollectRange) CollectResources();
+        else if (ResourceInSightRange && !ResourceInCollectRange) FoundResource();
+        else if (ResourceInSightRange && ResourceInCollectRange) CollectResources();
         GoToWar();
     }
 
