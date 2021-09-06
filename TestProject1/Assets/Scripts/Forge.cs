@@ -8,11 +8,13 @@ public class Forge : MonoBehaviour
     [SerializeField] private int type;
     private float buffIron;
     private GameObject GameFlow;
+    private ParticleSystem[] smokeNflame;
 
     // Start is called before the first frame update
     void Start()
     {
         GameFlow = GameObject.FindWithTag("GameFlow");
+        smokeNflame = GetComponentsInChildren<ParticleSystem>(); 
         switch (type)
         {
             case 1:
@@ -39,6 +41,10 @@ public class Forge : MonoBehaviour
                 cost = new ConstructionCost(7, 9);
                 buffIron = 2.0f;
                 break;
+        }
+        foreach(ParticleSystem particlesChildren in smokeNflame)
+        {
+            particlesChildren.Play();
         }
     }
 
