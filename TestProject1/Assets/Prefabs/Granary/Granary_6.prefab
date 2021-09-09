@@ -63,8 +63,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.49, y: 5.23, z: 5.54}
-  m_Center: {x: 0, y: 2.48, z: -0.39}
+  m_Size: {x: 95.9, y: 74.12, z: 83.6}
+  m_Center: {x: 0, y: 36.03, z: -5.6}
 --- !u!114 &8328646753248089568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,11 +178,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 3.24, y: 3.92, z: 3.24}
+  m_Extents: {x: 47.9, y: 61.03, z: 47.9}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0.66, z: -0.32}
+  m_Center: {x: 0, y: 12.3, z: -5.6}
   m_TimeToStationary: 0.5
 --- !u!1001 &4526575650789497901
 PrefabInstance:
@@ -197,15 +197,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61980c2b39b7b09408accbdce16de818, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.025002
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61980c2b39b7b09408accbdce16de818, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.025002
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61980c2b39b7b09408accbdce16de818, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.025002
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61980c2b39b7b09408accbdce16de818, type: 3}
       propertyPath: m_LocalPosition.x
@@ -275,15 +275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5f4b0514ebfd84c8400a6d2b4d7855, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.025002
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5f4b0514ebfd84c8400a6d2b4d7855, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.025002003
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5f4b0514ebfd84c8400a6d2b4d7855, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.025002003
+      value: 0.3750301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d5f4b0514ebfd84c8400a6d2b4d7855, type: 3}
       propertyPath: m_LocalPosition.x

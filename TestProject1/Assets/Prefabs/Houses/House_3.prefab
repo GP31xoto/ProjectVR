@@ -49,8 +49,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11, y: 15, z: 17.55}
-  m_Center: {x: 0, y: 7.4, z: 1.37}
+  m_Size: {x: 173.7, y: 243.1, z: 273.2}
+  m_Center: {x: 0, y: 118.8, z: 20.2}
 --- !u!114 &4347807458204365312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,11 +177,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 5.5, y: 7.7, z: 8.775}
+  m_Extents: {x: 86.85, y: 157.5, z: 136.6}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 5.66, z: 1.37}
+  m_Center: {x: 0, y: 82.8, z: 20.2}
   m_TimeToStationary: 0.5
 --- !u!1001 &375294369404191006
 PrefabInstance:
@@ -196,15 +196,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.99586
+      value: 14.9379
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.99586
+      value: 14.9379
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.99586
+      value: 14.9379
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2a7173c99da6376478f2e2fdf5e166a2, type: 3}
       propertyPath: m_LocalPosition.x

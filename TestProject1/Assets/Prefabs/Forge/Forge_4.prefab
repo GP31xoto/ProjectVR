@@ -4868,8 +4868,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.49, y: 2.86, z: 2.49}
-  m_Center: {x: 0, y: 1.38, z: 0}
+  m_Size: {x: 32.38, y: 43.67, z: 32.38}
+  m_Center: {x: 0, y: 21.63, z: 0}
 --- !u!114 &710357764614491301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4984,11 +4984,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.24, y: 1.655, z: 1.24}
+  m_Extents: {x: 16.19, y: 26.65, z: 16.19}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 1.15, z: 0}
+  m_Center: {x: 0, y: 16.8, z: 0}
   m_TimeToStationary: 0.5
 --- !u!1 &6461519422537880886
 GameObject:
@@ -14611,15 +14611,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea41c8dc3c539a49ad926bdc23593cb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.028835658
+      value: 0.4325349
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea41c8dc3c539a49ad926bdc23593cb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.028835658
+      value: 0.4325349
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea41c8dc3c539a49ad926bdc23593cb, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.028835658
+      value: 0.4325349
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea41c8dc3c539a49ad926bdc23593cb, type: 3}
       propertyPath: m_LocalPosition.x
