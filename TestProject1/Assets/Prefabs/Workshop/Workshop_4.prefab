@@ -49,8 +49,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.16, y: 10.11, z: 6.65}
-  m_Center: {x: -0.27, y: 4.98, z: 0.43}
+  m_Size: {x: 127.45, y: 152.1, z: 105.4}
+  m_Center: {x: -4.4, y: 74, z: 5.15}
 --- !u!114 &8804791194544198495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,14 +100,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479802486242142986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
@@ -177,11 +177,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_Extents: {x: 63.8, y: 107.8, z: 63.8}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -4.45, y: 42, z: 4.4}
   m_TimeToStationary: 0.5
 --- !u!1001 &7594403358075926148
 PrefabInstance:
@@ -196,15 +196,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bfa899a91a791ee498fcc18c1127d197, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.085148
+      value: 1.27722
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bfa899a91a791ee498fcc18c1127d197, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.085148
+      value: 1.2772198
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bfa899a91a791ee498fcc18c1127d197, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.085148
+      value: 1.2772198
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bfa899a91a791ee498fcc18c1127d197, type: 3}
       propertyPath: m_LocalPosition.x

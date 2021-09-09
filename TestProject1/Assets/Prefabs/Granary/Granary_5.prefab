@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3433817889532825771}
   - component: {fileID: 1751984157028259103}
   - component: {fileID: -9104341945137934169}
-  - component: {fileID: -8128345529295082487}
   - component: {fileID: -6333094707323310011}
   - component: {fileID: 8641211406400077976}
   m_Layer: 6
@@ -64,8 +63,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.61, y: 3.27, z: 2.68}
-  m_Center: {x: -0.21, y: 1.62, z: -0.18}
+  m_Size: {x: 40.19, y: 51, z: 40.19}
+  m_Center: {x: -3.3, y: 24.9, z: -3.4}
 --- !u!114 &3433817889532825771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,8 +107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
@@ -129,23 +128,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &-8128345529295082487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5007483235129281886}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!23 &-6333094707323310011
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -196,11 +178,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 1.35, y: 2.34, z: 1.35}
+  m_Extents: {x: 20.09, y: 35.45, z: 20.09}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.22, y: 0.98, z: -0.19}
+  m_Center: {x: -3.3, y: 15, z: -3.4}
   m_TimeToStationary: 0.5
 --- !u!1001 &6292268279210437036
 PrefabInstance:
@@ -215,15 +197,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.02119051
+      value: 0.31785762
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.02119051
+      value: 0.31785756
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.02119051
+      value: 0.31785756
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalPosition.x
@@ -247,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efa853bad2a022a4497e8063a1772655, type: 3}
       propertyPath: m_LocalRotation.z
@@ -293,15 +275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.021190504
+      value: 0.3178575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.021190505
+      value: 0.3178576
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.021190504
+      value: 0.3178575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b417759feaa11b48bb64422aece2524, type: 3}
       propertyPath: m_LocalPosition.x

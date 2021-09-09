@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6709321600590730924}
   - component: {fileID: 7172840435655628776}
   - component: {fileID: -9023326848231248340}
-  - component: {fileID: -5161326583309383294}
   - component: {fileID: -6257979765972482862}
   - component: {fileID: -634928851142264279}
   m_Layer: 6
@@ -63,8 +62,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.76, y: 3.36, z: 1.74}
-  m_Center: {x: 0, y: 1.65, z: -0.03}
+  m_Size: {x: 24.4, y: 53.8, z: 24.74}
+  m_Center: {x: 0, y: 26.4, z: -0.59}
 --- !u!114 &6709321600590730924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,34 +116,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51343763130037634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
---- !u!114 &-5161326583309383294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51343763130037634}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!23 &-6257979765972482862
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -196,11 +178,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 0.86, y: 2.065, z: 0.86}
+  m_Extents: {x: 12.12, y: 32.98, z: 12.12}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 1.25, z: -0.03}
+  m_Center: {x: 0, y: 20.3, z: -0.6}
   m_TimeToStationary: 0.5
 --- !u!1 &7868810015096809205
 GameObject:
@@ -9823,15 +9805,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.031497
+      value: 0.472455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.031497
+      value: 0.472455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.031497
+      value: 0.472455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a28f5e116482a44db7360a14943b91c, type: 3}
       propertyPath: m_LocalPosition.x

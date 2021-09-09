@@ -144,6 +144,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.18100001, y: 0.703, z: -0.035}
   m_TimeToStationary: 0.5
+--- !u!65 &1578201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.683745, y: 1.7282345, z: 2.741416}
+  m_Center: {x: 0.18146896, y: 0.7029598, z: -0.034853518}
 --- !u!114 &1578202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +175,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1578203
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578199}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1607634
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +505,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.757, y: 2.7600002, z: 0.365}
   m_TimeToStationary: 0.5
+--- !u!54 &13260442
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13260440}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &13260443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,6 +539,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &13260444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13260440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.585224, y: 5.625024, z: 5.769966}
+  m_Center: {x: 0.75674343, y: 2.7598934, z: 0.36549592}
 --- !u!1 &27156975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287498134784, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -515,6 +573,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.082, y: 0.157, z: 0.112}
   m_TimeToStationary: 0.5
+--- !u!65 &27156977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27156975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.791577, y: 0.4733982, z: 3.2137902}
+  m_Center: {x: 0.08216059, y: 0.15651733, z: 0.111626506}
 --- !u!114 &27156978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,6 +604,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &27156979
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27156975}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &34090704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286593083187, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -554,6 +641,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.025, y: 5.038, z: -0.016}
   m_TimeToStationary: 0.5
+--- !u!54 &34090706
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34090704}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &34090707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +675,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &34090708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34090704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8512414, y: 10.093486, z: 2.8089838}
+  m_Center: {x: 0.02521491, y: 5.038174, z: -0.015646279}
 --- !u!1 &56819347
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,6 +784,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.069000006, y: 6.3020005, z: -0.08800001}
   m_TimeToStationary: 0.5
+--- !u!54 &92700231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92700229}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &92700232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +818,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &92700233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92700229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1704903, y: 12.711982, z: 4.0281043}
+  m_Center: {x: -0.068825245, y: 6.301741, z: -0.08823365}
 --- !u!1 &92790254 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287791735147, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -707,6 +852,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.245, y: 4.761, z: 0.119}
   m_TimeToStationary: 0.5
+--- !u!54 &92790256
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92790254}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &92790257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,6 +886,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &92790258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92790254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7353225, y: 9.521358, z: 3.3104792}
+  m_Center: {x: 0.24535424, y: 4.760679, z: 0.119127035}
 --- !u!1 &132520397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288163853254, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -746,6 +920,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.039, y: 1.9690001, z: -0.014}
   m_TimeToStationary: 0.5
+--- !u!54 &132520399
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132520397}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &132520400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,6 +954,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &132520401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132520397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5296392, y: 4.0018935, z: 2.80471}
+  m_Center: {x: -0.039251268, y: 1.9694079, z: -0.013707221}
 --- !u!1 &137315349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286723044743, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -785,6 +988,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.142, y: 3.2530003, z: 0.156}
   m_TimeToStationary: 0.5
+--- !u!54 &137315351
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137315349}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &137315352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,6 +1022,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &137315353
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137315349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.666334, y: 6.54848, z: 5.3589134}
+  m_Center: {x: 0.14150476, y: 3.2534423, z: 0.1555748}
 --- !u!1 &163729931
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +1092,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.21800001, y: 2.4060001, z: 0.25500003}
   m_TimeToStationary: 0.5
+--- !u!54 &178363618
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178363616}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &178363619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,6 +1126,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &178363620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178363616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1248934, y: 4.8113804, z: 2.2665594}
+  m_Center: {x: 0.21823633, y: 2.4056902, z: 0.25511536}
 --- !u!1 &180228497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286999388254, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -899,6 +1160,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.093, y: 3.065, z: 0.079}
   m_TimeToStationary: 0.5
+--- !u!54 &180228499
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180228497}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &180228500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,6 +1194,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &180228501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180228497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6934433, y: 6.1298056, z: 4.685932}
+  m_Center: {x: -0.093046546, y: 3.0649028, z: 0.07939565}
 --- !u!1 &206287887
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +1237,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &210803106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 819099782236254707, guid: 0da18876b93050346a506d4675799ae4, type: 3}
+  m_PrefabInstance: {fileID: 574472003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &210803107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3433646220760188967, guid: 0da18876b93050346a506d4675799ae4, type: 3}
+  m_PrefabInstance: {fileID: 574472003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &213454090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1718671913604394962, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1009,6 +1309,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.004, y: 2.63, z: -0.044000003}
   m_TimeToStationary: 0.5
+--- !u!54 &271016552
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271016550}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &271016553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1027,6 +1343,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &271016554
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271016550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7808323, y: 5.3230395, z: 3.5201986}
+  m_Center: {x: 0.00362283, y: 2.6299808, z: -0.044297338}
 --- !u!1 &291356132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,6 +1844,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.462, y: 2.857, z: -0.066}
   m_TimeToStationary: 0.5
+--- !u!54 &319512632
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319512630}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &319512633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1533,6 +1878,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &319512634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319512630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.243247, y: 5.7171717, z: 4.524186}
+  m_Center: {x: -0.46175385, y: 2.857428, z: -0.06608546}
 --- !u!1 &326618212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 915019579068015697, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1554,6 +1912,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.069000006, y: 6.3020005, z: -0.08800001}
   m_TimeToStationary: 0.5
+--- !u!54 &326618214
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326618212}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &326618215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1572,6 +1946,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &326618216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326618212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1704903, y: 12.711982, z: 4.0281043}
+  m_Center: {x: -0.068825245, y: 6.301741, z: -0.08823365}
 --- !u!1 &333854612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286639701618, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1593,6 +1980,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.047000002, y: 2.282, z: -0.263}
   m_TimeToStationary: 0.5
+--- !u!54 &333854614
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333854612}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &333854615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,6 +2014,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &333854616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333854612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4648318, y: 4.6840057, z: 4.3784146}
+  m_Center: {x: -0.047009885, y: 2.2817488, z: -0.26331377}
 --- !u!1 &346860720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287001534722, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1632,6 +2048,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.16900001, y: 2.5270002, z: 0.22700001}
   m_TimeToStationary: 0.5
+--- !u!54 &346860722
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346860720}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &346860723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,6 +2082,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &346860724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346860720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4843245, y: 5.084371, z: 3.480546}
+  m_Center: {x: -0.16941524, y: 2.5267913, z: 0.22734904}
 --- !u!1 &357715638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,6 +2250,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.026, y: 3.897, z: -0.006}
   m_TimeToStationary: 0.5
+--- !u!54 &404240806
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404240804}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &404240807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1823,6 +2284,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &404240808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404240804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8382995, y: 7.811915, z: 2.789102}
+  m_Center: {x: 0.026300788, y: 3.8973892, z: -0.0057053566}
 --- !u!1 &405007785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286781104157, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1844,6 +2318,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.298, y: 4.716, z: -0.113000005}
   m_TimeToStationary: 0.5
+--- !u!54 &405007787
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405007785}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &405007788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1862,6 +2352,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &405007789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405007785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2275105, y: 9.432353, z: 3.6467671}
+  m_Center: {x: -0.29849482, y: 4.716176, z: -0.11325455}
 --- !u!1 &412051522 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288336560134, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -1883,6 +2386,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.026, y: 0.49500003, z: 0.086}
   m_TimeToStationary: 0.5
+--- !u!65 &412051524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412051522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2089736, y: 1.0713614, z: 2.3434973}
+  m_Center: {x: 0.026370883, y: 0.49465722, z: 0.08611363}
 --- !u!114 &412051525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1901,6 +2417,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &412051526
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412051522}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &436416939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2612,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.014, y: 0.68700004, z: -0.059000004}
   m_TimeToStationary: 0.5
+--- !u!65 &459589746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459589744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7708734, y: 1.2526329, z: 1.366437}
+  m_Center: {x: 0.013845623, y: 0.68707734, z: -0.058891207}
 --- !u!114 &459589747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2098,6 +2643,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &459589748
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459589744}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &471351879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2356,6 +2917,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.298, y: 4.716, z: -0.113000005}
   m_TimeToStationary: 0.5
+--- !u!54 &503469039
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503469037}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &503469040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2374,6 +2951,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &503469041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503469037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2275105, y: 9.432353, z: 3.6467671}
+  m_Center: {x: -0.29849482, y: 4.7161765, z: -0.11325455}
 --- !u!1 &508059839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287637169943, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -2395,6 +2985,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.044000003, y: 0.99700004, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &508059841
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508059839}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &508059842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,6 +3019,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &508059843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508059839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.91793114, y: 2.0116024, z: 1.0071266}
+  m_Center: {x: 0.044189185, y: 0.9967048, z: -0.00000008940697}
 --- !u!1 &535082051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288032192625, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -2434,6 +3053,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.14500001, y: 1.4100001, z: -0.164}
   m_TimeToStationary: 0.5
+--- !u!54 &535082053
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535082051}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &535082054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2452,6 +3087,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &535082055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535082051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.818955, y: 2.8632913, z: 1.6040084}
+  m_Center: {x: -0.14541924, y: 1.4102395, z: -0.16419378}
 --- !u!1 &550474459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287429018342, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -2473,6 +3121,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.082, y: 0.157, z: 0.112}
   m_TimeToStationary: 0.5
+--- !u!65 &550474461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550474459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.791577, y: 0.4733982, z: 3.2137902}
+  m_Center: {x: 0.08216059, y: 0.15651685, z: 0.111626506}
 --- !u!114 &550474462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2491,6 +3152,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &550474463
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550474459}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &574472003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2498,6 +3175,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1545508915079627315, guid: 0da18876b93050346a506d4675799ae4, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106093257622573460, guid: 0da18876b93050346a506d4675799ae4, type: 3}
+      propertyPath: fadeOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646238233200823390, guid: 0da18876b93050346a506d4675799ae4, type: 3}
+      propertyPath: m_Radius
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 3140694348675813221, guid: 0da18876b93050346a506d4675799ae4, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2569,6 +3258,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.104, y: 0.298, z: -0.032}
   m_TimeToStationary: 0.5
+--- !u!65 &589208115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589208113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7774389, y: 0.51213104, z: 1.7504358}
+  m_Center: {x: 0.1038208, y: 0.29806086, z: -0.03210959}
 --- !u!114 &589208116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2587,6 +3289,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &589208117
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589208113}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &602319338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288097359686, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -2608,6 +3326,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.20300001, y: 3.4150002, z: 0.11000001}
   m_TimeToStationary: 0.5
+--- !u!54 &602319340
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602319338}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &602319341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,6 +3360,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &602319342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602319338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9969454, y: 6.8307905, z: 3.9691575}
+  m_Center: {x: -0.20307672, y: 3.4153953, z: 0.10959971}
 --- !u!1 &620304014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,6 +3469,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.074, y: 0.323, z: 0.074}
   m_TimeToStationary: 0.5
+--- !u!65 &631433896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631433894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1928722, y: 0.65057665, z: 0.9976279}
+  m_Center: {x: 0.074441016, y: 0.32340702, z: 0.07386699}
 --- !u!114 &631433897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2740,6 +3500,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &631433898
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631433894}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &631984608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,6 +3688,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.142, y: 3.2530003, z: 0.156}
   m_TimeToStationary: 0.5
+--- !u!54 &656102780
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656102778}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &656102781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2930,6 +3722,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &656102782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656102778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.666334, y: 6.54848, z: 5.3589134}
+  m_Center: {x: 0.14150476, y: 3.2534423, z: 0.1555748}
 --- !u!1 &665212495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286908784200, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -2951,6 +3756,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.039, y: 1.9690001, z: -0.014}
   m_TimeToStationary: 0.5
+--- !u!54 &665212497
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665212495}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &665212498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2969,6 +3790,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &665212499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665212495}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5296392, y: 4.0018935, z: 2.80471}
+  m_Center: {x: -0.039251268, y: 1.9694074, z: -0.013707221}
 --- !u!1 &670848653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,6 +3925,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.16900001, y: 2.5270002, z: 0.22700001}
   m_TimeToStationary: 0.5
+--- !u!54 &674729942
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674729940}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &674729943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,6 +3959,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &674729944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674729940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4843245, y: 5.084371, z: 3.480546}
+  m_Center: {x: -0.16941524, y: 2.5267913, z: 0.22734904}
 --- !u!1 &697302151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3377,6 +4240,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.093, y: 2.089, z: 0.079}
   m_TimeToStationary: 0.5
+--- !u!54 &709323920
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709323918}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &709323921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3395,6 +4274,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &709323922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709323918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6934433, y: 4.2299733, z: 4.685932}
+  m_Center: {x: -0.093046546, y: 2.089306, z: 0.07939565}
 --- !u!1 &711328282 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288331336799, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3416,6 +4308,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.127, y: 0.71500003, z: -0.07700001}
   m_TimeToStationary: 0.5
+--- !u!65 &711328284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711328282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6662312, y: 1.7047242, z: 1.9618251}
+  m_Center: {x: 0.12742552, y: 0.71463543, z: -0.07659629}
 --- !u!114 &711328285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3434,6 +4339,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &711328286
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711328282}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &728493506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287541521082, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3455,6 +4376,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.7450001, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &728493508
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728493506}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &728493509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3473,6 +4410,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &728493510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728493506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6426387, y: 3.5008087, z: 1.8967557}
+  m_Center: {x: 0, y: 1.7451429, z: 0}
 --- !u!1 &728861612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286742065484, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3494,6 +4444,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.10300001, y: 2.937, z: -0.22500001}
   m_TimeToStationary: 0.5
+--- !u!54 &728861614
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728861612}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &728861615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3512,6 +4478,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &728861616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728861612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6141233, y: 5.8732557, z: 3.1548734}
+  m_Center: {x: 0.103113055, y: 2.9366279, z: -0.22475779}
 --- !u!1 &729994886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,10 +4502,6 @@ GameObject:
   - component: {fileID: 729994887}
   - component: {fileID: 729994888}
   - component: {fileID: 729994889}
-  - component: {fileID: 729994891}
-  - component: {fileID: 729994890}
-  - component: {fileID: 729994892}
-  - component: {fileID: 729994893}
   m_Layer: 7
   m_Name: IslandBoundariesColliders
   m_TagString: Boundaries
@@ -3542,7 +4517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729994886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 596, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 213454090}
@@ -3559,8 +4534,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20000, y: 3500, z: 9000}
-  m_Center: {x: 0, y: 1000, z: -5500}
+  m_Size: {x: 2532.4502, y: 1407.4384, z: 1099.9028}
+  m_Center: {x: -79.85864, y: 309.034, z: -814.45154}
 --- !u!65 &729994889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3572,60 +4547,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20000, y: 3500, z: 9000}
-  m_Center: {x: 0, y: 1000, z: 6000}
---- !u!65 &729994890
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729994886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8500, y: 3500, z: 20000}
-  m_Center: {x: 5750, y: 1000, z: 242.2378}
---- !u!65 &729994891
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729994886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8500, y: 3500, z: 20000}
-  m_Center: {x: -5750, y: 1000, z: 242.2378}
---- !u!65 &729994892
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729994886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20000, y: 5000, z: 20000}
-  m_Center: {x: 0, y: -3120, z: 0}
---- !u!65 &729994893
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729994886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20000, y: 5000, z: 20000}
-  m_Center: {x: 0, y: 5250, z: 0}
+  m_Size: {x: 2613.9434, y: 1283.6908, z: 1234.989}
+  m_Center: {x: -114.076904, y: 79.14636, z: 1551.8744}
 --- !u!1 &731150812 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288219591081, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3647,6 +4570,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.142, y: 3.2530003, z: 0.156}
   m_TimeToStationary: 0.5
+--- !u!54 &731150814
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731150812}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &731150815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3665,6 +4604,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &731150816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731150812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.666334, y: 6.54848, z: 5.3589134}
+  m_Center: {x: 0.14150476, y: 3.2534423, z: 0.1555748}
 --- !u!1 &734066929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288208338518, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3686,6 +4638,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.078, y: 0.94100004, z: -0.171}
   m_TimeToStationary: 0.5
+--- !u!54 &734066931
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734066929}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &734066932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3705,6 +4673,19 @@ MonoBehaviour:
   m_grabPoints: []
   m_materialColorField: 
 --- !u!65 &734066933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734066929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6874523, y: 2.0015602, z: 1.3746011}
+  m_Center: {x: -0.07769716, y: 0.94052595, z: -0.17093214}
+--- !u!65 &734066934
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3738,6 +4719,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.757, y: 2.7600002, z: 0.365}
   m_TimeToStationary: 0.5
+--- !u!54 &746798903
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746798901}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &746798904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3756,6 +4753,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &746798905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746798901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.585225, y: 5.625024, z: 5.7699666}
+  m_Center: {x: 0.75674355, y: 2.7598934, z: 0.36549595}
 --- !u!1 &749727454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287024696838, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3777,6 +4787,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.113000005, y: 2.821, z: -0.011000001}
   m_TimeToStationary: 0.5
+--- !u!54 &749727456
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749727454}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &749727457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3795,6 +4821,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &749727458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749727454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.594975, y: 6.286909, z: 3.892275}
+  m_Center: {x: 0.11302805, y: 2.82064, z: -0.010869026}
 --- !u!1 &751520102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287880571495, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3816,6 +4855,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.065000005, y: 1.3160001, z: 0.047000002}
   m_TimeToStationary: 0.5
+--- !u!65 &751520104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751520102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150211, y: 3.1539106, z: 2.7030396}
+  m_Center: {x: 0.06533378, y: 1.3159657, z: 0.046627223}
 --- !u!114 &751520105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3834,6 +4886,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &751520106
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751520102}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &759233193 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288151182307, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3855,6 +4923,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.074, y: 0.323, z: 0.074}
   m_TimeToStationary: 0.5
+--- !u!65 &759233195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759233193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1928722, y: 0.65057665, z: 0.9976279}
+  m_Center: {x: 0.074441016, y: 0.32340702, z: 0.07386699}
 --- !u!114 &759233196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3873,6 +4954,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &759233197
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759233193}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &761764867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +5057,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.19000001, y: 0.726, z: -0.079}
   m_TimeToStationary: 0.5
+--- !u!65 &779650549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779650547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3988388, y: 1.9738545, z: 1.9086243}
+  m_Center: {x: -0.19001558, y: 0.7259393, z: -0.07948917}
 --- !u!114 &779650550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3978,6 +5088,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &779650551
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779650547}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &781196069 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287057528018, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -3999,6 +5125,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.093, y: 3.065, z: 0.079}
   m_TimeToStationary: 0.5
+--- !u!54 &781196071
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781196069}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &781196072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4017,6 +5159,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &781196073
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781196069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6934433, y: 6.1298056, z: 4.685932}
+  m_Center: {x: -0.093046546, y: 3.0649028, z: 0.07939565}
 --- !u!1 &788312756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4069,6 +5224,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.074, y: 0.323, z: 0.074}
   m_TimeToStationary: 0.5
+--- !u!65 &824544172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824544170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1928722, y: 0.65057665, z: 0.9976279}
+  m_Center: {x: 0.074441016, y: 0.32340702, z: 0.07386699}
 --- !u!114 &824544173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4087,6 +5255,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &824544174
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824544170}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &825200429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287824216785, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -4108,6 +5292,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.074, y: 0.323, z: 0.074}
   m_TimeToStationary: 0.5
+--- !u!65 &825200431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825200429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1928722, y: 0.65057665, z: 0.9976279}
+  m_Center: {x: 0.074441016, y: 0.32340702, z: 0.07386699}
 --- !u!114 &825200432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4126,6 +5323,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &825200433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825200429}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &867484681 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286857976037, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -4147,6 +5360,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.18100001, y: 0.703, z: -0.035}
   m_TimeToStationary: 0.5
+--- !u!65 &867484683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867484681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.683745, y: 1.7282345, z: 2.741416}
+  m_Center: {x: 0.18146896, y: 0.7029607, z: -0.034853518}
 --- !u!114 &867484684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4165,6 +5391,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &867484685
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867484681}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &870539038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286320349304, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -4186,6 +5428,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.15200001, y: 1.5860001, z: -0.095000006}
   m_TimeToStationary: 0.5
+--- !u!54 &870539040
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870539038}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &870539041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4204,6 +5462,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &870539042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870539038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8671477, y: 3.2138174, z: 2.052555}
+  m_Center: {x: -0.15150821, y: 1.5861112, z: -0.094670475}
 --- !u!1 &885646540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288017416590, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -4225,6 +5496,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.22000001, y: 1.3000001, z: 0.279}
   m_TimeToStationary: 0.5
+--- !u!54 &885646542
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885646540}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &885646543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4243,6 +5530,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &885646544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885646540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8339452, y: 2.640846, z: 1.418679}
+  m_Center: {x: -0.22046918, y: 1.2996255, z: 0.27903476}
 --- !u!1 &888783254
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,6 +5765,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.08400001, y: 0.28500003, z: -0.010000001}
   m_TimeToStationary: 0.5
+--- !u!65 &934415444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934415442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2151852, y: 0.85753477, z: 1.1476779}
+  m_Center: {x: 0.084005564, y: 0.28504598, z: -0.009593248}
 --- !u!114 &934415445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4483,6 +5796,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &934415446
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934415442}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &943149047
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,6 +5912,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.065000005, y: 1.3160001, z: 0.047000002}
   m_TimeToStationary: 0.5
+--- !u!65 &946978760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946978758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150211, y: 3.1539106, z: 2.7030396}
+  m_Center: {x: 0.06533378, y: 1.3159666, z: 0.046627223}
 --- !u!114 &946978761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4601,6 +5943,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &946978762
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946978758}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,6 +6063,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.23200001, y: 3.1950002, z: -0.083000004}
   m_TimeToStationary: 0.5
+--- !u!54 &977447872
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977447870}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &977447873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4723,6 +6097,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &977447874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977447870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.098178, y: 6.3900375, z: 2.6101391}
+  m_Center: {x: -0.23159409, y: 3.1950188, z: -0.08332598}
 --- !u!1 &990041226
 GameObject:
   m_ObjectHideFlags: 0
@@ -4849,6 +6236,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.104, y: 0.298, z: -0.032}
   m_TimeToStationary: 0.5
+--- !u!65 &1035167583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035167581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7774389, y: 0.51213104, z: 1.7504358}
+  m_Center: {x: 0.1038208, y: 0.2980604, z: -0.03210959}
 --- !u!114 &1035167584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4867,6 +6267,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1035167585
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035167581}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1048421041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287690437967, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -4888,6 +6304,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.14500001, y: 1.4100001, z: -0.164}
   m_TimeToStationary: 0.5
+--- !u!54 &1048421043
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048421041}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1048421044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4906,6 +6338,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1048421045
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048421041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.818955, y: 2.8632913, z: 1.6040084}
+  m_Center: {x: -0.14541924, y: 1.4102395, z: -0.16419378}
 --- !u!1 &1051274932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286412486955, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5013,6 +6458,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.078, y: 0.94100004, z: -0.171}
   m_TimeToStationary: 0.5
+--- !u!54 &1059392446
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059392444}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1059392447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5031,6 +6492,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1059392448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059392444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6874523, y: 2.0015602, z: 1.3746011}
+  m_Center: {x: -0.07769716, y: 0.94052595, z: -0.17093214}
 --- !u!1 &1060028995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,6 +6562,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.298, y: 4.716, z: -0.113000005}
   m_TimeToStationary: 0.5
+--- !u!54 &1067565658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067565656}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1067565659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5106,6 +6596,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1067565660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067565656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2275105, y: 9.432353, z: 3.6467671}
+  m_Center: {x: -0.29849482, y: 4.7161765, z: -0.11325455}
 --- !u!1 &1079488185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286597636997, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5127,6 +6630,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.104, y: 0.298, z: -0.032}
   m_TimeToStationary: 0.5
+--- !u!65 &1079488187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079488185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7774389, y: 0.51213104, z: 1.7504358}
+  m_Center: {x: 0.1038208, y: 0.2980604, z: -0.03210959}
 --- !u!114 &1079488188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5145,6 +6661,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1079488189
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079488185}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1082821346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286746445386, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5166,6 +6698,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.187, y: 0.63000005, z: 0.18300001}
   m_TimeToStationary: 0.5
+--- !u!65 &1082821348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082821346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9122121, y: 1.4284567, z: 2.8872352}
+  m_Center: {x: 0.1872009, y: 0.6302398, z: 0.18345052}
 --- !u!114 &1082821349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5184,6 +6729,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1082821350
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082821346}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1104955346
 GameObject:
   m_ObjectHideFlags: 0
@@ -5359,6 +6920,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.15200001, y: 1.5860001, z: -0.095000006}
   m_TimeToStationary: 0.5
+--- !u!54 &1172085725
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172085723}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1172085726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5377,6 +6954,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1172085727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172085723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8671477, y: 3.2138174, z: 2.052555}
+  m_Center: {x: -0.15150821, y: 1.5861112, z: -0.094670475}
 --- !u!1 &1178085106
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,6 +7072,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.21800001, y: 2.4060001, z: 0.25500003}
   m_TimeToStationary: 0.5
+--- !u!54 &1180436237
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180436235}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1180436238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5500,6 +7106,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1180436239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180436235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1248934, y: 4.8113804, z: 2.2665594}
+  m_Center: {x: 0.21823633, y: 2.4056902, z: 0.25511536}
 --- !u!1 &1182951479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288085390061, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5521,6 +7140,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.026, y: 0.49500003, z: 0.086}
   m_TimeToStationary: 0.5
+--- !u!65 &1182951481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182951479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2089736, y: 1.0713614, z: 2.3434973}
+  m_Center: {x: 0.026370883, y: 0.49465722, z: 0.08611363}
 --- !u!114 &1182951482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5539,6 +7171,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1182951483
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182951479}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1197677186 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287949803632, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5560,6 +7208,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.039, y: 1.9690001, z: -0.014}
   m_TimeToStationary: 0.5
+--- !u!54 &1197677188
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197677186}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1197677189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5578,6 +7242,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1197677190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197677186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5296392, y: 4.0018935, z: 2.80471}
+  m_Center: {x: -0.039251268, y: 1.9694079, z: -0.013707221}
 --- !u!1 &1198411395 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287746144745, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -5599,6 +7276,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.23200001, y: 3.1950002, z: -0.083000004}
   m_TimeToStationary: 0.5
+--- !u!54 &1198411397
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198411395}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1198411398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5617,6 +7310,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1198411399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198411395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.098178, y: 6.3900375, z: 2.6101391}
+  m_Center: {x: -0.23159409, y: 3.1950183, z: -0.08332598}
 --- !u!1 &1214688590
 GameObject:
   m_ObjectHideFlags: 0
@@ -5747,6 +7453,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.245, y: 4.761, z: 0.119}
   m_TimeToStationary: 0.5
+--- !u!54 &1242722804
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242722802}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1242722805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5765,6 +7487,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1242722806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242722802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7353225, y: 9.521358, z: 3.3104792}
+  m_Center: {x: 0.24535424, y: 4.760679, z: 0.119127035}
 --- !u!1 &1256857419
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,6 +7701,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.065000005, y: 1.3160001, z: 0.047000002}
   m_TimeToStationary: 0.5
+--- !u!65 &1267651508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267651506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150211, y: 3.1539106, z: 2.7030396}
+  m_Center: {x: 0.06533378, y: 1.3159657, z: 0.046627223}
 --- !u!114 &1267651509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5984,6 +7732,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1267651510
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267651506}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1268969909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,6 +7805,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.15200001, y: 1.5860001, z: -0.095000006}
   m_TimeToStationary: 0.5
+--- !u!54 &1274370493
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274370491}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1274370494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6059,6 +7839,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1274370495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274370491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8671477, y: 3.2138174, z: 2.052555}
+  m_Center: {x: -0.15150821, y: 1.5861112, z: -0.094670475}
 --- !u!1 &1316394391
 GameObject:
   m_ObjectHideFlags: 0
@@ -6453,6 +8246,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.18100001, y: 0.703, z: -0.035}
   m_TimeToStationary: 0.5
+--- !u!65 &1333029689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333029687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.683745, y: 1.7282345, z: 2.741416}
+  m_Center: {x: 0.18146896, y: 0.7029598, z: -0.034853518}
 --- !u!114 &1333029690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6471,6 +8277,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1333029691
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333029687}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1364891946 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287693631457, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6492,6 +8314,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.065000005, y: 1.3160001, z: 0.047000002}
   m_TimeToStationary: 0.5
+--- !u!65 &1364891948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364891946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150211, y: 3.1539106, z: 2.7030396}
+  m_Center: {x: 0.06533569, y: 1.3159657, z: 0.04662627}
 --- !u!114 &1364891949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6510,6 +8345,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1364891950
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364891946}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1412169673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287233888858, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6531,6 +8382,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.039, y: 1.9690001, z: -0.014}
   m_TimeToStationary: 0.5
+--- !u!54 &1412169675
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412169673}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1412169676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6549,6 +8416,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1412169677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412169673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5296392, y: 4.0018935, z: 2.80471}
+  m_Center: {x: -0.039251268, y: 1.9694079, z: -0.013707221}
 --- !u!1 &1438587135 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286608452651, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6570,6 +8450,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.14500001, y: 1.4100001, z: -0.164}
   m_TimeToStationary: 0.5
+--- !u!54 &1438587137
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438587135}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1438587138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6588,6 +8484,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1438587139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438587135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.818955, y: 2.8632913, z: 1.6040084}
+  m_Center: {x: -0.14541924, y: 1.4102395, z: -0.16419378}
 --- !u!1 &1467311022 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287544108789, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6609,6 +8518,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.025, y: 5.038, z: -0.016}
   m_TimeToStationary: 0.5
+--- !u!54 &1467311024
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467311022}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1467311025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6627,6 +8552,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1467311026
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467311022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8512414, y: 10.093486, z: 2.8089838}
+  m_Center: {x: 0.02521491, y: 5.038174, z: -0.015646279}
 --- !u!1 &1506390627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286929754449, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6648,6 +8586,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.062000003, y: 0.64500004, z: 0.23700002}
   m_TimeToStationary: 0.5
+--- !u!65 &1506390629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506390627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.689558, y: 1.8855693, z: 2.6228259}
+  m_Center: {x: -0.062401116, y: 0.64533293, z: 0.23742115}
 --- !u!114 &1506390630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6666,6 +8617,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1506390631
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506390627}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1509324360 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287913576670, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6687,6 +8654,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.024, y: 3.2810001, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &1509324362
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509324360}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1509324363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6705,6 +8688,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1509324364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509324360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7526016, y: 6.5791864, z: 3.178422}
+  m_Center: {x: 0.023827016, y: 3.281025, z: 0}
 --- !u!1 &1522567550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6805,6 +8801,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.044000003, y: 0.99700004, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &1542781136
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542781134}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1542781137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6823,6 +8835,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1542781138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542781134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.91793114, y: 2.0116024, z: 1.0071266}
+  m_Center: {x: 0.044189185, y: 0.9967048, z: -0.00000008940697}
 --- !u!1 &1543491400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288258111050, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6844,6 +8869,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.078, y: 0.94100004, z: -0.171}
   m_TimeToStationary: 0.5
+--- !u!54 &1543491402
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543491400}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1543491403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6862,6 +8903,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1543491404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543491400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6874523, y: 2.0015602, z: 1.3746011}
+  m_Center: {x: -0.07769716, y: 0.94052595, z: -0.17093214}
 --- !u!1 &1544467579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288077661531, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6883,6 +8937,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.20300001, y: 3.4150002, z: 0.11000001}
   m_TimeToStationary: 0.5
+--- !u!54 &1544467581
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544467579}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1544467582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6901,6 +8971,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1544467583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544467579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9969454, y: 6.8307905, z: 3.9691575}
+  m_Center: {x: -0.20307672, y: 3.4153953, z: 0.10959971}
 --- !u!1 &1552734414 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287872951983, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -6922,6 +9005,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.030000001, y: 0.595, z: 0.33900002}
   m_TimeToStationary: 0.5
+--- !u!65 &1552734416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552734414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150426, y: 1.8910995, z: 2.821469}
+  m_Center: {x: 0.030299544, y: 0.59456635, z: 0.33896148}
 --- !u!114 &1552734417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6940,6 +9036,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1552734418
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552734414}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1560988307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7030,6 +9142,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.19000001, y: 0.726, z: -0.079}
   m_TimeToStationary: 0.5
+--- !u!65 &1563421884
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563421882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3988388, y: 1.9738545, z: 1.9086243}
+  m_Center: {x: -0.19001558, y: 0.7259388, z: -0.07948917}
 --- !u!114 &1563421885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7048,6 +9173,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1563421886
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563421882}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1566998629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604288204892273, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7069,6 +9210,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.014, y: 0.68700004, z: -0.059000004}
   m_TimeToStationary: 0.5
+--- !u!65 &1566998631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566998629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7708734, y: 1.2526329, z: 1.366437}
+  m_Center: {x: 0.013845623, y: 0.6870774, z: -0.058888346}
 --- !u!114 &1566998632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7087,6 +9241,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1566998633
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566998629}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1630019090 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287351384863, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7108,6 +9278,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.006, y: 2.3160002, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &1630019092
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630019090}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1630019093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7126,6 +9312,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1630019094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630019090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.620369, y: 4.6030545, z: 3.02574}
+  m_Center: {x: -0.0059244633, y: 2.3161685, z: 0}
 --- !u!1 &1634712152 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287358823199, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7147,6 +9346,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.026, y: 0.81200004, z: -0.053000003}
   m_TimeToStationary: 0.5
+--- !u!65 &1634712154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634712152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8051238, y: 1.8990197, z: 2.3622727}
+  m_Center: {x: 0.025535882, y: 0.8118637, z: -0.05252081}
 --- !u!114 &1634712155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7165,6 +9377,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1634712156
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634712152}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1654043353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286603204328, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7186,6 +9414,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.030000001, y: 0.252, z: 0.0050000004}
   m_TimeToStationary: 0.5
+--- !u!65 &1654043355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654043353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.84094775, y: 0.5851971, z: 1.0728077}
+  m_Center: {x: -0.029582843, y: 0.25157505, z: 0.004941821}
 --- !u!114 &1654043356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7204,6 +9445,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1654043357
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654043353}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1659491321
 GameObject:
   m_ObjectHideFlags: 0
@@ -7358,6 +9615,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.22000001, y: 1.3000001, z: 0.279}
   m_TimeToStationary: 0.5
+--- !u!54 &1668717691
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668717689}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1668717692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7376,6 +9649,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1668717693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668717689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8339452, y: 2.640846, z: 1.418679}
+  m_Center: {x: -0.22046918, y: 1.2996255, z: 0.27903476}
 --- !u!1 &1671029385
 GameObject:
   m_ObjectHideFlags: 0
@@ -7526,6 +9812,81 @@ RectTransform:
   m_AnchoredPosition: {x: 401, y: -5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1700622880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700622881}
+  - component: {fileID: 1700622883}
+  - component: {fileID: 1700622884}
+  - component: {fileID: 1700622882}
+  m_Layer: 2
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700622881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700622880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 210803107}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1700622882
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700622880}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 2
+--- !u!65 &1700622883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700622880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.445947, y: 1.7091522, z: 0.40602374}
+  m_Center: {x: -0.008933336, y: 0.21949768, z: -0.060791343}
+--- !u!114 &1700622884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700622880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162bc345d9a7ae743ad7d3a1c4a5bda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eyeAnchor: {fileID: 210803106}
 --- !u!1 &1710952933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287488300865, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7594,6 +9955,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.6809309, y: 5.489521, z: 4.133376}
   m_Center: {x: 0.08250153, y: 2.684506, z: -0.25138056}
+--- !u!114 &1710952939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710952933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
 --- !u!1 &1718260655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287306772305, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7615,6 +9994,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.10300001, y: 2.937, z: -0.22500001}
   m_TimeToStationary: 0.5
+--- !u!54 &1718260657
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718260655}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1718260658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7633,6 +10028,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1718260659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718260655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6141233, y: 5.8732557, z: 3.1548734}
+  m_Center: {x: 0.103113055, y: 2.9366279, z: -0.22475779}
 --- !u!1 &1721050752
 GameObject:
   m_ObjectHideFlags: 0
@@ -7733,6 +10141,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.093, y: 2.089, z: 0.079}
   m_TimeToStationary: 0.5
+--- !u!54 &1728459930
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728459928}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1728459931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7751,6 +10175,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1728459932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728459928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6934433, y: 4.2299733, z: 4.685932}
+  m_Center: {x: -0.093046546, y: 2.089306, z: 0.07939565}
 --- !u!1 &1732027111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287768073743, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7772,6 +10209,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.22000001, y: 1.3000001, z: 0.279}
   m_TimeToStationary: 0.5
+--- !u!54 &1732027113
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732027111}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1732027114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7790,6 +10243,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1732027115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732027111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8339452, y: 2.640846, z: 1.418679}
+  m_Center: {x: -0.22046918, y: 1.2996255, z: 0.27903476}
 --- !u!1 &1743300834 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286328368564, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7811,6 +10277,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.004, y: 2.63, z: -0.044000003}
   m_TimeToStationary: 0.5
+--- !u!54 &1743300836
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743300834}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1743300837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7829,6 +10311,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1743300838
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743300834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7808323, y: 5.3230395, z: 3.5201986}
+  m_Center: {x: 0.00362283, y: 2.6299808, z: -0.044297338}
 --- !u!1 &1761112003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286484304877, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7850,6 +10345,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.18100001, y: 0.703, z: -0.035}
   m_TimeToStationary: 0.5
+--- !u!65 &1761112005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761112003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.683745, y: 1.7282345, z: 2.741416}
+  m_Center: {x: 0.18146896, y: 0.7029598, z: -0.034853518}
 --- !u!114 &1761112006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7868,6 +10376,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1761112007
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761112003}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1762576169 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287584388875, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -7889,6 +10413,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.142, y: 3.2530003, z: 0.156}
   m_TimeToStationary: 0.5
+--- !u!54 &1762576171
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762576169}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1762576172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7907,6 +10447,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1762576173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762576169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.666333, y: 6.54848, z: 5.358913}
+  m_Center: {x: 0.14150475, y: 3.2534423, z: 0.15557764}
 --- !u!1 &1784083359
 GameObject:
   m_ObjectHideFlags: 0
@@ -8078,6 +10631,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.030000001, y: 0.595, z: 0.33900002}
   m_TimeToStationary: 0.5
+--- !u!65 &1818422148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818422146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7150426, y: 1.8910995, z: 2.821469}
+  m_Center: {x: 0.030299544, y: 0.59456635, z: 0.33896148}
 --- !u!114 &1818422149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8096,6 +10662,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1818422150
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818422146}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1832260396
 GameObject:
   m_ObjectHideFlags: 0
@@ -8196,6 +10778,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.291, y: 3.4440002, z: -0.537}
   m_TimeToStationary: 0.5
+--- !u!54 &1837689087
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837689085}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1837689088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8214,6 +10812,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1837689089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837689085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.634388, y: 7.0091023, z: 4.7544765}
+  m_Center: {x: 0.29113054, y: 3.4442966, z: -0.53692865}
 --- !u!1 &1875556164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287749904575, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -8235,6 +10846,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.083000004, y: 2.6850002, z: -0.25100002}
   m_TimeToStationary: 0.5
+--- !u!54 &1875556166
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875556164}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1875556167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,6 +10880,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1875556168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875556164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6809309, y: 5.489521, z: 4.133376}
+  m_Center: {x: 0.08250153, y: 2.684506, z: -0.25138056}
 --- !u!1 &1875583251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604286448011575, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -8274,6 +10914,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.14500001, y: 1.4100001, z: -0.164}
   m_TimeToStationary: 0.5
+--- !u!54 &1875583253
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875583251}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1875583254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8292,6 +10948,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1875583255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875583251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.818955, y: 2.8632913, z: 1.6040084}
+  m_Center: {x: -0.14541924, y: 1.4102395, z: -0.16419378}
 --- !u!1 &1888864374
 GameObject:
   m_ObjectHideFlags: 0
@@ -8415,6 +11084,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.039, y: 1.9690001, z: -0.014}
   m_TimeToStationary: 0.5
+--- !u!54 &1891067380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891067378}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1891067381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8433,6 +11118,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1891067382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891067378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5296392, y: 4.0018935, z: 2.80471}
+  m_Center: {x: -0.039251268, y: 1.9694079, z: -0.013707221}
 --- !u!1 &1897007655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287876161352, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -8454,6 +11152,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.462, y: 2.857, z: -0.066}
   m_TimeToStationary: 0.5
+--- !u!54 &1897007657
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897007655}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1897007658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8472,6 +11186,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1897007659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897007655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.243247, y: 5.7171717, z: 4.524186}
+  m_Center: {x: -0.46175385, y: 2.857428, z: -0.06608546}
 --- !u!1 &1910425844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287690816641, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -8493,6 +11220,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.462, y: 2.857, z: -0.066}
   m_TimeToStationary: 0.5
+--- !u!54 &1910425846
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910425844}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1910425847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8511,6 +11254,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1910425848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910425844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.243247, y: 5.7171717, z: 4.524186}
+  m_Center: {x: -0.46175385, y: 2.857428, z: -0.06608546}
 --- !u!1 &1931848007
 GameObject:
   m_ObjectHideFlags: 0
@@ -8733,6 +11489,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.187, y: 0.63000005, z: 0.18300001}
   m_TimeToStationary: 0.5
+--- !u!65 &1934792229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934792227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9122121, y: 1.4284567, z: 2.8872352}
+  m_Center: {x: 0.1872009, y: 0.6302398, z: 0.18345052}
 --- !u!114 &1934792230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8751,6 +11520,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &1934792231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934792227}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1941951732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6548604287006269598, guid: 391d43f13e998d1409e89584e0f7e089, type: 3}
@@ -8772,6 +11557,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.083000004, y: 2.6850002, z: -0.25100002}
   m_TimeToStationary: 0.5
+--- !u!54 &1941951734
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941951732}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1941951735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8790,6 +11591,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &1941951736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941951732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6809309, y: 5.489521, z: 4.133376}
+  m_Center: {x: 0.08250153, y: 2.684506, z: -0.25138056}
 --- !u!1 &1944782120
 GameObject:
   m_ObjectHideFlags: 0
@@ -8922,6 +11736,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.024, y: 4.947, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &2007914061
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007914059}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &2007914062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8940,6 +11770,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &2007914063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007914059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3000104, y: 9.910889, z: 3.811155}
+  m_Center: {x: 0.023826718, y: 4.9468756, z: 0}
 --- !u!1 &2011850582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9372,6 +12215,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.245, y: 4.761, z: 0.119}
   m_TimeToStationary: 0.5
+--- !u!54 &2038040318
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038040316}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &2038040319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9390,6 +12249,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &2038040320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038040316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7353225, y: 9.521358, z: 3.3104792}
+  m_Center: {x: 0.24535424, y: 4.760679, z: 0.119127095}
 --- !u!1 &2075270802
 GameObject:
   m_ObjectHideFlags: 0
@@ -9454,6 +12326,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.003, y: 0.71300006, z: 0.18900001}
   m_TimeToStationary: 0.5
+--- !u!65 &2080283772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080283770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.304922, y: 1.5826595, z: 2.5760334}
+  m_Center: {x: 0.0031859875, y: 0.7130729, z: 0.18935454}
 --- !u!114 &2080283773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9472,6 +12357,22 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!54 &2080283774
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080283770}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2084596376
 GameObject:
   m_ObjectHideFlags: 0
@@ -9763,6 +12664,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.024, y: 3.2810001, z: 0}
   m_TimeToStationary: 0.5
+--- !u!54 &2115945969
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115945967}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &2115945970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9781,6 +12698,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &2115945971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115945967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7526016, y: 6.5791864, z: 3.178422}
+  m_Center: {x: 0.023827016, y: 3.281025, z: 0}
 --- !u!1 &2125216640
 GameObject:
   m_ObjectHideFlags: 0
@@ -10014,6 +12944,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.15200001, y: 1.5860001, z: -0.095000006}
   m_TimeToStationary: 0.5
+--- !u!54 &2129959465
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129959463}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &2129959466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10032,6 +12978,19 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: 
+--- !u!65 &2129959467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129959463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8671477, y: 3.2138174, z: 2.052555}
+  m_Center: {x: -0.15150821, y: 1.5861112, z: -0.094670475}
 --- !u!1001 &915019580386724739
 PrefabInstance:
   m_ObjectHideFlags: 0
