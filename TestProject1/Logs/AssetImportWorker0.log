@@ -15,12 +15,12 @@ C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62472
+64157
 Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 127.74 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 111.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.77 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1/Assets
@@ -36,104 +36,104 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003939 seconds.
+Registered in 0.003810 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 164.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 79.35 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.400 seconds
+- Completed reload, in  2.394 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019733 seconds.
+Registered in 0.015527 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000241849C0680 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file data-000001C66F735470 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189520080 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001C66F3D4010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189B1C740 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file data-000001C66F50A890 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184642020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001C674885820 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241849C0680 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
+Symbol file data-000001C66F3DC020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184FADD70 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C66F28C840 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189520080 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C66F3E6A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241897374F0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C674E64410 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241848A1C50 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
+Symbol file data-000001C66F5BF540 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184608880 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C66F24A020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241897374F0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000001C674E64410 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189533690 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C66F3E6A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189B99020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C674CA0080 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241845E8010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001C674E64410 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189AF7440 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C66F5E42C0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241846CEFF0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000001C6753FA000 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188377020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C66FB94E30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188DD6A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C67395E020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241845E8010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C66FB94E30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188DD6A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C673BBD020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418479F030 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000001C66F6172F0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188DD6A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
+Symbol file data-000001C675302A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418483B620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-000001C674CCDA90 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241848A6C60 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C673C11020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189AF7440 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001C674CCDA90 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000241849CB090 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000001C66F09AA50 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188CF2020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
+Symbol file data-000001C673C76010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188CF2020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C673C76010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024188198E20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
+Symbol file data-000001C66F2738F0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184E8E090 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000001C66F5F42D0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184D5F700 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000001C66F74F650 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184C8CDE0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C66F794C20 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418483B620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C674CCDA90 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189B07450 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+Symbol file data-000001C66F28C840 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189703040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
+Symbol file data-000001C66F05CCF0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024189B07450 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
+Symbol file data-000001C66F28C840 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184A62BD0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-000001C66F74F650 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418499B7A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-000001C66F4FCD80 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024184B9DA60 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000001C66F5AD020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418483B620 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-000001C674CD30A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002418499B7A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
+Symbol file data-000001C6745FE230 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -141,98 +141,204 @@ Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.589 seconds
+- Completed reload, in  2.262 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
 Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 2579 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 158.0 MB.
-System memory in use after: 157.3 MB.
+System memory in use after: 157.4 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3033.
-Total: 4.507500 ms (FindLiveObjects: 0.481300 ms CreateObjectMapping: 0.144200 ms MarkObjects: 3.158400 ms  DeleteObjects: 0.722100 ms)
+Total: 4.574900 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.109100 ms MarkObjects: 3.409800 ms  DeleteObjects: 0.774100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Island.prefab
-  artifactKey: Guid(391d43f13e998d1409e89584e0f7e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Island.prefab using Guid(391d43f13e998d1409e89584e0f7e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab176954f928aaf411dd8223dcfba20') in 0.284325 seconds
-  Import took 0.294852 seconds .
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49216a102e03ab2159d53324e59af9f7') in 7.880927 seconds
+  Import took 7.914476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.843896 seconds.
-  path: Assets/Models
-  artifactKey: Guid(adfd44bd367220b43b3bef3d1c6ffb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(adfd44bd367220b43b3bef3d1c6ffb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17bba7233dfb141068dc54b91929d98') in 0.006457 seconds
-  Import took 0.011597 seconds .
+  Time since last request: 158.885257 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa6416fdda64c3157a055da8de285af') in 6.491549 seconds
+  Import took 6.528943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.281993 seconds.
-  path: Assets/Materials/Black.mat
-  artifactKey: Guid(c14e3f5b4ea48494a9463532f5b7e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Black.mat using Guid(c14e3f5b4ea48494a9463532f5b7e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e110767fbf9fd2ed15d17d5427dda59f') in 0.373058 seconds
-  Import took 0.384193 seconds .
+  Time since last request: 24.420737 seconds.
+  path: Assets/Scenes/SampleScenes/Models/GroundRunway.FBX
+  artifactKey: Guid(b02e63c7c24117e45acd64f6e5ede314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScenes/Models/GroundRunway.FBX using Guid(b02e63c7c24117e45acd64f6e5ede314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7321ca15cd646964fb960ef71366146d') in 0.334514 seconds
+  Import took 0.342629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Materials/New Material 3.mat
-  artifactKey: Guid(9ed490ab1fd757b46b13c9700e2911e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 3.mat using Guid(9ed490ab1fd757b46b13c9700e2911e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2871495c32e36f26606f81e201019100') in 0.024934 seconds
-  Import took 0.035245 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/OculusIntegration/Oculus/SampleFramework/Usage/OVROverlay/Prefabs/OculusWoodBlockNoPhysPf.prefab
+  artifactKey: Guid(70c07dd50d6ddb74fbfa78eccee120c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OculusIntegration/Oculus/SampleFramework/Usage/OVROverlay/Prefabs/OculusWoodBlockNoPhysPf.prefab using Guid(70c07dd50d6ddb74fbfa78eccee120c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b8ace55b1b1db66edeb79338f5b54') in 0.101419 seconds
+  Import took 0.107747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000601 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(2fc2c9b3a516cc9448e6c539a28d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(2fc2c9b3a516cc9448e6c539a28d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae2b2ae41a58423208c38e146b0d56a') in 0.024728 seconds
-  Import took 0.034041 seconds .
+  Time since last request: 0.000329 seconds.
+  path: Assets/OculusIntegration/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/RubberPhysMat.physicMaterial
+  artifactKey: Guid(948611cc428a84b569ad7626e6649205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OculusIntegration/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/RubberPhysMat.physicMaterial using Guid(948611cc428a84b569ad7626e6649205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068d272b3fdbe2241e8d18c5d8e47ee6') in 0.007262 seconds
+  Import took 0.012259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Materials/Blue.mat
-  artifactKey: Guid(17323bb0970dd6d4c8b6024a5df2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Blue.mat using Guid(17323bb0970dd6d4c8b6024a5df2087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329e74499625b7ae4129b3d624b37732') in 0.014762 seconds
-  Import took 0.024013 seconds .
+  Time since last request: 0.000361 seconds.
+  path: Assets/OculusIntegration/Oculus/SampleFramework/Usage/OVROverlay/Textures/Tile_Texture_360Photo.png
+  artifactKey: Guid(fe5a451efeac6e642abfb3b54bea554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OculusIntegration/Oculus/SampleFramework/Usage/OVROverlay/Textures/Tile_Texture_360Photo.png using Guid(fe5a451efeac6e642abfb3b54bea554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ab792622341827ad0d074558bbc4ef') in 0.080919 seconds
+  Import took 0.087216 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Materials/Pink.mat
-  artifactKey: Guid(9fe45f80f2c52e04393753c5be3e934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Pink.mat using Guid(9fe45f80f2c52e04393753c5be3e934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7777c3e8785a173fe89c6bef880e7c0') in 0.015241 seconds
-  Import took 0.022664 seconds .
+  Time since last request: 0.000363 seconds.
+  path: Assets/OculusIntegration/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/PlasticPhysMat.physicMaterial
+  artifactKey: Guid(20b27a2b09cf5470e866c2708f9f9dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OculusIntegration/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/PlasticPhysMat.physicMaterial using Guid(20b27a2b09cf5470e866c2708f9f9dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeb691776da7cec9279eb60d5a4b566') in 0.005526 seconds
+  Import took 0.011929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Materials/Yellow.mat
-  artifactKey: Guid(a053a3c8a8709e043837b65faa20b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Yellow.mat using Guid(a053a3c8a8709e043837b65faa20b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2d72502e5e824114127168bcb8b34') in 0.015751 seconds
-  Import took 0.021570 seconds .
+  Time since last request: 0.000392 seconds.
+  path: Assets/OculusIntegration/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab
+  artifactKey: Guid(0d336f164a5a4454db3960b2f9fc7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OculusIntegration/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab using Guid(0d336f164a5a4454db3960b2f9fc7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b23e1a1096485d6abdbe8c83e13643') in 0.473351 seconds
+  Import took 0.480844 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Materials/White.mat
-  artifactKey: Guid(16aa78b9483e19346901d4dbb4e98540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White.mat using Guid(16aa78b9483e19346901d4dbb4e98540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd192ee18a399b193e631ab0ef3b884f1') in 0.014236 seconds
-  Import took 0.022985 seconds .
+  Time since last request: 0.000404 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125da9f876ef066779a3b34ba01c7b6b') in 0.013113 seconds
+  Import took 0.020236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Materials/New Material 4.mat
-  artifactKey: Guid(d4ccce405e3eb3e45bae06255894d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 4.mat using Guid(d4ccce405e3eb3e45bae06255894d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338a4ac095721116be849d223d494745') in 0.015508 seconds
-  Import took 0.024074 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  artifactKey: Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx using Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a31f9f738ca2a08c37fe1a3a063659') in 0.027319 seconds
+  Import took 0.036865 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017853 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C66F7456A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F67F750 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C674F857A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F927020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F7456A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F557CB0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C679E04040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F551150 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F703040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C674FDD720 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F551150 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C679E04040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673D453B0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C675246050 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6779D4030 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673C620C0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C675C00020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673D453B0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C676CB2C40 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6744CD040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673B68430 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C677F43700 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F6AA300 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673C11020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C675B88020 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C674DDC010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66FB6E010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673ED6010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F142810 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F704050 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C674DDC010 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C674F857A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C679E04040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6756A1A30 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F3449A0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C66F557CB0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F128150 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F128150 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F5150C0 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C673CAE040 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C69F128150 doesn't match image C:\Users\Gabriel Peixoto\Documents\GitHub\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.1 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 3.731700 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 2.627500 ms  DeleteObjects: 0.708900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
