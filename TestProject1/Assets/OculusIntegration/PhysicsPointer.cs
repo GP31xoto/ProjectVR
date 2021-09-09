@@ -98,11 +98,15 @@ public class PhysicsPointer : MonoBehaviour {
             }
 
             if (OVRInput.GetUp(OVRInput.Button.SecondaryHandTrigger,cont)) {
-                Destroy(grabbableGOR);
-                //GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
-                instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
-                instR.GetComponent<OVRGrabbable>().enabled = true;
+                try {
+                    Destroy(grabbableGOR);
+                    //GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
+                    instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
+                    instR.GetComponent<OVRGrabbable>().enabled = true;
+            } catch (Exception e) {
+                //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbed object e nulo
             }
+        }
         }
 
         //Left Grab
@@ -140,10 +144,15 @@ public class PhysicsPointer : MonoBehaviour {
                 }
             }
 
+
             if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger,cont)) {
-                Destroy(grabbableGOL);
-                instL = Instantiate(grabbableGOL,CalculateEnd() + Vector3.up,Quaternion.identity);
-                instL.GetComponent<OVRGrabbable>().enabled = true;
+                try {
+                    Destroy(grabbableGOL);
+                    instL = Instantiate(grabbableGOL,CalculateEnd() + Vector3.up,Quaternion.identity);
+                    instL.GetComponent<OVRGrabbable>().enabled = true;
+                } catch (Exception e) {
+                    //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbed object e nulo
+                }
             }
         }
 
