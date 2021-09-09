@@ -101,12 +101,9 @@ public class PhysicsPointer : MonoBehaviour {
                 Destroy(grabbableGOR);
                 //GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
                 instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
-
                 instR.GetComponent<OVRGrabbable>().enabled = true;
             }
         }
-
-        
 
         //Left Grab
         if (DistanceGrabber.name.Contains("Left")) {
@@ -123,7 +120,6 @@ public class PhysicsPointer : MonoBehaviour {
                 originalScaleL = new Vector3();
                 originalScaleDefinedL = true;
                 instL = null;
-                Debug.Log("2st");
             }
 
             if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger,cont)) {
@@ -160,8 +156,6 @@ public class PhysicsPointer : MonoBehaviour {
                 instR = null;
                 Debug.Log("equal");
             } else {
-                Debug.Log(6);
-
                 atualScale2R = instR.transform.localScale;
                 instR.transform.localScale = Vector3.Lerp(atualScale2R,originalScaleR,.1f);
             }
