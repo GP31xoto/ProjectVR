@@ -135,6 +135,7 @@ public class EnemyAI : MonoBehaviour {
             if(npcAnimator.GetFloat("Speed") != 0.5f)
             {
                 npcAnimator.SetFloat("Speed", 0.5f);
+                npcAnimator.Play("Walk");
             }
         }
         else
@@ -142,6 +143,7 @@ public class EnemyAI : MonoBehaviour {
             if (npcAnimator.GetFloat("Speed") != 1f)
             {
                 npcAnimator.SetFloat("Speed", 1f);
+                npcAnimator.Play("Run");
             }
         }
 
@@ -193,11 +195,13 @@ public class EnemyAI : MonoBehaviour {
             if (npcAnimator.GetFloat("Speed") > 0f)
             {
                 npcAnimator.SetFloat("Speed", 0f);
+                npcAnimator.Play("Idle");
             }
             //when does it stop?
             if (!npcAnimator.GetBool("CollectResource"))
             {
                 npcAnimator.SetBool("CollectResource", true);
+                npcAnimator.Play("CollectResource");
             }
         }
         else
@@ -205,6 +209,7 @@ public class EnemyAI : MonoBehaviour {
             if (npcAnimator.GetBool("CollectResource"))
             {
                 npcAnimator.SetBool("CollectResource", false);
+                npcAnimator.Play("Idle");
             }
         }
     }
@@ -250,22 +255,22 @@ public class EnemyAI : MonoBehaviour {
             case 1:
                 timeForDeathAnim = death1Time;
                 //in case transition below doesn't work, decomment this:
-                //npcAnimator.Play("Base Layer.Death1", 0, 0f);
+                npcAnimator.Play("Base Layer.Death1", 0, 0f);
                 break;
             case 2:
                 timeForDeathAnim = death2Time;
                 //in case transition below doesn't work, decomment this:
-                //npcAnimator.Play("Base Layer.Death2", 0, 0f);
+                npcAnimator.Play("Base Layer.Death2", 0, 0f);
                 break;
             case 3:
                 timeForDeathAnim = death3Time;
                 //in case transition below doesn't work, decomment this:
-                //npcAnimator.Play("Base Layer.Death3", 0, 0f);
+                npcAnimator.Play("Base Layer.Death3", 0, 0f);
                 break;
             case 4:
                 timeForDeathAnim = death4Time;
                 //in case transition below doesn't work, decomment this:
-                //npcAnimator.Play("War Layer.Death4", 0, 0f);
+                npcAnimator.Play("War Layer.Death4", 0, 0f);
                 break;
         }
         //transits to correct death type
