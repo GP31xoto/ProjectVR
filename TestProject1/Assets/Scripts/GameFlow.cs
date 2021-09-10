@@ -181,7 +181,10 @@ public class GameFlow : MonoBehaviour
         for(int i = 0; i<numberOfDolls;i++)
         {
             dollsSpawned++;
-            GameObject dollInstance = Instantiate(dollPrefab,spawnPoint.transform.position,Quaternion.identity);
+            float distanceZ = Random.Range( -5f, 5f );
+            float distanceX = Random.Range( -5f, 5f );
+            Vector3 spawnPosition = new Vector3((spawnPoint.transform.position.x *distanceX),spawnPoint.transform.position.y,(spawnPoint.transform.position.z * distanceZ));
+            GameObject dollInstance = Instantiate(dollPrefab,spawnPosition,Quaternion.identity);
             dollInstance.GetComponent<EnemyAI>().enabled = true;
             dollInstance.GetComponent<OVRGrabbable>().enabled = true;
         }
