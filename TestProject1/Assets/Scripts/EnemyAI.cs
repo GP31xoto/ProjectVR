@@ -166,8 +166,8 @@ public class EnemyAI : MonoBehaviour {
 
     private void FoundResource() {
         foundResource = true;
-        //resourcePos = res.position; // Necessario definir resource
-        //agent.SetDestination(res.position); // Necessario definir resource
+        resourcePos = GetComponent<FieldOfView>().resourcePos; // Necessario definir resource
+        agent.SetDestination(resourcePos); // Necessario definir resource
     }
 
     private void SearchWalkPoint() {

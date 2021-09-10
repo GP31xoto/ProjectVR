@@ -8,6 +8,8 @@ public class FieldOfView : MonoBehaviour
     [Range(0,360)]
     public float angle;
 
+    public Vector3 resourcePos;
+
     public GameObject[] ResourceWaterRef;
     public GameObject[] ResourceWoodRef;
     public GameObject[] ResourceFoodRef;
@@ -26,6 +28,7 @@ public class FieldOfView : MonoBehaviour
         ResourceWoodRef = GameObject.FindGameObjectsWithTag("Wood");
         ResourceIronRef = GameObject.FindGameObjectsWithTag("Iron");
         ResourceWaterRef = GameObject.FindGameObjectsWithTag("Water");
+        resourcePos = gameObject.transform.position;
         StartCoroutine(FOVRoutine());
     }
 
@@ -113,8 +116,9 @@ public class FieldOfView : MonoBehaviour
                             }
                         }
                     }
-                    //radius = 10;
+                    radius = 10;
                     angle = 180;
+                    resourcePos = target.position;
                 } else {
                     canSeeResource = false;
                     resourceTypeSeen = "";
@@ -129,7 +133,7 @@ public class FieldOfView : MonoBehaviour
             canSeeResource = false;
             resourceTypeSeen = "";
             resourceTypeIndex = -1;
-            //radius = 20;
+            radius = 20;
             angle = 90;
         }
     }
