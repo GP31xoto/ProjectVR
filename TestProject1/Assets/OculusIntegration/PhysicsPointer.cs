@@ -11,7 +11,9 @@ public class PhysicsPointer : MonoBehaviour {
 
     public OVRGrabber DistanceGrabber;
 
-    public GameObject Menu;
+    public GameObject Pallete;
+
+    public GameObject PauseMenu;
 
     public Transform player;
 
@@ -67,9 +69,13 @@ public class PhysicsPointer : MonoBehaviour {
 
         //Debug.Log("Left: " + OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, cont));
         //Debug.Log("Right: " + OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont));
+        if (OVRInput.GetDown(OVRInput.Button.Start)) {
+            PauseMenu.SetActive(true); 
+        }
 
-        //Right Grab
-        if (DistanceGrabber.name.Contains("Right")) {
+
+            //Right Grab
+            if (DistanceGrabber.name.Contains("Right")) {
 
             if (OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont)) {
                 atualScaleR = new Vector3();
@@ -114,7 +120,7 @@ public class PhysicsPointer : MonoBehaviour {
 
             if (OVRInput.GetDown(OVRInput.RawButton.X)) {
                 //Debug.Log("Pressed X");
-                Menu.SetActive(!Menu.activeSelf);
+                Pallete.SetActive(!Pallete.activeSelf);
             } else if (OVRInput.GetDown(OVRInput.RawButton.Y)) {
                 //Debug.Log("Pressed Y");
             }
