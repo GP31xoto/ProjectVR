@@ -134,7 +134,7 @@ Transform:
   - {fileID: 3402305332934101094}
   - {fileID: 3913861227097528784}
   - {fileID: 1854638774680152132}
-  m_Father: {fileID: 9140385478792688153}
+  m_Father: {fileID: 7565430132998711642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 10, z: 0}
 --- !u!1 &4477641590285167075
@@ -939,8 +939,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2268592658125476748}
-  - {fileID: 2753216241869513090}
+  - {fileID: 7565430132998711642}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -996,8 +995,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 29, y: 20, z: 22}
-  m_Center: {x: 0, y: 7.5, z: 0}
+  m_Size: {x: 77.94, y: 69.6, z: 69.77}
+  m_Center: {x: 3.5, y: 32.3, z: 1.2}
 --- !u!114 &-836984749018985790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,12 +1081,44 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 14.5, y: 11.315, z: 11}
+  m_Extents: {x: 38.97, y: 34.8, z: 34.885}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 6.1, z: 0}
+  m_Center: {x: 3.5, y: 32.3, z: 1.2}
   m_TimeToStationary: 0.5
+--- !u!1 &8625625942553858755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7565430132998711642}
+  m_Layer: 6
+  m_Name: GameObject
+  m_TagString: Resource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7565430132998711642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625625942553858755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children:
+  - {fileID: 2268592658125476748}
+  - {fileID: 2753216241869513090}
+  m_Father: {fileID: 9140385478792688153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8779922034304738075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,7 +1315,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9140385478792688153}
+    m_TransformParent: {fileID: 7565430132998711642}
     m_Modifications:
     - target: {fileID: 147072, guid: 48333a5aa700be24c963813c82ef05d9, type: 3}
       propertyPath: m_Name

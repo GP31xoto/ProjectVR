@@ -18,26 +18,8 @@ public class FOVEditor : Editor{
 
         if (fov.canSeeResource) { 
             Handles.color = Color.green;
-            if (fov.resourceTypeSeen == "Food")
-            {
-                GameObject resourceFound = fov.ResourceFoodRef[fov.resourceTypeIndex];
-                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
-            }
-            else if (fov.resourceTypeSeen == "Wood")
-            {
-                GameObject resourceFound = fov.ResourceWoodRef[fov.resourceTypeIndex];
-                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
-            }
-            else if (fov.resourceTypeSeen == "Iron")
-            {
-                GameObject resourceFound = fov.ResourceIronRef[fov.resourceTypeIndex];
-                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
-            }
-            else if (fov.resourceTypeSeen == "Water")
-            {
-                GameObject resourceFound = fov.ResourceWaterRef[fov.resourceTypeIndex];
-                Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
-            }
+            GameObject resourceFound = fov.ResourceRef[fov.resourceTypeIndex];
+            Handles.DrawLine(fov.transform.position, resourceFound.transform.position);
         }
     }
 

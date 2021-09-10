@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1165; Version 2009; 64bit' Language: 'pt' Physical Memory: 32716 MB
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'pt' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1191 +11,217 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Home/Desktop/ProjetoIIGodGame/ProjectVR/TestProject1
+C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58531
-Successfully changed project path to: C:/Users/Home/Desktop/ProjetoIIGodGame/ProjectVR/TestProject1
-C:/Users/Home/Desktop/ProjetoIIGodGame/ProjectVR/TestProject1
+50810
+Successfully changed project path to: C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
+C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.84 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.08 ms.
+Refreshing native plugins compatible for Editor in 110.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.05 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Home/Desktop/ProjetoIIGodGame/ProjectVR/TestProject1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Gabriel Peixoto/Documents/GitHub/ProjectVR/TestProject1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     10077 MB
-    Driver:   30.0.14.7168
+    VRAM:     1979 MB
+    Driver:   30.0.14.7196
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001917 seconds.
+Registered in 0.003913 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.10 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 85.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.657 seconds
+- Completed reload, in  2.353 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006066 seconds.
+Registered in 0.013363 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000233A963A9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA316010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A465E010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A96493C0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA635840 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA038020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA415820 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CECB10 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A44B1A60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA635840 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4FB4440 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A987A440 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9660020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4FB4440 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A968DA30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A49A42D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4FB4440 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E83A30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9170E30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E83A30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A46CF270 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E83A30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA635840 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A903CC30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4BED450 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A906A020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A906A020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A491F0E0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A44B1A60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A44B1A60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A49E7010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A903CC30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4A81220 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9ECE030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4A81220 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A964CDD0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A44B1A60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9DE1AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9090230 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A44B1A60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.626 seconds
+- Completed reload, in  2.362 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 2579 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 158.1 MB.
 System memory in use after: 157.5 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3033.
-Total: 3.522900 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.364000 ms  DeleteObjects: 0.578400 ms)
+Total: 5.559300 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.824700 ms  DeleteObjects: 1.315200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/OculusIntegration/PlayerController.prefab
-  artifactKey: Guid(0da18876b93050346a506d4675799ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OculusIntegration/PlayerController.prefab using Guid(0da18876b93050346a506d4675799ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf080f1c0154c4cd0f4ba409c6e3f3d') in 0.141655 seconds
-  Import took 0.147122 seconds .
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303ff55aa36c49c576eb23c9c78e25a5') in 0.248012 seconds
+  Import took 0.265891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Prefabs/Forge/Forge_6.prefab
+  artifactKey: Guid(e1ea248e23711dc4b8b851dc590ed7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_6.prefab using Guid(e1ea248e23711dc4b8b851dc590ed7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528f89fe42c4ab2890cc165611e960dd') in 0.414668 seconds
+  Import took 0.431982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Prefabs/Forge/Forge_2.prefab
+  artifactKey: Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_2.prefab using Guid(0630fed63b2206e41a31ea6fe438fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3f06a5c235de9cbd1e3052733ac4fe') in 0.299621 seconds
+  Import took 0.310966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Prefabs/Forge/Forge_4.prefab
+  artifactKey: Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_4.prefab using Guid(147262fd4dd498540bdfa45627721f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b1ab089a915c37529624a9d9fd95db') in 0.278451 seconds
+  Import took 0.295885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Prefabs/Forge/Forge_3.prefab
+  artifactKey: Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_3.prefab using Guid(7aec99cf6c7dbe5469e9cfe2493a9fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44921cd9a4f93be8a06504cc41d71f48') in 0.303270 seconds
+  Import took 0.316097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Prefabs/Menu.prefab
+  artifactKey: Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menu.prefab using Guid(df914f6a099bdde4194751910c2639d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc703377d109c6ce3a40bfc7869da4e') in 6.515069 seconds
+  Import took 6.571577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Prefabs/Forge/Forge_1.prefab
+  artifactKey: Guid(d7a74cbe14de5e14780664bd70073822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_1.prefab using Guid(d7a74cbe14de5e14780664bd70073822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9886dfbcc703cd86d7aa92dacb1a2469') in 0.308011 seconds
+  Import took 0.321212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Prefabs/Forge/Forge_5.prefab
+  artifactKey: Guid(e2d8985b77d120744b076c351afa5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Forge/Forge_5.prefab using Guid(e2d8985b77d120744b076c351afa5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4f46a4d8f94ea0028ac5da864d5147') in 0.362926 seconds
+  Import took 0.374642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.961369 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3aa951b862c3cb25bbc4c863df7ebe') in 0.097504 seconds
+  Import took 0.110318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.739918 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d479e168f35872b607954e87a974a5') in 0.098228 seconds
+  Import took 0.154802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.814187 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ee65d890c6cc587eb690eba2cd26cb') in 0.080390 seconds
+  Import took 0.093667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.379663 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d7e330bc2b300edda8f106a0f52bc8') in 0.091950 seconds
+  Import took 0.105093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.429958 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a66322143d9158478c2e1ab613e04') in 0.084420 seconds
+  Import took 0.101934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.826384 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f2fbf92ed1f3eebd4a703cd07b5f51') in 0.082565 seconds
+  Import took 0.099471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.898684 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25faf50c2d9b6eba6cd9d038f35e167') in 0.076347 seconds
+  Import took 0.088592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.802084 seconds.
+  path: Assets/Prefabs/Wells/FullWell.prefab
+  artifactKey: Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wells/FullWell.prefab using Guid(2c19378b45307de48ab704b81a4ccc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5037019fac4421436269372d26b8f7') in 0.091509 seconds
+  Import took 0.105243 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006558 seconds.
+Registered in 0.016128 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A93CD020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9175040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CECB10 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1CC2D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB37E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023559D23580 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB37E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C3D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CF3440 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B22951D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD31B420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C3D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B1F37940 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D97880 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA33CC20 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023559D23580 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9660020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B364D760 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9175040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAAD1100 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9175040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1CC2D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED1180 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1CC2D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB3CE70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023559D23580 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3103090 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D97880 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A93EFC40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
+- Completed reload, in  1.887 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
 Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.1 MB.
+System memory in use before: 169.2 MB.
+System memory in use after: 168.6 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3045.
-Total: 3.352600 ms (FindLiveObjects: 0.443500 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.299000 ms  DeleteObjects: 0.522000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005823 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A93CD020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A46CB890 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4DCE050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABE76050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFA9E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9ECA010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFA9E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC86C9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B2291EC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4733040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC86C9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3CF3680 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD309010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C27420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A906A020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36473B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B1352030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA036A20 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B1352030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABE76050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC2F9E00 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABE76050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A940DA10 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC10A630 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC609900 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D97880 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC10A630 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3049.
-Total: 3.056400 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.057500 ms MarkObjects: 1.973600 ms  DeleteObjects: 0.747900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006907 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AAAC26F0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC08A010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA55EA30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C3D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97DCFC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC122020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAD47E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFAD830 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAD47E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC86C9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CEFE70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4733040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC86C9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A0BB9CA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAD0C060 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFAD830 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFB1F50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A0C8C900 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAAD1100 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFAD830 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAAD1100 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97DCFC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC2FE960 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97DCFC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97CA4D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFAD830 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A03F6AC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A0EB6010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFAD830 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3053.
-Total: 3.690200 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.617500 ms  DeleteObjects: 0.666000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AC3E0040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACAB7020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAACFF00 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1B1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4A35340 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4918AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA7DED60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CEEE50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A1514660 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A94B7020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA7DED60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4A35340 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC9F1010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A1AA83E0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4918AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4918AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4918AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA028010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A94DCAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A1646BD0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A94DCAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4918AA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC162640 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A18D1160 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC162640 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.8 MB.
-System memory in use after: 167.2 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3057.
-Total: 3.292100 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.058900 ms MarkObjects: 2.238600 ms  DeleteObjects: 0.685300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006233 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233B3561040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9708020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA82EE50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0CE030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA9D1020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A227A9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC158020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA9D1020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3561040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9692010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A33142A0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC86C9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A2A29F10 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAD0C060 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFA0020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B2DBAEF0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A1AB4B40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9708020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA95BC30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9708020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3561040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA82EE50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A16484F0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97C7110 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAAD0F10 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A227A9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A2B17FB0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ABFA0020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A227A9B0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3061.
-Total: 3.175700 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.058600 ms MarkObjects: 2.070900 ms  DeleteObjects: 0.758700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006368 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1B0020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3703DA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A24A3230 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E4B050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC122020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA9C9010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A94F8C60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A33142A0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A37BF020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A94F8C60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC625C80 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A2A3EAF0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA825020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB2E030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3703DA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A4B90020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A3F68510 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1B0020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A464F060 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1B0020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC122020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3703DA0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A164D050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97C7110 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A2E68D40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E4B050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A4AC6060 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA825020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E4B050 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.080 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.8 MB.
-System memory in use after: 167.2 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3065.
-Total: 3.369600 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.120500 ms MarkObjects: 2.111700 ms  DeleteObjects: 0.736000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006406 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AAAA3080 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A14BB260 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3561040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4CED620 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A927D020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3561040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5D9A030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A4DBA260 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB2E030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E6F020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A54F3F50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A51771A0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233D97C7110 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5608750 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B36F9F70 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.8 MB.
-System memory in use after: 167.2 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3069.
-Total: 3.312700 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.221200 ms  DeleteObjects: 0.757200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006003 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AAAA3080 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A14BB260 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA1BEAC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9692010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E915D0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A7018010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9692010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A61FCF20 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB2E030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A54F99F0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5177E30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5A32010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A560E270 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AD30D040 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACED3E50 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.8 MB.
-System memory in use after: 167.2 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 3.795200 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.675900 ms  DeleteObjects: 0.755700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006538 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233ACECA020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A748BC40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E2D010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACECA020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8E2D010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A479D020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A6D8E910 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A927D020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A479D020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A6215250 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACECA020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB2E030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8C99010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A77297C0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A7EA2B80 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A7EA2B80 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACECA020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A517B070 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5A32010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A7EA2B80 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A7563D40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233ACECA020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4E4E40 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.2 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3077.
-Total: 3.928200 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.728400 ms  DeleteObjects: 0.802100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005936 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A748D760 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A9421020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5E46020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5E46020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA935020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4AD2010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A6D8D8F0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AA155020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A927D020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A4AD2010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233B3863020 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A84A39C0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC0F2420 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AAB2E030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A92E1030 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233A8D51010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A8254010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A8D52E30 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A88ABBC0 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A5A32010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235A8F98C80 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC4DB010 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000233AC3C9E60 doesn't match image C:\Users\Home\Desktop\ProjetoIIGodGame\ProjectVR\TestProject1\Library\ScriptAssemblies\NavMeshComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3081.
-Total: 3.674300 ms (FindLiveObjects: 0.561200 ms CreateObjectMapping: 0.117200 ms MarkObjects: 2.233600 ms  DeleteObjects: 0.761000 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 3051.
+Total: 6.426000 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.142000 ms MarkObjects: 5.113800 ms  DeleteObjects: 0.820400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
