@@ -185,7 +185,6 @@ public class GameFlow : MonoBehaviour
             float distanceX = Random.Range( -5f, 5f );
             Vector3 spawnPosition = new Vector3((spawnPoint.transform.position.x *distanceX),spawnPoint.transform.position.y,(spawnPoint.transform.position.z * distanceZ));
             GameObject dollInstance = Instantiate(dollPrefab,spawnPosition,Quaternion.identity);
-            dollInstance.GetComponent<EnemyAI>().enabled = true;
             dollInstance.GetComponent<OVRGrabbable>().enabled = true;
         }
     }
