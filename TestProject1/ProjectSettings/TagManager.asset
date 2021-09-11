@@ -16,6 +16,9 @@ TagManager:
   - Workshop
   - Boundaries
   - Resource
+  - PalleteGrabbable
+  - PalleteResource
+  - Pallete
   layers:
   - Default
   - TransparentFX
@@ -26,8 +29,8 @@ TagManager:
   - Grabbable
   - Boundaries
   - PlayerCollider
-  - 
-  - 
+  - Player
+  - Base
   - 
   - 
   - 

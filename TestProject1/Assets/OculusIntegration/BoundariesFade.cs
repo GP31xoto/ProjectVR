@@ -15,15 +15,10 @@ public class BoundariesFade : MonoBehaviour{
     }
 
     private void OnTriggerEnter(Collider other) {
-        Debug.Log("enter");
     }
 
     private void OnTriggerStay(Collider other) {
-        Debug.Log("stay");
-		Debug.Log(other);
-
 		if (other.gameObject.tag == "Boundaries") {
-
 			StartCoroutine(fadeIn());
 			StartCoroutine(fadeOut());
 		}
@@ -31,12 +26,10 @@ public class BoundariesFade : MonoBehaviour{
 
 	private IEnumerator fadeIn() {
 		eyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
-		Debug.Log("antes");
 		yield return new WaitForSeconds(2);
 	}
 
 	private IEnumerator fadeOut() {
-		Debug.Log("depois");
 		player.transform.position = new Vector3(0,100,0);
 		eyeAnchor.GetComponent<OVRScreenFade>().FadeIn();
 		yield return new WaitForSeconds(1);

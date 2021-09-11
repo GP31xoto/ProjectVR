@@ -24,7 +24,7 @@ public class PhysicsPointer : MonoBehaviour {
     private GameObject grabbedObject;
 
     //Right Var
-    private GameObject grabbableGOR;
+    public GameObject grabbableGOR;
     private GameObject instR;
     private Vector3 originalScaleR;
     private Vector3 atualScaleR;
@@ -38,6 +38,8 @@ public class PhysicsPointer : MonoBehaviour {
     private Vector3 atualScaleL;
     private Vector3 atualScale2L;
     private bool originalScaleDefinedL = true;
+
+    public bool released;
 
     public OVRInput.Controller cont; 
 
@@ -70,7 +72,7 @@ public class PhysicsPointer : MonoBehaviour {
         //Debug.Log("Left: " + OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, cont));
         //Debug.Log("Right: " + OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont));
         if (OVRInput.GetDown(OVRInput.Button.Start)) {
-            PauseMenu.SetActive(true); 
+            PauseMenu.GetComponent<Pause_Script>().onEnable(); 
         }
 
 
@@ -78,6 +80,7 @@ public class PhysicsPointer : MonoBehaviour {
             if (DistanceGrabber.name.Contains("Right")) {
 
             if (OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger, cont)) {
+                released = false;
                 atualScaleR = new Vector3();
                 originalScaleR = new Vector3();
                 originalScaleDefinedR = true;
@@ -87,16 +90,32 @@ public class PhysicsPointer : MonoBehaviour {
             if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger, cont)) {
                 try {
                     if (originalScaleDefinedR) {
-                        originalScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
-                        originalScaleDefinedR = false;
+                        if (DistanceGrabber.grabbedObject.gameObject.tag.Contains("PalleteGrabbable")) {
+                            Debug.Log("PalleteGrabbable");
+                            originalScaleR = new Vector3(8,8,8);
+                            originalScaleDefinedR = false;
+                        } else if(DistanceGrabber.grabbedObject.gameObject.tag.Contains("PalleteResource")) {
+                            originalScaleR = Vector3.one;
+                            originalScaleDefinedR = false;
+                        } else {
+                            originalScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                            originalScaleDefinedR = false;
+                        }
                     }
-                    atualScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
-                    DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.02f,.02f,.02f),0.1f);
+
+                    if (DistanceGrabber.grabbedObject.gameObject.tag.Contains("PalleteGrabbable")) {
+                        atualScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                        DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.01f,.01f,.01f),0.1f);
+                        DistanceGrabber.grabbedObject.gameObject.transform.localPosition = new Vector3(DistanceGrabber.grabbedObject.gameObject.transform.localPosition.x,DistanceGrabber.grabbedObject.gameObject.transform.localPosition.x+.05f,DistanceGrabber.grabbedObject.gameObject.transform.localPosition.z);
+                    } else { 
+                        atualScaleR = DistanceGrabber.grabbedObject.gameObject.transform.localScale;
+                        DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleR,new Vector3(.02f,.02f,.02f),0.1f);
+                    }
+                        
 
                     if (DistanceGrabber.grabbedObject.isGrabbed) {
-                        Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOR = DistanceGrabber.grabbedObject.gameObject;
-
+                        
                     }
                 } catch (Exception e) {
                     //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbedobject e nulo
@@ -109,7 +128,9 @@ public class PhysicsPointer : MonoBehaviour {
                     //GameObject instance = Instantiate(grabbableGOR, CalculateEnd() + Vector3.up, Quaternion.identity);
                     instR = Instantiate(grabbableGOR,CalculateEnd() + Vector3.up,Quaternion.identity);
                     instR.GetComponent<OVRGrabbable>().enabled = true;
-            } catch (Exception e) {
+                    //instR.GetComponent<Rigidbody>().useGravity = true;
+                    released = true;
+                } catch (Exception e) {
                 //Debug.Log(e); //Null Exception porque ate o objeto chegar a mao o grabbed object e nulo
             }
         }
@@ -142,7 +163,6 @@ public class PhysicsPointer : MonoBehaviour {
                     DistanceGrabber.grabbedObject.gameObject.transform.localScale = Vector3.Lerp(atualScaleL,new Vector3(.02f,.02f,.02f),0.08f);
 
                     if (DistanceGrabber.grabbedObject.isGrabbed) {
-                        Debug.Log(DistanceGrabber.grabbedObject.gameObject);
                         grabbableGOL = DistanceGrabber.grabbedObject.gameObject;
                     }
                 } catch (Exception e) {
@@ -169,7 +189,6 @@ public class PhysicsPointer : MonoBehaviour {
                 originalScaleR = new Vector3();
                 originalScaleDefinedR = true;
                 instR = null;
-                Debug.Log("equal");
             } else {
                 atualScale2R = instR.transform.localScale;
                 instR.transform.localScale = Vector3.Lerp(atualScale2R,originalScaleR,.1f);
@@ -184,7 +203,6 @@ public class PhysicsPointer : MonoBehaviour {
                 originalScaleL = new Vector3();
                 originalScaleDefinedL = true;
                 instL = null;
-                Debug.Log("equal");
             } else {
                 atualScale2L = instL.transform.localScale;
                 instL.transform.localScale = Vector3.Lerp(atualScale2L,originalScaleL,.1f);
@@ -228,6 +246,5 @@ public class PhysicsPointer : MonoBehaviour {
             Debug.DrawRay(transform.position,transform.forward * 1000,Color.red,2f);
             return hit; 
         }
-
     }
 }
